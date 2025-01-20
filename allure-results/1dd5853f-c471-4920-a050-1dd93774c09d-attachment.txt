@@ -1,0 +1,2 @@
+2024-08-09 12:05:25 [32mINFO[0m chrome
+2024-08-09 12:05:25 [32mINFO[0m Driver not found: Message: Unable to obtain driver for chrome using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location

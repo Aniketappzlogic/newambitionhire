@@ -1,0 +1,24 @@
+2024-08-08 11:40:08,542 - INFO - chrome
+2024-08-08 11:40:11,366 - INFO - Driver not found: Message: session not created: Failed to create Chrome process.
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E4AF9632+30946]
+	(No symbol) [0x00007FF7E4AAE3C9]
+	(No symbol) [0x00007FF7E49A6FDA]
+	(No symbol) [0x00007FF7E49DFBD3]
+	(No symbol) [0x00007FF7E49DC4FA]
+	(No symbol) [0x00007FF7E4A278B9]
+	(No symbol) [0x00007FF7E4A26F20]
+	(No symbol) [0x00007FF7E4A1C813]
+	(No symbol) [0x00007FF7E49EA6E5]
+	(No symbol) [0x00007FF7E49EB021]
+	GetHandleVerifier [0x00007FF7E4C2F83D+1301229]
+	GetHandleVerifier [0x00007FF7E4C3BDB7+1351783]
+	GetHandleVerifier [0x00007FF7E4C32A03+1313971]
+	GetHandleVerifier [0x00007FF7E4B2DD06+245686]
+	(No symbol) [0x00007FF7E4AB758F]
+	(No symbol) [0x00007FF7E4AB3804]
+	(No symbol) [0x00007FF7E4AB3992]
+	(No symbol) [0x00007FF7E4AAA3EF]
+	BaseThreadInitThunk [0x00007FFEE79C257D+29]
+	RtlUserThreadStart [0x00007FFEE8F6AF28+40]
+

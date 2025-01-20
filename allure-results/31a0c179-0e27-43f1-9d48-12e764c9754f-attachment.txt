@@ -1,0 +1,6 @@
+2024-08-08 12:22:53,521 - INFO - chrome
+2024-08-08 12:22:53,525 - INFO - ====== WebDriver manager ======
+2024-08-08 12:22:55,519 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 12:22:56,350 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 12:22:57,191 - INFO - Driver [C:\Users\AppzLogic\.wdm\drivers\chromedriver\win64\127.0.6533.99\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-08-08 12:22:57,194 - INFO - Driver not found: [WinError 193] %1 is not a valid Win32 application

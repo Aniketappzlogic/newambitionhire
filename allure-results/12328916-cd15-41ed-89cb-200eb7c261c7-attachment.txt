@@ -1,0 +1,12 @@
+2024-08-08 10:32:05,928 - INFO - chrome
+2024-08-08 10:32:05,930 - INFO - ====== WebDriver manager ======
+2024-08-08 10:32:07,853 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 10:32:08,548 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 10:32:08,983 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 10:32:10,031 - INFO - WebDriver version 127.0.6533.99 selected
+2024-08-08 10:32:10,035 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.99/win32/chromedriver-win32.zip
+2024-08-08 10:32:10,035 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.99/win32/chromedriver-win32.zip
+2024-08-08 10:32:10,458 - INFO - Driver downloading response is 200
+2024-08-08 10:32:12,647 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 10:32:13,309 - INFO - Driver has been saved in cache [C:\Users\AppzLogic\.wdm\drivers\chromedriver\win64\127.0.6533.99]
+2024-08-08 10:32:13,359 - INFO - Driver not found: [WinError 193] %1 is not a valid Win32 application

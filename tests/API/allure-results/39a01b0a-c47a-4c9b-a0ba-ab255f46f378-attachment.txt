@@ -1,0 +1,1 @@
+Jobs Data: {'hiring_statistics': {'year': 2025, 'total_candidates_passed': 23, 'total_candidates_hired': 0, 'total_candidates_accessed': 33}}

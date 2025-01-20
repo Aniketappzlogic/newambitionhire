@@ -1,0 +1,7 @@
+2024-07-19 11:35:08,939 - INFO - chrome
+2024-07-19 11:35:08,940 - INFO - ====== WebDriver manager ======
+2024-07-19 11:35:10,333 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-19 11:35:10,912 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-19 11:35:11,455 - INFO - Driver [C:\Users\AppzLogic\.wdm\drivers\chromedriver\win64\126.0.6478.182\chromedriver-win32/chromedriver.exe] found in cache
+2024-07-19 11:35:15,841 - INFO - Navigated to login page.
+2024-07-19 11:35:15,844 - INFO - environment -> pilot

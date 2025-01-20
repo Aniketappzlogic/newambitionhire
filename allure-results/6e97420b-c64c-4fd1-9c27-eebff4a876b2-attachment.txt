@@ -1,0 +1,7 @@
+2025-01-16 17:28:34 [32mINFO[0m chrome
+2025-01-16 17:28:34 [32mINFO[0m ====== WebDriver manager ======
+2025-01-16 17:28:35 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-01-16 17:28:35 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-01-16 17:28:36 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.83\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-16 17:28:39 [32mINFO[0m Navigated to login page.
+2025-01-16 17:28:39 [32mINFO[0m environment -> services

@@ -1,0 +1,7 @@
+2024-11-26 18:20:09,955 - INFO - chrome
+2024-11-26 18:20:09,957 - INFO - ====== WebDriver manager ======
+2024-11-26 18:20:11,800 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-26 18:20:12,531 - INFO - Get LATEST chromedriver version for google-chrome
+2024-11-26 18:20:13,250 - INFO - Driver [C:\Users\APPZLOGIC\.wdm\drivers\chromedriver\win64\130.0.6723.116\chromedriver-win32/chromedriver.exe] found in cache
+2024-11-26 18:20:15,936 - INFO - Navigated to login page.
+2024-11-26 18:20:15,940 - INFO - environment -> services

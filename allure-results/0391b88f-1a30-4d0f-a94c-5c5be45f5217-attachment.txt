@@ -1,0 +1,2 @@
+2024-08-12 12:47:59 [32mINFO[0m chrome
+2024-08-12 12:47:59 [32mINFO[0m Driver not found: name 'service' is not defined

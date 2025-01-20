@@ -1,0 +1,13 @@
+2024-07-29 10:09:30,861 - INFO - chrome
+2024-07-29 10:09:30,862 - INFO - ====== WebDriver manager ======
+2024-07-29 10:09:33,144 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 10:09:33,664 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 10:09:35,460 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 10:09:47,910 - INFO - WebDriver version 126.0.6478.182 selected
+2024-07-29 10:09:47,914 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/win32/chromedriver-win32.zip
+2024-07-29 10:09:47,914 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.182/win32/chromedriver-win32.zip
+2024-07-29 10:09:49,774 - INFO - Driver downloading response is 200
+2024-07-29 10:10:04,927 - INFO - Get LATEST chromedriver version for google-chrome
+2024-07-29 10:10:05,888 - INFO - Driver has been saved in cache [C:\Users\AppzLogic\.wdm\drivers\chromedriver\win64\126.0.6478.182]
+2024-07-29 10:11:34,772 - INFO - Navigated to login page.
+2024-07-29 10:11:34,775 - INFO - environment -> dev

@@ -1,0 +1,4 @@
+2024-07-26 11:33:37 [32mINFO[0m chrome
+2024-07-26 11:33:37 [32mINFO[0m ====== WebDriver manager ======
+2024-07-26 11:33:37 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2024-07-26 11:33:37 [32mINFO[0m Driver not found: 'NoneType' object has no attribute 'split'

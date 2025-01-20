@@ -1,0 +1,2 @@
+2024-08-06 14:23:49 [32mINFO[0m firefox
+2024-08-06 14:23:52 [32mINFO[0m Driver not found: Message: Unable to obtain driver for firefox using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location

@@ -1,0 +1,6 @@
+2024-08-08 11:06:36,271 - INFO - ====== WebDriver manager ======
+2024-08-08 11:06:38,169 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 11:06:38,663 - INFO - Get LATEST chromedriver version for google-chrome
+2024-08-08 11:06:39,179 - INFO - Driver [C:\Users\AppzLogic\.wdm\drivers\chromedriver\win64\127.0.6533.99\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2024-08-08 11:06:45,665 - ERROR - Chrome driver initialization failed: Message: Unable to obtain driver for chrome using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+

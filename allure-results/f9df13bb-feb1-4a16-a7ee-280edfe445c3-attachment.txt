@@ -1,0 +1,2 @@
+2024-08-06 14:36:12 [32mINFO[0m edge
+2024-08-06 14:36:17 [32mINFO[0m Driver not found: Message: Unable to obtain driver for MicrosoftEdge using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location

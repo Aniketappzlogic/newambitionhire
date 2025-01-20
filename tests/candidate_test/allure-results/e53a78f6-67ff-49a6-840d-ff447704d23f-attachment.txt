@@ -1,0 +1,7 @@
+2024-08-28 12:32:49 [32mINFO[0m chrome
+2024-08-28 12:32:49 [32mINFO[0m ====== WebDriver manager ======
+2024-08-28 12:32:50 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2024-08-28 12:32:50 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2024-08-28 12:32:50 [32mINFO[0m Driver [C:\Users\APPZLOGIC\.wdm\drivers\chromedriver\win64\127.0.6533.119\chromedriver-win32/chromedriver.exe] found in cache
+2024-08-28 12:32:53 [32mINFO[0m Navigated to login page.
+2024-08-28 12:32:53 [32mINFO[0m environment -> dev
