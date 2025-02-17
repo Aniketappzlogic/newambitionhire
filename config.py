@@ -11,4 +11,3 @@ class Config():
             'services':'https://services-recruiter.ambitionhire.ai/login'
 
         }[data.lower()]
-

@@ -8,9 +8,11 @@ from dotenv import load_dotenv
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from Pages_Candidate.login import Login
+from Page_Recruiter.login import Loginrecruiter
 from config import Config
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
+import time
 
 config = configparser.ConfigParser()
 config.read('.env')
@@ -127,11 +129,102 @@ def driver(myBrowser):
 #     driver.quit()
 
 
+# @pytest.fixture(scope="module")
+# def authenticated_user(env, driver):
+#     """Fixture to handle login and return the initial dashboard state."""
+#     login = Login(driver)
+#     # Open the login page
+#     login.get(env)
+#     logger.info("Navigated to login page.")
+
 @pytest.fixture(scope="module")
-def authenticated_user(env, driver):
+def candidate_user(env, driver):
     """Fixture to handle login and return the initial dashboard state."""
     login = Login(driver)
     # Open the login page
     login.get(env)
     logger.info("Navigated to login page.")
+
+@pytest.fixture(scope="module")
+def recruiter_user(env, driver):
+    """Fixture to handle login and return the initial dashboard state."""
+    login = Loginrecruiter(driver)
+    # Open the login page
+    login.get(env)
+    logger.info("Navigated to login page.")
+
+
+
+
+
+
+
+#updated code
+@pytest.fixture(scope="session")
+def get_creds(env):
+    set_env = env
+    user_id = config[set_env]['USERNAME']
+    password = config[set_env]['PASSWORD']
+    Credentials = namedtuple('creds', ['user_id', 'password'])
+    creds = Credentials(user_id, password)
+    return creds
+
+
+@pytest.fixture(scope="module")
+def authenticated_user_recruiter(env, driver, get_creds):
+    """Fixture to handle login and return the initial dashboard state."""
+    login = Loginrecruiter(driver)
+    # Open the login page
+    login.get(env)
+    logger.info("Navigated to login page.")
+    # Retrieve credentials
+    creds = get_creds
+    logger.info("Retrieved user credentials.")
+    # Perform login actions
+    try:
+        login.username_btn.send_keys(creds.user_id)
+        logger.info(f"Entered user ID: {creds.user_id}")
+        login.password_btn.send_keys(creds.password)
+        logger.info("Entered password.")
+        login.login_btn.click()
+        logger.info("Clicked sign-in button.")
+        return login
+    except Exception as e:
+        logger.error(f"An error occurred during login: {e}")
+
+
+
+@pytest.fixture(scope="module")
+def authenticated_user_candidate(env, driver):
+    """Fixture to handle login and return the initial dashboard state."""
+    login = Login(driver)
+    # Open the login page
+    login.get(env)
+    logger.info("Navigated to login page.")
+    # Retrieve credentials
+    logger.info("Retrieved user credentials.")
+    # Perform login actions
+    try:
+        # login.username_btn.send_keys(creds.user_id)
+        login.phonenumber_btn.send_keys('7503078450')
+        login.sendotp_btn.click()
+        time.sleep(5)
+        login.Sendingotp_text.send_keys('000000')
+        login.submitotp_btn.click()
+        time.sleep(7)
+        explore_text = login.exploretext.get_text()
+        print(explore_text)
+        assert explore_text == 'Explore Jobs'
+        return login
+    except Exception as e:
+        logger.error(f"An error occurred during login: {e}")
+
+
+
+
+
+
+
+
+
 
