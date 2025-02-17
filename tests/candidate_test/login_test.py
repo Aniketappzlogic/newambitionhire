@@ -12,9 +12,9 @@ currentTime = currentDateAndTime.strftime("%H%M%S")
 
 
 @pytest.mark.login
-def test_login(env, driver, authenticated_user):
+def test_login(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     time.sleep(3)
     Pagelogin.phonenumber_btn.send_keys('7503078450')
@@ -29,9 +29,9 @@ def test_login(env, driver, authenticated_user):
 
 
 @pytest.mark.login_invalid_mobileno
-def test_login_invalid_mobileno(env, driver, authenticated_user):
+def test_login_invalid_mobileno(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     # Pagelogin.login_btn.click()
     # # driver.implicitly_wait(2)
@@ -46,9 +46,9 @@ def test_login_invalid_mobileno(env, driver, authenticated_user):
 
 
 @pytest.mark.login_invalid_username
-def test_login_invalid_username(env, driver, authenticated_user):
+def test_login_invalid_username(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     # Pagelogin.login_btn.click()
     # # driver.implicitly_wait(2)
@@ -63,9 +63,9 @@ def test_login_invalid_username(env, driver, authenticated_user):
 
 
 @pytest.mark.resendotp
-def test_resendotp(env, driver, authenticated_user):
+def test_resendotp(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     time.sleep(3)
     # Pagelogin.name_btn.send_keys('Mridul')
@@ -82,9 +82,9 @@ def test_resendotp(env, driver, authenticated_user):
 
 
 @pytest.mark.editnumber
-def test_editnumber(env, driver, authenticated_user):
+def test_editnumber(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     time.sleep(3)
     # Pagelogin.name_btn.send_keys('Mridul')
@@ -102,9 +102,9 @@ def test_editnumber(env, driver, authenticated_user):
     time.sleep(7)
 
 @pytest.mark.resendotp_three_times
-def test_resendotp_three_times(env, driver, authenticated_user):
+def test_resendotp_three_times(env, driver, candidate_user):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
+    login = candidate_user
     Pagelogin = Login(driver)
     time.sleep(3)
     Pagelogin.phonenumber_btn.send_keys('7503078450')
