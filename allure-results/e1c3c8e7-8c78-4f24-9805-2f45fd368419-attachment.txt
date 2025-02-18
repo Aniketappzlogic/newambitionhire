@@ -1,0 +1,16 @@
+2025-01-30 16:31:25 [32mINFO[0m chrome
+2025-01-30 16:31:25 [32mINFO[0m ====== WebDriver manager ======
+2025-01-30 16:31:26 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-01-30 16:31:28 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-01-30 16:31:28 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-30 16:31:32 [32mINFO[0m Navigated to login page.
+2025-01-30 16:31:32 [32mINFO[0m environment -> services
+2025-01-30 16:31:32 [32mINFO[0m Password entered
+2025-01-30 16:31:33 [32mINFO[0m login btn clicked
+2025-01-30 16:31:33 [32mINFO[0m jobs btn clicked
+2025-01-30 16:31:34 [32mINFO[0m active btn clicked
+2025-01-30 16:31:34 [32mINFO[0m inactive btn clicked
+2025-01-30 16:31:39 [32mINFO[0m candidate btn clicked
+2025-01-30 16:31:41 [32mINFO[0m Lang btn Created
+2025-01-30 16:31:41 [32mINFO[0m save btn clicked
+2025-01-30 16:31:42 [32mINFO[0m create job Clicked

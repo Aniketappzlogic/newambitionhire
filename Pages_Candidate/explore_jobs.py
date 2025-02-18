@@ -16,6 +16,11 @@ class ExploreJobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
+    def Keyword(self):
+        locator = Locator(by=By.XPATH, value="//p[@class='font-500 line-clamp-1 text-base' and text()='TESTING -WEB']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
     def proceed_to_apply_btn(self):
         locator = Locator(by=By.XPATH, value="(//span[contains(text(),'Proceed to Apply')])")
         return BaseElement(driver=self.driver, locator=locator)

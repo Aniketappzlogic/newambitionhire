@@ -12,9 +12,9 @@ class BasePage(object):
 
     def get(self, env):
         if env == 'dev':
-            self.base_url = 'https://dev-recruiter.ambitionhire.ai/login'
+            self.base_url = 'https://dev.ambitionhire.ai/login'
         if env == 'services':
-            self.base_url = 'https://services-recruiter.ambitionhire.ai/login'
+            self.base_url = 'https://services-recruiter.ambitionhire.ai/'
         url = self.base_url
         print(url)
         self.driver.get(url)

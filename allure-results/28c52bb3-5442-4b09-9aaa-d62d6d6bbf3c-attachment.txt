@@ -1,0 +1,8 @@
+2025-02-17 15:07:05,989 - INFO - chrome
+2025-02-17 15:07:05,990 - INFO - ====== WebDriver manager ======
+2025-02-17 15:07:06,897 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 15:07:07,481 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-17 15:07:08,076 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-17 15:07:11,499 - INFO - Navigated to login page.
+2025-02-17 15:07:11,501 - INFO - environment -> dev
+2025-02-17 15:07:13,382 - INFO - LOGIN UNSUCCESSFUL : Invalid email ID or password

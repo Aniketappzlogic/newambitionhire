@@ -18,42 +18,31 @@ currentTime = currentDateAndTime.strftime("%H%M%S")
 
 
 @pytest.mark.searchjob
-def test_login(env, driver, authenticated_user):
+def test_login(env, driver, authenticated_user_candidate):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
-    Pagelogin = Login(driver)
+    login = authenticated_user_candidate
     explore = ExploreJobs(driver)
-    Pagelogin.phonenumber_btn.send_keys('7503078450')
-    Pagelogin.sendotp_btn.click()
-    time.sleep(5)
-    Pagelogin.Sendingotp_text.send_keys('000000')
-    Pagelogin.submitotp_btn.click()
     time.sleep(7)
     explore.searchjob_btn.send_keys("English Testing")
     time.sleep(5)
 
 
 @pytest.mark.searchandapplyjob
-def test_searchandapplyjob(env, driver, authenticated_user):
+def test_searchandapplyjob(env, driver, authenticated_user_candidate):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
-    Pagelogin = Login(driver)
+    login = authenticated_user_candidate
     explore = ExploreJobs(driver)
-    Pagelogin.phonenumber_btn.send_keys('7503078450')
-    Pagelogin.sendotp_btn.click()
-    time.sleep(5)
-    Pagelogin.Sendingotp_text.send_keys('000000')
-    Pagelogin.submitotp_btn.click()
-    time.sleep(7)
+    time.sleep(3)
     explore.result_page_btn.click()
     explore.searchjob_btn.send_keys("TESTING -WEB")
-    time.sleep(2)
+    #time.sleep(4)
+    explore.Keyword.find()
     explore.applyjob_btn.click()
-    time.sleep(10)
+    #time.sleep(10)
     explore.proceed_to_apply_btn.click()
-    time.sleep(10)
+    #time.sleep(10)
     explore.refrence_soucre.send_keys('resource_source')
-    time.sleep(5)
+    #time.sleep(5)
     explore.select_exam_language_btn.click()
     driver.implicitly_wait(5)
     explore.select_language_btn.click()
@@ -61,16 +50,10 @@ def test_searchandapplyjob(env, driver, authenticated_user):
 
 
 @pytest.mark.socialmedialinks
-def test_socialmedialinks(authenticated_user, driver, env):
+def test_socialmedialinks(authenticated_user_candidate, driver, env):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
-    Pagelogin = Login(driver)
+    login = authenticated_user_candidate
     explore = ExploreJobs(driver)
-    Pagelogin.phonenumber_btn.send_keys('7503078450')
-    Pagelogin.sendotp_btn.click()
-    time.sleep(5)
-    Pagelogin.Sendingotp_text.send_keys('000000')
-    Pagelogin.submitotp_btn.click()
     time.sleep(7)
     explore.result_page_btn.click()
     explore.searchjob_btn.send_keys("TESTING -WEB")
@@ -94,16 +77,10 @@ def test_socialmedialinks(authenticated_user, driver, env):
 
 
 @pytest.mark.description_video
-def test_description_video(env, driver, authenticated_user):
+def test_description_video(env, driver, authenticated_user_candidate):
     logging.info(f"environment -> {env}")
-    login = authenticated_user
-    Pagelogin = Login(driver)
+    login = authenticated_user_candidate
     explore = ExploreJobs(driver)
-    Pagelogin.phonenumber_btn.send_keys('7503078450')
-    Pagelogin.sendotp_btn.click()
-    time.sleep(5)
-    Pagelogin.Sendingotp_text.send_keys('000000')
-    Pagelogin.submitotp_btn.click()
     time.sleep(7)
     explore.result_page_btn.click()
     explore.searchjob_btn.send_keys("TESTING -WEB")

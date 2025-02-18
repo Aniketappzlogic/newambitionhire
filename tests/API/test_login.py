@@ -1,3 +1,7 @@
+import json
+import logging
+from datetime import time
+
 import pytest
 from api_client import APIClient
 from config_api import CREDENTIALS
@@ -30,30 +34,28 @@ def test_jobs(client):
 
 @pytest.mark.APItest
 def test_hiring_stats(client):
-    hiring_data = client.get_hiring_stats(year=0000)
+    hiring_data = client.get_hiring_stats(year=2024)
     assert hiring_data is not None, "Hiring API returned no data."
-    print("Jobs Data:", hiring_data)
+    print("Hiring Stats Data:", hiring_data)
 
 @pytest.mark.APItest
 def test_resume_parser(client):
     resume_parser_data = client.get_all_resume_parser()
     assert resume_parser_data is not None, "Resume Parser API returned no data."
-    print("Jobs Data:", resume_parser_data)
+    print("Resume Parser Data:", resume_parser_data)
 
 @pytest.mark.APItest
 def test_candidate_invitation(client):
     candidate_invitation_data = client.get_candidate_invitation(page=1,limit=10)
     assert candidate_invitation_data is not None, "Candidate Invitation API returned no data."
-    print("Jobs Data:", candidate_invitation_data)
+    print("Candidate Invitation Data:", candidate_invitation_data)
 
 @pytest.mark.APItest
 def test_company_profile(client):
     company_profile_data = client.get_company_profile()
     assert company_profile_data is not None, "Company Profile API returned no data."
-    print("Jobs Data: ", company_profile_data)
+    print("Company Profile Data: ", company_profile_data)
 
-
-@pytest.mark.APItest
 def test_role_based_access(client):
     role_based_access_data = client.get_role_based_access()
     assert role_based_access_data is not None, "Role Based API returned no data."

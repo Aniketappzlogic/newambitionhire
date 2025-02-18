@@ -1,0 +1,35 @@
+2025-01-31 14:05:06 INFO Role Based Access Data: 
+[
+    {
+        "job_id": "ab017c3f-7108-441f-9819-dc9b117cf2a8",
+        "name": "Read",
+        "description": "No description provided",
+        "full_write_permission": true,
+        "job_write_permission": false,
+        "candidates_write_permission": false,
+        "assessments_write_permission": false,
+        "results_write_permission": false,
+        "full_read_permission": true,
+        "job_read_permission": false,
+        "candidates_read_permission": false,
+        "assessments_read_permission": false,
+        "results_read_permission": false,
+        "id": "4ec74ab7-0245-489f-affe-e7300d41e8ba"
+    },
+    {
+        "job_id": "8d6ea6d3-2ed0-48b9-8d31-5109e1ad25f6",
+        "name": "ds",
+        "description": "No description provided",
+        "full_write_permission": true,
+        "job_write_permission": false,
+        "candidates_write_permission": false,
+        "assessments_write_permission": false,
+        "results_write_permission": false,
+        "full_read_permission": false,
+        "job_read_permission": false,
+        "candidates_read_permission": false,
+        "assessments_read_permission": false,
+        "results_read_permission": false,
+        "id": "e580473b-729a-4996-bdb9-c356041e4943"
+    }
+]

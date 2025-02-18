@@ -1,0 +1,24 @@
+POST https://prod-auth-service.ambitionhire.ai/v1/auth_routes/recruiter-login/
+200
+891.56 ms
+Network
+
+Request Headers:
+sec-ch-ua-platform: "Windows"
+Referer: https://services-recruiter.ambitionhire.ai/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+Content-Type: application/x-www-form-urlencoded
+sec-ch-ua-mobile: ?0
+
+Response Headers:
+Date: Fri, 31 Jan 2025 11:26:45 GMT
+Content-Type: application/json
+Content-Length: 742
+Connection: keep-alive
+server: uvicorn
+
+Response Body:
+{'message': 'Login successful', 'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3Mzg0MDkyMDUsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.Pz0vPpo0bVytWDletIurhoaRxtE5RttHx0-CgAJw3ko', 'refresh_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY2xpZW50X25hbWUiOiJTZXJ2aWNlcyIsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzM4NTgyMDA1fQ.ih7Bs_Zcf4b-BTCWS9WshJd-QJ4KqQZqytscsp1pKf4'}
+Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3Mzg0MDkyMDUsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.Pz0vPpo0bVytWDletIurhoaRxtE5RttHx0-CgAJw3ko

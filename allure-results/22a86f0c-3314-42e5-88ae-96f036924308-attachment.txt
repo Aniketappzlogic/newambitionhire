@@ -1,0 +1,14 @@
+2025-02-11 16:00:25,249 - INFO - chrome
+2025-02-11 16:00:25,250 - INFO - ====== WebDriver manager ======
+2025-02-11 16:00:26,224 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-11 16:00:26,778 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-11 16:00:27,223 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-11 16:00:32,888 - INFO - Navigated to login page.
+2025-02-11 16:00:32,890 - INFO - environment -> dev
+2025-02-11 16:00:33,538 - INFO - Password entered
+2025-02-11 16:00:33,719 - INFO - login btn clicked
+2025-02-11 16:00:34,574 - INFO - Assessments btn clicked
+2025-02-11 16:00:34,574 - INFO - assessment page btn clicked
+2025-02-11 16:01:00,278 - INFO - cutoff
+2025-02-11 16:01:00,505 - INFO - Save and Next clicked
+2025-02-11 16:01:01,062 - INFO - Modules clicked

@@ -1,0 +1,12 @@
+2025-02-13 16:27:54,367 - INFO - chrome
+2025-02-13 16:27:54,368 - INFO - ====== WebDriver manager ======
+2025-02-13 16:27:55,414 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-13 16:27:56,221 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-13 16:27:56,806 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-13 16:27:59,480 - INFO - Navigated to login page.
+2025-02-13 16:27:59,483 - INFO - Retrieved user credentials.
+2025-02-13 16:28:01,964 - INFO - Entered user ID: yash+v12@databahn.ai
+2025-02-13 16:28:02,080 - INFO - Entered password.
+2025-02-13 16:28:02,251 - INFO - Clicked sign-in button.
+2025-02-13 16:28:02,255 - INFO - environment -> dev
+2025-02-13 16:28:02,257 - INFO - logged in

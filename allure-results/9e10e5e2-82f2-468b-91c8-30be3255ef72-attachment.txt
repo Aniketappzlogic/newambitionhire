@@ -1,0 +1,14 @@
+2025-02-05 13:40:07,912 - INFO - chrome
+2025-02-05 13:40:07,913 - INFO - ====== WebDriver manager ======
+2025-02-05 13:40:09,273 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 13:40:09,842 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-05 13:40:10,423 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-05 13:40:14,207 - INFO - Navigated to login page.
+2025-02-05 13:40:14,215 - INFO - environment -> services
+2025-02-05 13:40:15,049 - INFO - Password entered
+2025-02-05 13:40:15,359 - INFO - login btn clicked
+2025-02-05 13:40:16,124 - INFO - jobs btn clicked
+2025-02-05 13:40:18,318 - INFO - create job Clicked
+2025-02-05 13:40:26,183 - INFO - next to lang Clicked
+2025-02-05 13:40:28,295 - INFO - app form Clicked
+2025-02-05 13:40:30,409 - INFO - Job Created

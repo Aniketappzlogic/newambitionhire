@@ -1,5 +1,7 @@
 import requests
 from config_api import CREDENTIALS
+import time
+
 class APIClient:
     def __init__(self):
         self.base_url = "https://prod-job-service.ambitionhire.ai"
@@ -19,8 +21,31 @@ class APIClient:
             'Content-Type': 'application/x-www-form-urlencoded',
             'sec-ch-ua-mobile': '?0',
         }
+        start_time = time.time()
+
+        # Make the POST request
         response = requests.post(url, params=params, headers=headers)
+
+        # Calculate the response time in milliseconds
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
+        # Check if the response is successful (status code 200)
         if response.status_code == 200:
+            # Print the desired output format
+            print(f"POST {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            # Extract the token and return the data
             data = response.json()
             self.token = data.get("access_token")
             return data
@@ -44,20 +69,37 @@ class APIClient:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
             'token': self.token,
         }
+        start_time = time.time()
+
+        # Send the GET request
         response = requests.get(url, headers=headers)
+
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
             return response.json()
         else:
-            raise Exception(f"Dashboard API failed: {response.status_code}, {response.text}")
+            response.raise_for_status()
 
     def get_jobs(self, active=True):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'company-jobs' endpoint
         url = f"{self.base_url}/v1/jobs/company-jobs?active={str(active).lower()}"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'accept-language': 'en-US,en;q=0.9',
@@ -73,24 +115,37 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Handle the response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Return the JSON response if successful
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            raise Exception(f"API request failed: {response.status_code}, {response.text}")
+            response.raise_for_status()
 
     def get_candidates(self):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'candidates' endpoint
         url = f"{self.base_url}/v1/jobs/candidates"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'accept-language': 'en-US,en;q=0.9',
@@ -106,24 +161,37 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Handle the response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Return the JSON response if successful
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            raise Exception(f"API request failed: {response.status_code}, {response.text}")
+            response.raise_for_status()
 
     def get_hiring_stats(self, year):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'hiring-stats' endpoint
         url = f"{self.base_url}/v1/jobs/hiring-stats/?year={year}"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'referer': 'https://services-recruiter.ambitionhire.ai/',
@@ -133,24 +201,37 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Handle the response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Return the JSON response if successful
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            raise Exception(f"API request failed: {response.status_code}, {response.text}")
+            response.raise_for_status()
 
     def get_all_resume_parser(self):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'all_resume_parser' endpoint
         url = "https://prod-resume-parser-service.ambitionhire.ai/v1/all_resume_parser?client_name=Services"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'referer': 'https://services-recruiter.ambitionhire.ai/',
@@ -160,25 +241,40 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Handle the response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Return the JSON response if successful
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            raise Exception(f"API request failed: {response.status_code}, {response.text}")
+            response.raise_for_status()
+
+
+
 
     def get_candidate_invitation(self, page=1, limit=10):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'get-batches' endpoint
-        #https://prod-batch-upload.ambitionhire.ai/get-batches?manual=true&page=1&limit=10
         url = f"{self.batch_url}/get-batches?manual=true&page={page}&limit={limit}"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'referer': 'https://services-recruiter.ambitionhire.ai/',
@@ -188,24 +284,39 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Check for a successful response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Assuming the API returns JSON data
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            response.raise_for_status()  # Raise an exception if the request failed
+            response.raise_for_status()
+
+
 
     def get_company_profile(self):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
-        # URL for the 'company-profile' endpoint
         url = f"{self.company_profile_url}/v1/company/profile"
-
-        # Headers to mimic the cURL request
         headers = {
             'accept': 'application/json, text/plain, */*',
             'referer': 'https://services-recruiter.ambitionhire.ai/',
@@ -215,22 +326,37 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Check for a successful response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Assuming the API returns JSON data
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            response.raise_for_status()  # Raise an exception if the request failed
+            response.raise_for_status()
 
     def get_role_based_access(self, client_name='Services'):
         if not self.token:
             raise Exception("Token is missing. Please login first.")
-
         url = "https://prod-auth-service.ambitionhire.ai/v1/roles/custom-roles/?client_name=Services"
-
         headers = {
             'accept': 'application/json, text/plain, */*',
             'referer': 'https://services-recruiter.ambitionhire.ai/',
@@ -240,12 +366,29 @@ class APIClient:
             'token': self.token,
             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         }
+        start_time = time.time()
 
-        # Make the GET request to the API endpoint
+        # Send the GET request
         response = requests.get(url, headers=headers)
 
-        # Check for a successful response
+        # Calculate the response time
+        response_time = (time.time() - start_time) * 1000  # in milliseconds
+
         if response.status_code == 200:
-            return response.json()  # Assuming the API returns JSON data
+            # Print the desired format:
+            print(f"GET {url}")
+            print(f"{response.status_code}")
+            print(f"{round(response_time, 2)} ms")
+            print("Network")
+            print("\nRequest Headers:")
+            for key, value in headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Headers:")
+            for key, value in response.headers.items():
+                print(f"{key}: {value}")
+            print("\nResponse Body:")
+            print(response.json())
+
+            return response.json()
         else:
-            response.raise_for_status()  # Raise an exception if the request failed
+            response.raise_for_status()

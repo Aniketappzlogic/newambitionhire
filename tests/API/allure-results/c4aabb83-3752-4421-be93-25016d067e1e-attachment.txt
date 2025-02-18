@@ -1,0 +1,47 @@
+POST https://prod-auth-service.ambitionhire.ai/v1/auth_routes/recruiter-login/
+200
+838.85 ms
+Network
+
+Request Headers:
+sec-ch-ua-platform: "Windows"
+Referer: https://services-recruiter.ambitionhire.ai/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+Content-Type: application/x-www-form-urlencoded
+sec-ch-ua-mobile: ?0
+
+Response Headers:
+Date: Fri, 07 Feb 2025 11:24:17 GMT
+Content-Type: application/json
+Content-Length: 742
+Connection: keep-alive
+server: uvicorn
+
+Response Body:
+{'message': 'Login successful', 'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3MzkwMTM4NTcsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.LWIAENs-fdFoG1K16XVc-muJHDE8fcHgAffX8ZelZHM', 'refresh_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY2xpZW50X25hbWUiOiJTZXJ2aWNlcyIsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzM5MTg2NjU3fQ.0VvNPQOHKXqPZ3G1BBPoCh08qdQfF7OIwkPkNN8p5vE'}
+GET https://prod-company-profile.ambitionhire.ai/v1/company/profile
+200
+661.78 ms
+Network
+
+Request Headers:
+accept: application/json, text/plain, */*
+referer: https://services-recruiter.ambitionhire.ai/
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3MzkwMTM4NTcsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.LWIAENs-fdFoG1K16XVc-muJHDE8fcHgAffX8ZelZHM
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+
+Response Headers:
+Date: Fri, 07 Feb 2025 11:24:18 GMT
+Content-Type: application/json
+Content-Length: 1953
+Connection: keep-alive
+server: uvicorn
+
+Response Body:
+{'background_color': '#D50E0E', 'id': 'b86019c2-3bac-4878-8f90-8ad4d1233169', 'created_at': '2024-05-31T19:47:28', 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'text_color': '#FFFFFF', 'updated_at': '2024-12-23T15:16:09', 'company_details': {'spoc_phone_number': '9888888888', 'name': 'Services', 'industry': 'Information Technology', 'specialities': 'IT', 'type': 'Private', 'main_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo-color.png', 'optional_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo.png', 'created_at': '2024-05-31T19:47:28', 'address': 'Mumbai', 'id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'about': 'Services', 'headquarters': 'Mumbai', 'size': '10', 'founding_year': 2022, 'logo_icon_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo-color.png', 'super_admin_email': None, 'updated_at': '2024-09-17T19:46:15'}, 'workflow': {'psychometric': True, 'result': True, 'paid_assessment': False, 'login_using_password': False, 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'algorise': False, 'in_review': True, 'training_module': False, 'id': 'abbdbf00-a25f-4ad2-884a-00b175ef68f2', 'oneway': True, 'salary_discussion': True, 'registration_fee': False, 'applied': True, 'excel': False, 'hired_rejected': True, 'assessments': False, 'multilingual': None, 'created_at': '2024-05-31T19:47:28', 'registration_fee_amount': 1, 'ctq': True, 'advanced_result_type': None, 'updated_at': '2024-12-23T15:52:20', 'training_for_internal': False, 'functional': True, 'order': [], 'kyc_verification': False, 'assessment_heading': 'Level up Test', 'english': True, 'pan_card_linked': False, 'assessment_about_section': '<p>Welcome to Shoppersstop Level Up Test.</p>'}, 'social_links': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'youtube': 'string', 'instagram': 'string', 'website': 'string', 'updated_at': '2024-05-31T19:47:28', 'facebook': 'string', 'twitter': 'string', 'id': '8597ea6c-89a5-45c8-8548-f4dd3a4dd524', 'linkedin': 'string', 'created_at': '2024-05-31T19:47:28'}}
+Company Profile Data:  {'background_color': '#D50E0E', 'id': 'b86019c2-3bac-4878-8f90-8ad4d1233169', 'created_at': '2024-05-31T19:47:28', 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'text_color': '#FFFFFF', 'updated_at': '2024-12-23T15:16:09', 'company_details': {'spoc_phone_number': '9888888888', 'name': 'Services', 'industry': 'Information Technology', 'specialities': 'IT', 'type': 'Private', 'main_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo-color.png', 'optional_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo.png', 'created_at': '2024-05-31T19:47:28', 'address': 'Mumbai', 'id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'about': 'Services', 'headquarters': 'Mumbai', 'size': '10', 'founding_year': 2022, 'logo_icon_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo-color.png', 'super_admin_email': None, 'updated_at': '2024-09-17T19:46:15'}, 'workflow': {'psychometric': True, 'result': True, 'paid_assessment': False, 'login_using_password': False, 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'algorise': False, 'in_review': True, 'training_module': False, 'id': 'abbdbf00-a25f-4ad2-884a-00b175ef68f2', 'oneway': True, 'salary_discussion': True, 'registration_fee': False, 'applied': True, 'excel': False, 'hired_rejected': True, 'assessments': False, 'multilingual': None, 'created_at': '2024-05-31T19:47:28', 'registration_fee_amount': 1, 'ctq': True, 'advanced_result_type': None, 'updated_at': '2024-12-23T15:52:20', 'training_for_internal': False, 'functional': True, 'order': [], 'kyc_verification': False, 'assessment_heading': 'Level up Test', 'english': True, 'pan_card_linked': False, 'assessment_about_section': '<p>Welcome to Shoppersstop Level Up Test.</p>'}, 'social_links': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'youtube': 'string', 'instagram': 'string', 'website': 'string', 'updated_at': '2024-05-31T19:47:28', 'facebook': 'string', 'twitter': 'string', 'id': '8597ea6c-89a5-45c8-8548-f4dd3a4dd524', 'linkedin': 'string', 'created_at': '2024-05-31T19:47:28'}}

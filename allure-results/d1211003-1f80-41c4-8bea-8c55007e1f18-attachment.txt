@@ -1,0 +1,16 @@
+2025-01-28 11:20:51,819 - INFO - chrome
+2025-01-28 11:20:51,834 - INFO - ====== WebDriver manager ======
+2025-01-28 11:20:52,694 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-28 11:20:53,506 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-28 11:20:53,975 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-28 11:20:55,006 - INFO - WebDriver version 132.0.6834.110 selected
+2025-01-28 11:20:55,006 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/win32/chromedriver-win32.zip
+2025-01-28 11:20:55,006 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.110/win32/chromedriver-win32.zip
+2025-01-28 11:20:55,725 - INFO - Driver downloading response is 200
+2025-01-28 11:20:56,163 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-28 11:20:57,061 - INFO - Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.110]
+2025-01-28 11:21:01,000 - INFO - Navigated to login page.
+2025-01-28 11:21:01,003 - INFO - environment -> services
+2025-01-28 11:21:01,671 - INFO - Password entered
+2025-01-28 11:21:01,825 - INFO - hide passwrd btn clicked
+2025-01-28 11:21:32,366 - INFO - login btn clicked

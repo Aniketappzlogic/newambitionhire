@@ -1,0 +1,22 @@
+2025-02-07 11:05:02 [32mINFO[0m chrome
+2025-02-07 11:05:02 [32mINFO[0m ====== WebDriver manager ======
+2025-02-07 11:05:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-07 11:05:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-07 11:05:05 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-07 11:05:06 [32mINFO[0m WebDriver version 132.0.6834.159 selected
+2025-02-07 11:05:06 [32mINFO[0m Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-07 11:05:06 [32mINFO[0m About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/132.0.6834.159/win32/chromedriver-win32.zip
+2025-02-07 11:05:07 [32mINFO[0m Driver downloading response is 200
+2025-02-07 11:05:09 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-07 11:05:10 [32mINFO[0m Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159]
+2025-02-07 11:05:15 [32mINFO[0m Navigated to login page.
+2025-02-07 11:05:15 [32mINFO[0m environment -> services
+2025-02-07 11:05:16 [32mINFO[0m Password entered
+2025-02-07 11:05:16 [32mINFO[0m login btn clicked
+2025-02-07 11:05:17 [32mINFO[0m candidates btn clicked
+2025-02-07 11:05:23 [32mINFO[0m ctq btn clicked
+2025-02-07 11:05:24 [32mINFO[0m func btn clicked
+2025-02-07 11:05:26 [32mINFO[0m english btn clicked
+2025-02-07 11:05:28 [32mINFO[0m candidates btn clicked
+2025-02-07 11:05:29 [32mINFO[0m in-review btn clicked
+2025-02-07 11:05:33 [32mINFO[0m in-review btn clicked

@@ -1,0 +1,15 @@
+2025-02-04 13:08:09 [32mINFO[0m chrome
+2025-02-04 13:08:09 [32mINFO[0m ====== WebDriver manager ======
+2025-02-04 13:08:10 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-04 13:08:10 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-04 13:08:11 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-04 13:08:12 [32mINFO[0m Navigated to login page.
+2025-02-04 13:08:12 [32mINFO[0m environment -> dev
+2025-02-04 13:08:14 [32mINFO[0m Password entered
+2025-02-04 13:08:15 [32mINFO[0m login btn clicked
+2025-02-04 13:08:16 [32mINFO[0m candidates btn clicked
+2025-02-04 13:08:26 [32mINFO[0m ctq btn clicked
+2025-02-04 13:08:27 [32mINFO[0m func btn clicked
+2025-02-04 13:08:29 [32mINFO[0m english btn clicked
+2025-02-04 13:08:30 [32mINFO[0m candidates btn clicked
+2025-02-04 13:08:31 [32mINFO[0m in-review btn clicked

@@ -1,0 +1,43 @@
+2025-02-13 16:44:56,865 - INFO - chrome
+2025-02-13 16:44:56,866 - INFO - ====== WebDriver manager ======
+2025-02-13 16:44:57,859 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-13 16:44:58,436 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-13 16:44:58,942 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-13 16:45:02,479 - INFO - Navigated to login page.
+2025-02-13 16:45:02,479 - INFO - Retrieved user credentials.
+2025-02-13 16:45:15,874 - ERROR - An error occurred during login: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=132.0.6834.196)
+Stacktrace:
+	GetHandleVerifier [0x008774A3+25091]
+	(No symbol) [0x007FDC04]
+	(No symbol) [0x006DB373]
+	(No symbol) [0x006CBEAC]
+	(No symbol) [0x006CBE36]
+	(No symbol) [0x006CA9A2]
+	(No symbol) [0x006CB45D]
+	(No symbol) [0x006DEEAF]
+	(No symbol) [0x006DF618]
+	(No symbol) [0x006E2CBA]
+	(No symbol) [0x006E2D37]
+	(No symbol) [0x0071EF07]
+	(No symbol) [0x0071F65B]
+	(No symbol) [0x0075D8E2]
+	(No symbol) [0x00741F54]
+	(No symbol) [0x0075B49E]
+	(No symbol) [0x00741CA6]
+	(No symbol) [0x007131D5]
+	(No symbol) [0x0071435D]
+	GetHandleVerifier [0x00B707C3+3142947]
+	GetHandleVerifier [0x00B81A2B+3213195]
+	GetHandleVerifier [0x00B7C412+3191154]
+	GetHandleVerifier [0x00918720+685184]
+	(No symbol) [0x00806E1D]
+	(No symbol) [0x00803E18]
+	(No symbol) [0x00803FB6]
+	(No symbol) [0x007F66F0]
+	BaseThreadInitThunk [0x7610FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7745809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7745806E+238]
+
+2025-02-13 16:45:15,878 - INFO - environment -> dev

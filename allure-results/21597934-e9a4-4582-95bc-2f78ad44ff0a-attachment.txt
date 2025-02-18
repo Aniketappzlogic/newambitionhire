@@ -1,0 +1,7 @@
+2025-01-24 13:13:27,867 - INFO - chrome
+2025-01-24 13:13:27,868 - INFO - ====== WebDriver manager ======
+2025-01-24 13:13:28,820 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 13:13:29,293 - INFO - Get LATEST chromedriver version for google-chrome
+2025-01-24 13:13:29,811 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.110\chromedriver-win32/chromedriver.exe] found in cache
+2025-01-24 13:13:34,523 - INFO - Navigated to login page.
+2025-01-24 13:13:34,537 - INFO - environment -> services
