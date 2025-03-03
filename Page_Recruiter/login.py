@@ -70,7 +70,7 @@ class Loginrecruiter(BasePage):
 
     @property
     def forgotten_password_page(self):
-        locator = Locator(by=By.XPATH, value="//p[@class='font-normal sm:font-medium text-base text-onbackground-color text-start sm:text-center w-full']")
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(2) > div:nth-child(2)")
         return BaseElement(driver=self.driver, locator=locator)
 
 
@@ -92,7 +92,7 @@ class Loginrecruiter(BasePage):
 
     @property
     def contactus_page(self):
-        locator = Locator(by=By.XPATH, value="//h2[normalize-space()='Contact Us']")
+        locator = Locator(by=By.XPATH, value="//div[@class='grid place-content-center']")
         return BaseElement(driver=self.driver, locator=locator)
 
 
@@ -107,7 +107,7 @@ class Loginrecruiter(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
     @property
     def facebook_page(self):
-        locator = Locator(by=By.CSS_SELECTOR, value=".x1lliihq.x6ikm8r.x10wlt62.x1n2onr6.xg8j3zb")
+        locator = Locator(by=By.CSS_SELECTOR, value="#login_popup_cta_form")
         return BaseElement(driver=self.driver, locator=locator)
 
 
@@ -126,7 +126,7 @@ class Loginrecruiter(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
     @property
     def linkedin_page(self):
-        locator = Locator(by=By.XPATH, value="//button[normalize-space()='Sign in']")
+        locator = Locator(by=By.XPATH, value="//div[@class='card-layout']")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property

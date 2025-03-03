@@ -313,3 +313,10 @@ class BaseElement(object):
             return element
         except TimeoutException:
             print(f"Element with locator {self.locator} not found within {timeout} seconds.")
+
+    def get_window_handle_count(self):
+        WebDriverWait(self.driver, timeout=10).until(lambda driver: len(driver.window_handles) > 1)
+        return len(self.driver.window_handles)
+
+
+

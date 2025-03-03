@@ -16,6 +16,22 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
+    def jobs_card(self):
+        locator = Locator(by=By.XPATH, value="//div[@class='p-4 border border-outline-color rounded-2xl flex flex-col max-w-[350px]']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def top_jobs_card(self):
+        locator = Locator(by=By.XPATH, value="//body/div/div/div/div[3]/div[1]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def job_creation_date(self):
+        locator = Locator(by=By.XPATH,
+                          value="//div[contains(@class, 'flex justify-between') and .//span[text()='See Details']]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
     def drafts_btn(self):
         locator = Locator(by=By.XPATH, value="//p[@class='uppercase' and text()='Drafts']")
         return BaseElement(driver=self.driver, locator=locator)
@@ -27,17 +43,51 @@ class Jobs(BasePage):
     def active_btn(self):
         locator = Locator(by=By.XPATH, value='//p[@class="uppercase" and text()="Active"]')
         return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def jobs_count(self):
+        locator = Locator(by=By.CSS_SELECTOR, value= "p[class='font-medium text-[22px]']")
+        return BaseElement(driver=self.driver, locator=locator)
 
     @property
-    def Sortby(self):
+    def sortby(self):
         locator = Locator(by=By.XPATH,
                           value="//p[@class='text-[#707070] font-medium whitespace-nowrap' and text()='Sort by:']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def lastweek(self):
+        locator = Locator(by=By.XPATH,
+                          value="//p[normalize-space()='Last week']")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def last2week(self):
         locator = Locator(by=By.XPATH,
                           value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last 2 weeks']]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def last_month(self):
+        locator = Locator(by=By.XPATH,
+                          value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last month']]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def last_3_months(self):
+        locator = Locator(by=By.XPATH,
+                          value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last 3 months']]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def last_6_months(self):
+        locator = Locator(by=By.XPATH,
+                          value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last 6 months']]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def last_year(self):
+        locator = Locator(by=By.XPATH,
+                          value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last year']]")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property

@@ -183,7 +183,7 @@ def authenticated_user_recruiter(env, driver, get_creds):
     # Perform login actions
     try:
         login.username_btn.send_keys(creds.user_id)
-        logger.info(f"Entered user ID: {creds.user_id}")
+        logger.info(f"Entered user ID:")
         login.password_btn.send_keys(creds.password)
         logger.info("Entered password.")
         login.login_btn.click()
