@@ -1,0 +1,9 @@
+2025-02-21 12:44:57,868 - INFO - chrome
+2025-02-21 12:44:57,869 - INFO - ====== WebDriver manager ======
+2025-02-21 12:44:58,784 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 12:44:59,398 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 12:45:00,005 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:45:04,179 - INFO - Navigated to login page.
+2025-02-21 12:45:04,181 - INFO - environment -> dev
+2025-02-21 12:45:07,911 - INFO - See more from Ambition Hire
+2025-02-21 12:45:07,912 - INFO - Facebook Page Loaded Successfully

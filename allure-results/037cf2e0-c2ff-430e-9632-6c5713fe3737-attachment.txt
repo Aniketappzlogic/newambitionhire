@@ -1,0 +1,49 @@
+2025-02-26 11:43:03 [32mINFO[0m chrome
+2025-02-26 11:43:03 [32mINFO[0m ====== WebDriver manager ======
+2025-02-26 11:43:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-26 11:43:05 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-26 11:43:05 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 11:43:07 [32mINFO[0m Navigated to login page.
+2025-02-26 11:43:07 [32mINFO[0m Retrieved user credentials.
+2025-02-26 11:43:09 [32mINFO[0m Entered user ID:
+2025-02-26 11:43:09 [32mINFO[0m Entered password.
+2025-02-26 11:43:10 [32mINFO[0m Clicked sign-in button.
+2025-02-26 11:43:10 [32mINFO[0m environment -> dev
+2025-02-26 11:43:10 [32mINFO[0m logged in
+2025-02-26 11:43:11 [32mINFO[0m jobs button clicked
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 24, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 24, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 24, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 20, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 20, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 20, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 13, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 19, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 19, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 19, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 5, 2025
+See Details
+2025-02-26 11:43:20 [32mINFO[0m Created on
+February 19, 2025
+See Details

@@ -1,0 +1,1374 @@
+2025-02-26 14:22:27,468 - INFO - chrome
+2025-02-26 14:22:27,469 - INFO - ====== WebDriver manager ======
+2025-02-26 14:22:28,373 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-26 14:22:28,850 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-26 14:22:29,324 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 14:22:32,994 - INFO - Navigated to login page.
+2025-02-26 14:22:32,995 - INFO - Retrieved user credentials.
+2025-02-26 14:22:33,375 - INFO - Entered user ID:
+2025-02-26 14:22:33,461 - INFO - Entered password.
+2025-02-26 14:22:33,665 - INFO - Clicked sign-in button.
+2025-02-26 14:22:33,668 - INFO - environment -> dev
+2025-02-26 14:22:33,673 - INFO - logged in
+2025-02-26 14:22:34,544 - INFO - jobs button clicked
+2025-02-26 14:22:47,536 - INFO - Last year date range (from current date): February 27, 2024 to February 26, 2025
+2025-02-26 14:22:47,551 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 14:22:47,552 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 14:22:47,561 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 14:22:47,561 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 14:22:47,572 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 14:22:47,572 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 14:22:47,583 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 14:22:47,584 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 14:22:47,592 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 14:22:47,593 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 14:22:47,602 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 14:22:47,602 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 14:22:47,618 - INFO - Job card text: Created on
+February 13, 2025
+See Details
+2025-02-26 14:22:47,619 - INFO - Extracted Job Creation Date: February 13, 2025
+2025-02-26 14:22:47,627 - INFO - Job card text: Created on
+February 19, 2025
+See Details
+2025-02-26 14:22:47,628 - INFO - Extracted Job Creation Date: February 19, 2025
+2025-02-26 14:22:47,638 - INFO - Job card text: Created on
+February 19, 2025
+See Details
+2025-02-26 14:22:47,639 - INFO - Extracted Job Creation Date: February 19, 2025
+2025-02-26 14:22:47,649 - INFO - Job card text: Created on
+February 19, 2025
+See Details
+2025-02-26 14:22:47,649 - INFO - Extracted Job Creation Date: February 19, 2025
+2025-02-26 14:22:47,658 - INFO - Job card text: Created on
+February 5, 2025
+See Details
+2025-02-26 14:22:47,658 - INFO - Extracted Job Creation Date: February 5, 2025
+2025-02-26 14:22:47,669 - INFO - Job card text: Created on
+February 19, 2025
+See Details
+2025-02-26 14:22:47,670 - INFO - Extracted Job Creation Date: February 19, 2025
+2025-02-26 14:22:47,678 - INFO - Job card text: Created on
+February 18, 2025
+See Details
+2025-02-26 14:22:47,679 - INFO - Extracted Job Creation Date: February 18, 2025
+2025-02-26 14:22:47,689 - INFO - Job card text: Created on
+February 17, 2025
+See Details
+2025-02-26 14:22:47,689 - INFO - Extracted Job Creation Date: February 17, 2025
+2025-02-26 14:22:47,699 - INFO - Job card text: Created on
+February 17, 2025
+See Details
+2025-02-26 14:22:47,699 - INFO - Extracted Job Creation Date: February 17, 2025
+2025-02-26 14:22:47,709 - INFO - Job card text: Created on
+February 17, 2025
+See Details
+2025-02-26 14:22:47,710 - INFO - Extracted Job Creation Date: February 17, 2025
+2025-02-26 14:22:47,719 - INFO - Job card text: Created on
+February 13, 2025
+See Details
+2025-02-26 14:22:47,719 - INFO - Extracted Job Creation Date: February 13, 2025
+2025-02-26 14:22:47,729 - INFO - Job card text: Created on
+February 12, 2025
+See Details
+2025-02-26 14:22:47,729 - INFO - Extracted Job Creation Date: February 12, 2025
+2025-02-26 14:22:47,738 - INFO - Job card text: Created on
+February 12, 2025
+See Details
+2025-02-26 14:22:47,739 - INFO - Extracted Job Creation Date: February 12, 2025
+2025-02-26 14:22:47,750 - INFO - Job card text: Created on
+February 11, 2025
+See Details
+2025-02-26 14:22:47,751 - INFO - Extracted Job Creation Date: February 11, 2025
+2025-02-26 14:22:47,759 - INFO - Job card text: Created on
+February 11, 2025
+See Details
+2025-02-26 14:22:47,760 - INFO - Extracted Job Creation Date: February 11, 2025
+2025-02-26 14:22:47,769 - INFO - Job card text: Created on
+February 10, 2025
+See Details
+2025-02-26 14:22:47,770 - INFO - Extracted Job Creation Date: February 10, 2025
+2025-02-26 14:22:47,779 - INFO - Job card text: Created on
+February 10, 2025
+See Details
+2025-02-26 14:22:47,779 - INFO - Extracted Job Creation Date: February 10, 2025
+2025-02-26 14:22:47,789 - INFO - Job card text: Created on
+February 5, 2025
+See Details
+2025-02-26 14:22:47,789 - INFO - Extracted Job Creation Date: February 5, 2025
+2025-02-26 14:22:47,799 - INFO - Job card text: Created on
+February 5, 2025
+See Details
+2025-02-26 14:22:47,800 - INFO - Extracted Job Creation Date: February 5, 2025
+2025-02-26 14:22:47,810 - INFO - Job card text: Created on
+February 4, 2025
+See Details
+2025-02-26 14:22:47,810 - INFO - Extracted Job Creation Date: February 4, 2025
+2025-02-26 14:22:47,819 - INFO - Job card text: Created on
+February 4, 2025
+See Details
+2025-02-26 14:22:47,820 - INFO - Extracted Job Creation Date: February 4, 2025
+2025-02-26 14:22:47,829 - INFO - Job card text: Created on
+February 4, 2025
+See Details
+2025-02-26 14:22:47,830 - INFO - Extracted Job Creation Date: February 4, 2025
+2025-02-26 14:22:47,839 - INFO - Job card text: Created on
+February 4, 2025
+See Details
+2025-02-26 14:22:47,840 - INFO - Extracted Job Creation Date: February 4, 2025
+2025-02-26 14:22:47,850 - INFO - Job card text: Created on
+February 3, 2025
+See Details
+2025-02-26 14:22:47,850 - INFO - Extracted Job Creation Date: February 3, 2025
+2025-02-26 14:22:47,860 - INFO - Job card text: Created on
+February 3, 2025
+See Details
+2025-02-26 14:22:47,860 - INFO - Extracted Job Creation Date: February 3, 2025
+2025-02-26 14:22:47,869 - INFO - Job card text: Created on
+February 3, 2025
+See Details
+2025-02-26 14:22:47,870 - INFO - Extracted Job Creation Date: February 3, 2025
+2025-02-26 14:22:47,879 - INFO - Job card text: Created on
+February 3, 2025
+See Details
+2025-02-26 14:22:47,879 - INFO - Extracted Job Creation Date: February 3, 2025
+2025-02-26 14:22:47,891 - INFO - Job card text: Created on
+January 31, 2025
+See Details
+2025-02-26 14:22:47,891 - INFO - Extracted Job Creation Date: January 31, 2025
+2025-02-26 14:22:47,903 - INFO - Job card text: Created on
+January 31, 2025
+See Details
+2025-02-26 14:22:47,903 - INFO - Extracted Job Creation Date: January 31, 2025
+2025-02-26 14:22:47,912 - INFO - Job card text: Created on
+January 31, 2025
+See Details
+2025-02-26 14:22:47,912 - INFO - Extracted Job Creation Date: January 31, 2025
+2025-02-26 14:22:47,925 - INFO - Job card text: Created on
+January 31, 2025
+See Details
+2025-02-26 14:22:47,925 - INFO - Extracted Job Creation Date: January 31, 2025
+2025-02-26 14:22:47,936 - INFO - Job card text: Created on
+January 30, 2025
+See Details
+2025-02-26 14:22:47,936 - INFO - Extracted Job Creation Date: January 30, 2025
+2025-02-26 14:22:47,945 - INFO - Job card text: Created on
+January 30, 2025
+See Details
+2025-02-26 14:22:47,945 - INFO - Extracted Job Creation Date: January 30, 2025
+2025-02-26 14:22:47,956 - INFO - Job card text: Created on
+January 30, 2025
+See Details
+2025-02-26 14:22:47,956 - INFO - Extracted Job Creation Date: January 30, 2025
+2025-02-26 14:22:47,967 - INFO - Job card text: Created on
+January 30, 2025
+See Details
+2025-02-26 14:22:47,968 - INFO - Extracted Job Creation Date: January 30, 2025
+2025-02-26 14:22:47,976 - INFO - Job card text: Created on
+January 29, 2025
+See Details
+2025-02-26 14:22:47,976 - INFO - Extracted Job Creation Date: January 29, 2025
+2025-02-26 14:22:47,987 - INFO - Job card text: Created on
+January 28, 2025
+See Details
+2025-02-26 14:22:47,987 - INFO - Extracted Job Creation Date: January 28, 2025
+2025-02-26 14:22:47,997 - INFO - Job card text: Created on
+January 23, 2025
+See Details
+2025-02-26 14:22:47,998 - INFO - Extracted Job Creation Date: January 23, 2025
+2025-02-26 14:22:48,006 - INFO - Job card text: Created on
+January 23, 2025
+See Details
+2025-02-26 14:22:48,007 - INFO - Extracted Job Creation Date: January 23, 2025
+2025-02-26 14:22:48,017 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,018 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,027 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,027 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,039 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,039 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,050 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,050 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,060 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,060 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,069 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,069 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,078 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,079 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,088 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,088 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,096 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,097 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,110 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,110 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,120 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,121 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,129 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,130 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,139 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,140 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,149 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,150 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,158 - INFO - Job card text: Created on
+January 22, 2025
+See Details
+2025-02-26 14:22:48,158 - INFO - Extracted Job Creation Date: January 22, 2025
+2025-02-26 14:22:48,167 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,167 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,177 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,178 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,186 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,187 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,195 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,195 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,205 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,206 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,214 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,215 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,223 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,223 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,231 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,231 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,240 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,242 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,249 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,250 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,257 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,258 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,266 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,266 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,277 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,277 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,286 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,287 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,294 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,295 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,304 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,305 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,313 - INFO - Job card text: Created on
+January 21, 2025
+See Details
+2025-02-26 14:22:48,313 - INFO - Extracted Job Creation Date: January 21, 2025
+2025-02-26 14:22:48,322 - INFO - Job card text: Created on
+January 20, 2025
+See Details
+2025-02-26 14:22:48,323 - INFO - Extracted Job Creation Date: January 20, 2025
+2025-02-26 14:22:48,331 - INFO - Job card text: Created on
+January 15, 2025
+See Details
+2025-02-26 14:22:48,331 - INFO - Extracted Job Creation Date: January 15, 2025
+2025-02-26 14:22:48,340 - INFO - Job card text: Created on
+January 14, 2025
+See Details
+2025-02-26 14:22:48,341 - INFO - Extracted Job Creation Date: January 14, 2025
+2025-02-26 14:22:48,350 - INFO - Job card text: Created on
+January 13, 2025
+See Details
+2025-02-26 14:22:48,350 - INFO - Extracted Job Creation Date: January 13, 2025
+2025-02-26 14:22:48,359 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,359 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,371 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,371 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,380 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,381 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,390 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,391 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,401 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,401 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,409 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,410 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,418 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,418 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,427 - INFO - Job card text: Created on
+January 9, 2025
+See Details
+2025-02-26 14:22:48,427 - INFO - Extracted Job Creation Date: January 9, 2025
+2025-02-26 14:22:48,435 - INFO - Job card text: Created on
+January 8, 2025
+See Details
+2025-02-26 14:22:48,435 - INFO - Extracted Job Creation Date: January 8, 2025
+2025-02-26 14:22:48,444 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,444 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,453 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,454 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,462 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,463 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,471 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,471 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,480 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,480 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,489 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,489 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,498 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,499 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,508 - INFO - Job card text: Created on
+January 7, 2025
+See Details
+2025-02-26 14:22:48,509 - INFO - Extracted Job Creation Date: January 7, 2025
+2025-02-26 14:22:48,519 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,520 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,538 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,538 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,551 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,551 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,562 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,563 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,574 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,575 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,584 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,585 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,597 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,597 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,607 - INFO - Job card text: Created on
+January 6, 2025
+See Details
+2025-02-26 14:22:48,608 - INFO - Extracted Job Creation Date: January 6, 2025
+2025-02-26 14:22:48,619 - INFO - Job card text: Created on
+January 3, 2025
+See Details
+2025-02-26 14:22:48,620 - INFO - Extracted Job Creation Date: January 3, 2025
+2025-02-26 14:22:48,633 - INFO - Job card text: Created on
+January 3, 2025
+See Details
+2025-02-26 14:22:48,633 - INFO - Extracted Job Creation Date: January 3, 2025
+2025-02-26 14:22:48,642 - INFO - Job card text: Created on
+January 3, 2025
+See Details
+2025-02-26 14:22:48,643 - INFO - Extracted Job Creation Date: January 3, 2025
+2025-02-26 14:22:48,655 - INFO - Job card text: Created on
+January 3, 2025
+See Details
+2025-02-26 14:22:48,655 - INFO - Extracted Job Creation Date: January 3, 2025
+2025-02-26 14:22:48,664 - INFO - Job card text: Created on
+January 3, 2025
+See Details
+2025-02-26 14:22:48,664 - INFO - Extracted Job Creation Date: January 3, 2025
+2025-02-26 14:22:48,673 - INFO - Job card text: Created on
+December 31, 2024
+See Details
+2025-02-26 14:22:48,674 - INFO - Extracted Job Creation Date: December 31, 2024
+2025-02-26 14:22:48,684 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,685 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,695 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,695 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,707 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,707 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,717 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,717 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,726 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,726 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,735 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,736 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,744 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,744 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,753 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,753 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,762 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,762 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,771 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,771 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,788 - INFO - Job card text: Created on
+December 30, 2024
+See Details
+2025-02-26 14:22:48,789 - INFO - Extracted Job Creation Date: December 30, 2024
+2025-02-26 14:22:48,798 - INFO - Job card text: Created on
+December 24, 2024
+See Details
+2025-02-26 14:22:48,799 - INFO - Extracted Job Creation Date: December 24, 2024
+2025-02-26 14:22:48,810 - INFO - Job card text: Created on
+December 23, 2024
+See Details
+2025-02-26 14:22:48,810 - INFO - Extracted Job Creation Date: December 23, 2024
+2025-02-26 14:22:48,820 - INFO - Job card text: Created on
+December 23, 2024
+See Details
+2025-02-26 14:22:48,820 - INFO - Extracted Job Creation Date: December 23, 2024
+2025-02-26 14:22:48,831 - INFO - Job card text: Created on
+December 23, 2024
+See Details
+2025-02-26 14:22:48,831 - INFO - Extracted Job Creation Date: December 23, 2024
+2025-02-26 14:22:48,842 - INFO - Job card text: Created on
+December 23, 2024
+See Details
+2025-02-26 14:22:48,843 - INFO - Extracted Job Creation Date: December 23, 2024
+2025-02-26 14:22:48,852 - INFO - Job card text: Created on
+December 19, 2024
+See Details
+2025-02-26 14:22:48,852 - INFO - Extracted Job Creation Date: December 19, 2024
+2025-02-26 14:22:48,861 - INFO - Job card text: Created on
+December 12, 2024
+See Details
+2025-02-26 14:22:48,861 - INFO - Extracted Job Creation Date: December 12, 2024
+2025-02-26 14:22:48,871 - INFO - Job card text: Created on
+December 18, 2024
+See Details
+2025-02-26 14:22:48,872 - INFO - Extracted Job Creation Date: December 18, 2024
+2025-02-26 14:22:48,880 - INFO - Job card text: Created on
+December 18, 2024
+See Details
+2025-02-26 14:22:48,881 - INFO - Extracted Job Creation Date: December 18, 2024
+2025-02-26 14:22:48,890 - INFO - Job card text: Created on
+December 17, 2024
+See Details
+2025-02-26 14:22:48,891 - INFO - Extracted Job Creation Date: December 17, 2024
+2025-02-26 14:22:48,898 - INFO - Job card text: Created on
+December 17, 2024
+See Details
+2025-02-26 14:22:48,899 - INFO - Extracted Job Creation Date: December 17, 2024
+2025-02-26 14:22:48,909 - INFO - Job card text: Created on
+December 16, 2024
+See Details
+2025-02-26 14:22:48,909 - INFO - Extracted Job Creation Date: December 16, 2024
+2025-02-26 14:22:48,920 - INFO - Job card text: Created on
+December 13, 2024
+See Details
+2025-02-26 14:22:48,920 - INFO - Extracted Job Creation Date: December 13, 2024
+2025-02-26 14:22:48,928 - INFO - Job card text: Created on
+December 13, 2024
+See Details
+2025-02-26 14:22:48,928 - INFO - Extracted Job Creation Date: December 13, 2024
+2025-02-26 14:22:48,938 - INFO - Job card text: Created on
+December 9, 2024
+See Details
+2025-02-26 14:22:48,938 - INFO - Extracted Job Creation Date: December 9, 2024
+2025-02-26 14:22:48,947 - INFO - Job card text: Created on
+December 10, 2024
+See Details
+2025-02-26 14:22:48,947 - INFO - Extracted Job Creation Date: December 10, 2024
+2025-02-26 14:22:48,959 - INFO - Job card text: Created on
+December 10, 2024
+See Details
+2025-02-26 14:22:48,959 - INFO - Extracted Job Creation Date: December 10, 2024
+2025-02-26 14:22:48,979 - INFO - Job card text: Created on
+December 10, 2024
+See Details
+2025-02-26 14:22:48,980 - INFO - Extracted Job Creation Date: December 10, 2024
+2025-02-26 14:22:49,087 - INFO - Job card text: Created on
+December 10, 2024
+See Details
+2025-02-26 14:22:49,089 - INFO - Extracted Job Creation Date: December 10, 2024
+2025-02-26 14:22:49,118 - INFO - Job card text: Created on
+December 3, 2024
+See Details
+2025-02-26 14:22:49,119 - INFO - Extracted Job Creation Date: December 3, 2024
+2025-02-26 14:22:49,136 - INFO - Job card text: Created on
+December 3, 2024
+See Details
+2025-02-26 14:22:49,138 - INFO - Extracted Job Creation Date: December 3, 2024
+2025-02-26 14:22:49,150 - INFO - Job card text: Created on
+December 3, 2024
+See Details
+2025-02-26 14:22:49,150 - INFO - Extracted Job Creation Date: December 3, 2024
+2025-02-26 14:22:49,162 - INFO - Job card text: Created on
+December 3, 2024
+See Details
+2025-02-26 14:22:49,162 - INFO - Extracted Job Creation Date: December 3, 2024
+2025-02-26 14:22:49,174 - INFO - Job card text: Created on
+December 2, 2024
+See Details
+2025-02-26 14:22:49,174 - INFO - Extracted Job Creation Date: December 2, 2024
+2025-02-26 14:22:49,187 - INFO - Job card text: Created on
+November 29, 2024
+See Details
+2025-02-26 14:22:49,188 - INFO - Extracted Job Creation Date: November 29, 2024
+2025-02-26 14:22:49,198 - INFO - Job card text: Created on
+November 28, 2024
+See Details
+2025-02-26 14:22:49,198 - INFO - Extracted Job Creation Date: November 28, 2024
+2025-02-26 14:22:49,209 - INFO - Job card text: Created on
+November 27, 2024
+See Details
+2025-02-26 14:22:49,209 - INFO - Extracted Job Creation Date: November 27, 2024
+2025-02-26 14:22:49,219 - INFO - Job card text: Created on
+November 26, 2024
+See Details
+2025-02-26 14:22:49,220 - INFO - Extracted Job Creation Date: November 26, 2024
+2025-02-26 14:22:49,228 - INFO - Job card text: Created on
+November 26, 2024
+See Details
+2025-02-26 14:22:49,228 - INFO - Extracted Job Creation Date: November 26, 2024
+2025-02-26 14:22:49,238 - INFO - Job card text: Created on
+November 19, 2024
+See Details
+2025-02-26 14:22:49,238 - INFO - Extracted Job Creation Date: November 19, 2024
+2025-02-26 14:22:49,246 - INFO - Job card text: Created on
+November 18, 2024
+See Details
+2025-02-26 14:22:49,246 - INFO - Extracted Job Creation Date: November 18, 2024
+2025-02-26 14:22:49,256 - INFO - Job card text: Created on
+November 14, 2024
+See Details
+2025-02-26 14:22:49,256 - INFO - Extracted Job Creation Date: November 14, 2024
+2025-02-26 14:22:49,268 - INFO - Job card text: Created on
+November 14, 2024
+See Details
+2025-02-26 14:22:49,269 - INFO - Extracted Job Creation Date: November 14, 2024
+2025-02-26 14:22:49,279 - INFO - Job card text: Created on
+November 13, 2024
+See Details
+2025-02-26 14:22:49,279 - INFO - Extracted Job Creation Date: November 13, 2024
+2025-02-26 14:22:49,287 - INFO - Job card text: Created on
+November 12, 2024
+See Details
+2025-02-26 14:22:49,288 - INFO - Extracted Job Creation Date: November 12, 2024
+2025-02-26 14:22:49,296 - INFO - Job card text: Created on
+November 12, 2024
+See Details
+2025-02-26 14:22:49,296 - INFO - Extracted Job Creation Date: November 12, 2024
+2025-02-26 14:22:49,305 - INFO - Job card text: Created on
+November 12, 2024
+See Details
+2025-02-26 14:22:49,305 - INFO - Extracted Job Creation Date: November 12, 2024
+2025-02-26 14:22:49,313 - INFO - Job card text: Created on
+November 12, 2024
+See Details
+2025-02-26 14:22:49,314 - INFO - Extracted Job Creation Date: November 12, 2024
+2025-02-26 14:22:49,322 - INFO - Job card text: Created on
+November 11, 2024
+See Details
+2025-02-26 14:22:49,323 - INFO - Extracted Job Creation Date: November 11, 2024
+2025-02-26 14:22:49,331 - INFO - Job card text: Created on
+November 11, 2024
+See Details
+2025-02-26 14:22:49,331 - INFO - Extracted Job Creation Date: November 11, 2024
+2025-02-26 14:22:49,341 - INFO - Job card text: Created on
+November 11, 2024
+See Details
+2025-02-26 14:22:49,341 - INFO - Extracted Job Creation Date: November 11, 2024
+2025-02-26 14:22:49,349 - INFO - Job card text: Created on
+November 11, 2024
+See Details
+2025-02-26 14:22:49,350 - INFO - Extracted Job Creation Date: November 11, 2024
+2025-02-26 14:22:49,358 - INFO - Job card text: Created on
+November 8, 2024
+See Details
+2025-02-26 14:22:49,359 - INFO - Extracted Job Creation Date: November 8, 2024
+2025-02-26 14:22:49,367 - INFO - Job card text: Created on
+November 8, 2024
+See Details
+2025-02-26 14:22:49,368 - INFO - Extracted Job Creation Date: November 8, 2024
+2025-02-26 14:22:49,377 - INFO - Job card text: Created on
+November 8, 2024
+See Details
+2025-02-26 14:22:49,378 - INFO - Extracted Job Creation Date: November 8, 2024
+2025-02-26 14:22:49,387 - INFO - Job card text: Created on
+November 7, 2024
+See Details
+2025-02-26 14:22:49,387 - INFO - Extracted Job Creation Date: November 7, 2024
+2025-02-26 14:22:49,397 - INFO - Job card text: Created on
+November 7, 2024
+See Details
+2025-02-26 14:22:49,398 - INFO - Extracted Job Creation Date: November 7, 2024
+2025-02-26 14:22:49,409 - INFO - Job card text: Created on
+November 7, 2024
+See Details
+2025-02-26 14:22:49,409 - INFO - Extracted Job Creation Date: November 7, 2024
+2025-02-26 14:22:49,418 - INFO - Job card text: Created on
+November 7, 2024
+See Details
+2025-02-26 14:22:49,419 - INFO - Extracted Job Creation Date: November 7, 2024
+2025-02-26 14:22:49,427 - INFO - Job card text: Created on
+November 5, 2024
+See Details
+2025-02-26 14:22:49,428 - INFO - Extracted Job Creation Date: November 5, 2024
+2025-02-26 14:22:49,438 - INFO - Job card text: Created on
+November 4, 2024
+See Details
+2025-02-26 14:22:49,439 - INFO - Extracted Job Creation Date: November 4, 2024
+2025-02-26 14:22:49,447 - INFO - Job card text: Created on
+November 4, 2024
+See Details
+2025-02-26 14:22:49,447 - INFO - Extracted Job Creation Date: November 4, 2024
+2025-02-26 14:22:49,457 - INFO - Job card text: Created on
+November 4, 2024
+See Details
+2025-02-26 14:22:49,457 - INFO - Extracted Job Creation Date: November 4, 2024
+2025-02-26 14:22:49,465 - INFO - Job card text: Created on
+October 29, 2024
+See Details
+2025-02-26 14:22:49,466 - INFO - Extracted Job Creation Date: October 29, 2024
+2025-02-26 14:22:49,477 - INFO - Job card text: Created on
+October 29, 2024
+See Details
+2025-02-26 14:22:49,477 - INFO - Extracted Job Creation Date: October 29, 2024
+2025-02-26 14:22:49,487 - INFO - Job card text: Created on
+October 29, 2024
+See Details
+2025-02-26 14:22:49,487 - INFO - Extracted Job Creation Date: October 29, 2024
+2025-02-26 14:22:49,495 - INFO - Job card text: Created on
+October 29, 2024
+See Details
+2025-02-26 14:22:49,495 - INFO - Extracted Job Creation Date: October 29, 2024
+2025-02-26 14:22:49,506 - INFO - Job card text: Created on
+October 29, 2024
+See Details
+2025-02-26 14:22:49,507 - INFO - Extracted Job Creation Date: October 29, 2024
+2025-02-26 14:22:49,515 - INFO - Job card text: Created on
+October 28, 2024
+See Details
+2025-02-26 14:22:49,515 - INFO - Extracted Job Creation Date: October 28, 2024
+2025-02-26 14:22:49,524 - INFO - Job card text: Created on
+October 25, 2024
+See Details
+2025-02-26 14:22:49,525 - INFO - Extracted Job Creation Date: October 25, 2024
+2025-02-26 14:22:49,535 - INFO - Job card text: Created on
+October 28, 2024
+See Details
+2025-02-26 14:22:49,536 - INFO - Extracted Job Creation Date: October 28, 2024
+2025-02-26 14:22:49,544 - INFO - Job card text: Created on
+October 25, 2024
+See Details
+2025-02-26 14:22:49,544 - INFO - Extracted Job Creation Date: October 25, 2024
+2025-02-26 14:22:49,554 - INFO - Job card text: Created on
+October 24, 2024
+See Details
+2025-02-26 14:22:49,554 - INFO - Extracted Job Creation Date: October 24, 2024
+2025-02-26 14:22:49,562 - INFO - Job card text: Created on
+October 24, 2024
+See Details
+2025-02-26 14:22:49,563 - INFO - Extracted Job Creation Date: October 24, 2024
+2025-02-26 14:22:49,571 - INFO - Job card text: Created on
+October 23, 2024
+See Details
+2025-02-26 14:22:49,572 - INFO - Extracted Job Creation Date: October 23, 2024
+2025-02-26 14:22:49,580 - INFO - Job card text: Created on
+October 23, 2024
+See Details
+2025-02-26 14:22:49,581 - INFO - Extracted Job Creation Date: October 23, 2024
+2025-02-26 14:22:49,590 - INFO - Job card text: Created on
+October 23, 2024
+See Details
+2025-02-26 14:22:49,590 - INFO - Extracted Job Creation Date: October 23, 2024
+2025-02-26 14:22:49,598 - INFO - Job card text: Created on
+October 21, 2024
+See Details
+2025-02-26 14:22:49,599 - INFO - Extracted Job Creation Date: October 21, 2024
+2025-02-26 14:22:49,608 - INFO - Job card text: Created on
+October 22, 2024
+See Details
+2025-02-26 14:22:49,608 - INFO - Extracted Job Creation Date: October 22, 2024
+2025-02-26 14:22:49,616 - INFO - Job card text: Created on
+October 22, 2024
+See Details
+2025-02-26 14:22:49,617 - INFO - Extracted Job Creation Date: October 22, 2024
+2025-02-26 14:22:49,624 - INFO - Job card text: Created on
+October 22, 2024
+See Details
+2025-02-26 14:22:49,625 - INFO - Extracted Job Creation Date: October 22, 2024
+2025-02-26 14:22:49,635 - INFO - Job card text: Created on
+October 22, 2024
+See Details
+2025-02-26 14:22:49,636 - INFO - Extracted Job Creation Date: October 22, 2024
+2025-02-26 14:22:49,646 - INFO - Job card text: Created on
+October 21, 2024
+See Details
+2025-02-26 14:22:49,646 - INFO - Extracted Job Creation Date: October 21, 2024
+2025-02-26 14:22:49,656 - INFO - Job card text: Created on
+October 21, 2024
+See Details
+2025-02-26 14:22:49,656 - INFO - Extracted Job Creation Date: October 21, 2024
+2025-02-26 14:22:49,666 - INFO - Job card text: Created on
+October 21, 2024
+See Details
+2025-02-26 14:22:49,667 - INFO - Extracted Job Creation Date: October 21, 2024
+2025-02-26 14:22:49,676 - INFO - Job card text: Created on
+October 21, 2024
+See Details
+2025-02-26 14:22:49,677 - INFO - Extracted Job Creation Date: October 21, 2024
+2025-02-26 14:22:49,686 - INFO - Job card text: Created on
+October 18, 2024
+See Details
+2025-02-26 14:22:49,686 - INFO - Extracted Job Creation Date: October 18, 2024
+2025-02-26 14:22:49,696 - INFO - Job card text: Created on
+October 18, 2024
+See Details
+2025-02-26 14:22:49,696 - INFO - Extracted Job Creation Date: October 18, 2024
+2025-02-26 14:22:49,708 - INFO - Job card text: Created on
+October 14, 2024
+See Details
+2025-02-26 14:22:49,708 - INFO - Extracted Job Creation Date: October 14, 2024
+2025-02-26 14:22:49,717 - INFO - Job card text: Created on
+October 18, 2024
+See Details
+2025-02-26 14:22:49,717 - INFO - Extracted Job Creation Date: October 18, 2024
+2025-02-26 14:22:49,727 - INFO - Job card text: Created on
+October 14, 2024
+See Details
+2025-02-26 14:22:49,727 - INFO - Extracted Job Creation Date: October 14, 2024
+2025-02-26 14:22:49,736 - INFO - Job card text: Created on
+October 10, 2024
+See Details
+2025-02-26 14:22:49,737 - INFO - Extracted Job Creation Date: October 10, 2024
+2025-02-26 14:22:49,746 - INFO - Job card text: Created on
+October 10, 2024
+See Details
+2025-02-26 14:22:49,747 - INFO - Extracted Job Creation Date: October 10, 2024
+2025-02-26 14:22:49,758 - INFO - Job card text: Created on
+October 10, 2024
+See Details
+2025-02-26 14:22:49,758 - INFO - Extracted Job Creation Date: October 10, 2024
+2025-02-26 14:22:49,767 - INFO - Job card text: Created on
+October 10, 2024
+See Details
+2025-02-26 14:22:49,768 - INFO - Extracted Job Creation Date: October 10, 2024
+2025-02-26 14:22:49,777 - INFO - Job card text: Created on
+October 9, 2024
+See Details
+2025-02-26 14:22:49,777 - INFO - Extracted Job Creation Date: October 9, 2024
+2025-02-26 14:22:49,787 - INFO - Job card text: Created on
+June 12, 2024
+See Details
+2025-02-26 14:22:49,788 - INFO - Extracted Job Creation Date: June 12, 2024
+2025-02-26 14:22:49,797 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,797 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,807 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,808 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,818 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,819 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,828 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,828 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,839 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,839 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,849 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,849 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,859 - INFO - Job card text: Created on
+October 8, 2024
+See Details
+2025-02-26 14:22:49,860 - INFO - Extracted Job Creation Date: October 8, 2024
+2025-02-26 14:22:49,870 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,871 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,879 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,880 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,891 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,891 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,900 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,900 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,910 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,910 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,921 - INFO - Job card text: Created on
+October 7, 2024
+See Details
+2025-02-26 14:22:49,921 - INFO - Extracted Job Creation Date: October 7, 2024
+2025-02-26 14:22:49,930 - INFO - Job card text: Created on
+October 4, 2024
+See Details
+2025-02-26 14:22:49,931 - INFO - Extracted Job Creation Date: October 4, 2024
+2025-02-26 14:22:49,941 - INFO - Job card text: Created on
+October 4, 2024
+See Details
+2025-02-26 14:22:49,942 - INFO - Extracted Job Creation Date: October 4, 2024
+2025-02-26 14:22:49,955 - INFO - Job card text: Created on
+October 3, 2024
+See Details
+2025-02-26 14:22:49,955 - INFO - Extracted Job Creation Date: October 3, 2024
+2025-02-26 14:22:49,964 - INFO - Job card text: Created on
+October 3, 2024
+See Details
+2025-02-26 14:22:49,964 - INFO - Extracted Job Creation Date: October 3, 2024
+2025-02-26 14:22:49,975 - INFO - Job card text: Created on
+October 3, 2024
+See Details
+2025-02-26 14:22:49,975 - INFO - Extracted Job Creation Date: October 3, 2024
+2025-02-26 14:22:49,985 - INFO - Job card text: Created on
+October 2, 2024
+See Details
+2025-02-26 14:22:49,986 - INFO - Extracted Job Creation Date: October 2, 2024
+2025-02-26 14:22:49,995 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:49,995 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,005 - INFO - Job card text: Created on
+September 29, 2024
+See Details
+2025-02-26 14:22:50,006 - INFO - Extracted Job Creation Date: September 29, 2024
+2025-02-26 14:22:50,016 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:50,017 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,027 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:50,027 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,037 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:50,039 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,052 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:50,052 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,062 - INFO - Job card text: Created on
+October 1, 2024
+See Details
+2025-02-26 14:22:50,063 - INFO - Extracted Job Creation Date: October 1, 2024
+2025-02-26 14:22:50,074 - INFO - Job card text: Created on
+September 30, 2024
+See Details
+2025-02-26 14:22:50,074 - INFO - Extracted Job Creation Date: September 30, 2024
+2025-02-26 14:22:50,092 - INFO - Job card text: Created on
+September 30, 2024
+See Details
+2025-02-26 14:22:50,093 - INFO - Extracted Job Creation Date: September 30, 2024
+2025-02-26 14:22:50,103 - INFO - Job card text: Created on
+September 30, 2024
+See Details
+2025-02-26 14:22:50,104 - INFO - Extracted Job Creation Date: September 30, 2024
+2025-02-26 14:22:50,113 - INFO - Job card text: Created on
+September 29, 2024
+See Details
+2025-02-26 14:22:50,114 - INFO - Extracted Job Creation Date: September 29, 2024
+2025-02-26 14:22:50,124 - INFO - Job card text: Created on
+September 26, 2024
+See Details
+2025-02-26 14:22:50,125 - INFO - Extracted Job Creation Date: September 26, 2024
+2025-02-26 14:22:50,134 - INFO - Job card text: Created on
+September 26, 2024
+See Details
+2025-02-26 14:22:50,136 - INFO - Extracted Job Creation Date: September 26, 2024
+2025-02-26 14:22:50,147 - INFO - Job card text: Created on
+September 26, 2024
+See Details
+2025-02-26 14:22:50,147 - INFO - Extracted Job Creation Date: September 26, 2024
+2025-02-26 14:22:50,159 - INFO - Job card text: Created on
+September 26, 2024
+See Details
+2025-02-26 14:22:50,159 - INFO - Extracted Job Creation Date: September 26, 2024
+2025-02-26 14:22:50,169 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,170 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,180 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,180 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,190 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,190 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,199 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,200 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,210 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,210 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,219 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,220 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,230 - INFO - Job card text: Created on
+September 25, 2024
+See Details
+2025-02-26 14:22:50,230 - INFO - Extracted Job Creation Date: September 25, 2024
+2025-02-26 14:22:50,240 - INFO - Job card text: Created on
+September 24, 2024
+See Details
+2025-02-26 14:22:50,241 - INFO - Extracted Job Creation Date: September 24, 2024
+2025-02-26 14:22:50,258 - INFO - Job card text: Created on
+September 24, 2024
+See Details
+2025-02-26 14:22:50,258 - INFO - Extracted Job Creation Date: September 24, 2024
+2025-02-26 14:22:50,269 - INFO - Job card text: Created on
+September 20, 2024
+See Details
+2025-02-26 14:22:50,269 - INFO - Extracted Job Creation Date: September 20, 2024
+2025-02-26 14:22:50,281 - INFO - Job card text: Created on
+September 20, 2024
+See Details
+2025-02-26 14:22:50,281 - INFO - Extracted Job Creation Date: September 20, 2024
+2025-02-26 14:22:50,292 - INFO - Job card text: Created on
+September 18, 2024
+See Details
+2025-02-26 14:22:50,292 - INFO - Extracted Job Creation Date: September 18, 2024
+2025-02-26 14:22:50,300 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,301 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,313 - INFO - Job card text: Created on
+July 24, 2024
+See Details
+2025-02-26 14:22:50,314 - INFO - Extracted Job Creation Date: July 24, 2024
+2025-02-26 14:22:50,329 - INFO - Job card text: Created on
+September 17, 2024
+See Details
+2025-02-26 14:22:50,329 - INFO - Extracted Job Creation Date: September 17, 2024
+2025-02-26 14:22:50,339 - INFO - Job card text: Created on
+September 16, 2024
+See Details
+2025-02-26 14:22:50,339 - INFO - Extracted Job Creation Date: September 16, 2024
+2025-02-26 14:22:50,347 - INFO - Job card text: Created on
+September 16, 2024
+See Details
+2025-02-26 14:22:50,347 - INFO - Extracted Job Creation Date: September 16, 2024
+2025-02-26 14:22:50,358 - INFO - Job card text: Created on
+September 16, 2024
+See Details
+2025-02-26 14:22:50,359 - INFO - Extracted Job Creation Date: September 16, 2024
+2025-02-26 14:22:50,367 - INFO - Job card text: Created on
+September 11, 2024
+See Details
+2025-02-26 14:22:50,368 - INFO - Extracted Job Creation Date: September 11, 2024
+2025-02-26 14:22:50,376 - INFO - Job card text: Created on
+September 16, 2024
+See Details
+2025-02-26 14:22:50,377 - INFO - Extracted Job Creation Date: September 16, 2024
+2025-02-26 14:22:50,387 - INFO - Job card text: Created on
+September 12, 2024
+See Details
+2025-02-26 14:22:50,387 - INFO - Extracted Job Creation Date: September 12, 2024
+2025-02-26 14:22:50,396 - INFO - Job card text: Created on
+August 27, 2024
+See Details
+2025-02-26 14:22:50,397 - INFO - Extracted Job Creation Date: August 27, 2024
+2025-02-26 14:22:50,406 - INFO - Job card text: Created on
+September 11, 2024
+See Details
+2025-02-26 14:22:50,406 - INFO - Extracted Job Creation Date: September 11, 2024
+2025-02-26 14:22:50,415 - INFO - Job card text: Created on
+September 9, 2024
+See Details
+2025-02-26 14:22:50,415 - INFO - Extracted Job Creation Date: September 9, 2024
+2025-02-26 14:22:50,424 - INFO - Job card text: Created on
+September 6, 2024
+See Details
+2025-02-26 14:22:50,425 - INFO - Extracted Job Creation Date: September 6, 2024
+2025-02-26 14:22:50,433 - INFO - Job card text: Created on
+September 4, 2024
+See Details
+2025-02-26 14:22:50,433 - INFO - Extracted Job Creation Date: September 4, 2024
+2025-02-26 14:22:50,441 - INFO - Job card text: Created on
+September 5, 2024
+See Details
+2025-02-26 14:22:50,441 - INFO - Extracted Job Creation Date: September 5, 2024
+2025-02-26 14:22:50,451 - INFO - Job card text: Created on
+September 5, 2024
+See Details
+2025-02-26 14:22:50,452 - INFO - Extracted Job Creation Date: September 5, 2024
+2025-02-26 14:22:50,460 - INFO - Job card text: Created on
+September 5, 2024
+See Details
+2025-02-26 14:22:50,461 - INFO - Extracted Job Creation Date: September 5, 2024
+2025-02-26 14:22:50,469 - INFO - Job card text: Created on
+September 3, 2024
+See Details
+2025-02-26 14:22:50,469 - INFO - Extracted Job Creation Date: September 3, 2024
+2025-02-26 14:22:50,479 - INFO - Job card text: Created on
+September 2, 2024
+See Details
+2025-02-26 14:22:50,479 - INFO - Extracted Job Creation Date: September 2, 2024
+2025-02-26 14:22:50,487 - INFO - Job card text: Created on
+August 29, 2024
+See Details
+2025-02-26 14:22:50,487 - INFO - Extracted Job Creation Date: August 29, 2024
+2025-02-26 14:22:50,496 - INFO - Job card text: Created on
+August 28, 2024
+See Details
+2025-02-26 14:22:50,497 - INFO - Extracted Job Creation Date: August 28, 2024
+2025-02-26 14:22:50,506 - INFO - Job card text: Created on
+August 26, 2024
+See Details
+2025-02-26 14:22:50,507 - INFO - Extracted Job Creation Date: August 26, 2024
+2025-02-26 14:22:50,514 - INFO - Job card text: Created on
+August 8, 2024
+See Details
+2025-02-26 14:22:50,515 - INFO - Extracted Job Creation Date: August 8, 2024
+2025-02-26 14:22:50,524 - INFO - Job card text: Created on
+August 23, 2024
+See Details
+2025-02-26 14:22:50,525 - INFO - Extracted Job Creation Date: August 23, 2024
+2025-02-26 14:22:50,532 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,533 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,544 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,544 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,553 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,554 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,562 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,562 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,572 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,573 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,580 - INFO - Job card text: Created on
+August 22, 2024
+See Details
+2025-02-26 14:22:50,581 - INFO - Extracted Job Creation Date: August 22, 2024
+2025-02-26 14:22:50,590 - INFO - Job card text: Created on
+August 21, 2024
+See Details
+2025-02-26 14:22:50,590 - INFO - Extracted Job Creation Date: August 21, 2024
+2025-02-26 14:22:50,598 - INFO - Job card text: Created on
+August 21, 2024
+See Details
+2025-02-26 14:22:50,598 - INFO - Extracted Job Creation Date: August 21, 2024
+2025-02-26 14:22:50,609 - INFO - Job card text: Created on
+August 14, 2024
+See Details
+2025-02-26 14:22:50,609 - INFO - Extracted Job Creation Date: August 14, 2024
+2025-02-26 14:22:50,618 - INFO - Job card text: Created on
+August 21, 2024
+See Details
+2025-02-26 14:22:50,618 - INFO - Extracted Job Creation Date: August 21, 2024
+2025-02-26 14:22:50,626 - INFO - Job card text: Created on
+July 16, 2024
+See Details
+2025-02-26 14:22:50,627 - INFO - Extracted Job Creation Date: July 16, 2024
+2025-02-26 14:22:50,637 - INFO - Job card text: Created on
+August 16, 2024
+See Details
+2025-02-26 14:22:50,637 - INFO - Extracted Job Creation Date: August 16, 2024
+2025-02-26 14:22:50,645 - INFO - Job card text: Created on
+August 14, 2024
+See Details
+2025-02-26 14:22:50,646 - INFO - Extracted Job Creation Date: August 14, 2024
+2025-02-26 14:22:50,655 - INFO - Job card text: Created on
+August 14, 2024
+See Details
+2025-02-26 14:22:50,655 - INFO - Extracted Job Creation Date: August 14, 2024
+2025-02-26 14:22:50,663 - INFO - Job card text: Created on
+August 5, 2024
+See Details
+2025-02-26 14:22:50,663 - INFO - Extracted Job Creation Date: August 5, 2024
+2025-02-26 14:22:50,673 - INFO - Job card text: Created on
+August 13, 2024
+See Details
+2025-02-26 14:22:50,673 - INFO - Extracted Job Creation Date: August 13, 2024
+2025-02-26 14:22:50,681 - INFO - Job card text: Created on
+July 17, 2024
+See Details
+2025-02-26 14:22:50,681 - INFO - Extracted Job Creation Date: July 17, 2024
+2025-02-26 14:22:50,691 - INFO - Job card text: Created on
+August 9, 2024
+See Details
+2025-02-26 14:22:50,691 - INFO - Extracted Job Creation Date: August 9, 2024
+2025-02-26 14:22:50,700 - INFO - Job card text: Created on
+August 7, 2024
+See Details
+2025-02-26 14:22:50,700 - INFO - Extracted Job Creation Date: August 7, 2024
+2025-02-26 14:22:50,709 - INFO - Job card text: Created on
+August 8, 2024
+See Details
+2025-02-26 14:22:50,710 - INFO - Extracted Job Creation Date: August 8, 2024
+2025-02-26 14:22:50,718 - INFO - Job card text: Created on
+August 7, 2024
+See Details
+2025-02-26 14:22:50,718 - INFO - Extracted Job Creation Date: August 7, 2024
+2025-02-26 14:22:50,727 - INFO - Job card text: Created on
+August 6, 2024
+See Details
+2025-02-26 14:22:50,727 - INFO - Extracted Job Creation Date: August 6, 2024
+2025-02-26 14:22:50,736 - INFO - Job card text: Created on
+August 6, 2024
+See Details
+2025-02-26 14:22:50,737 - INFO - Extracted Job Creation Date: August 6, 2024
+2025-02-26 14:22:50,745 - INFO - Job card text: Created on
+August 2, 2024
+See Details
+2025-02-26 14:22:50,746 - INFO - Extracted Job Creation Date: August 2, 2024
+2025-02-26 14:22:50,754 - INFO - Job card text: Created on
+June 14, 2024
+See Details
+2025-02-26 14:22:50,755 - INFO - Extracted Job Creation Date: June 14, 2024
+2025-02-26 14:22:50,763 - INFO - Job card text: Created on
+June 27, 2024
+See Details
+2025-02-26 14:22:50,763 - INFO - Extracted Job Creation Date: June 27, 2024
+2025-02-26 14:22:50,772 - INFO - Job card text: Created on
+July 3, 2024
+See Details
+2025-02-26 14:22:50,772 - INFO - Extracted Job Creation Date: July 3, 2024
+2025-02-26 14:22:50,781 - INFO - Job card text: Created on
+July 1, 2024
+See Details
+2025-02-26 14:22:50,781 - INFO - Extracted Job Creation Date: July 1, 2024
+2025-02-26 14:22:50,790 - INFO - Job card text: Created on
+June 24, 2024
+See Details
+2025-02-26 14:22:50,790 - INFO - Extracted Job Creation Date: June 24, 2024
+2025-02-26 14:22:50,799 - INFO - Job card text: Created on
+July 16, 2024
+See Details
+2025-02-26 14:22:50,799 - INFO - Extracted Job Creation Date: July 16, 2024
+2025-02-26 14:22:50,810 - INFO - Job card text: Created on
+July 16, 2024
+See Details
+2025-02-26 14:22:50,810 - INFO - Extracted Job Creation Date: July 16, 2024
+2025-02-26 14:22:50,819 - INFO - Job card text: Created on
+July 16, 2024
+See Details
+2025-02-26 14:22:50,819 - INFO - Extracted Job Creation Date: July 16, 2024
+2025-02-26 14:22:50,828 - INFO - Job card text: Created on
+July 11, 2024
+See Details
+2025-02-26 14:22:50,828 - INFO - Extracted Job Creation Date: July 11, 2024
+2025-02-26 14:22:50,837 - INFO - Job card text: Created on
+July 2, 2024
+See Details
+2025-02-26 14:22:50,838 - INFO - Extracted Job Creation Date: July 2, 2024
+2025-02-26 14:22:50,846 - INFO - Job card text: Created on
+July 11, 2024
+See Details
+2025-02-26 14:22:50,847 - INFO - Extracted Job Creation Date: July 11, 2024
+2025-02-26 14:22:50,857 - INFO - Job card text: Created on
+July 11, 2024
+See Details
+2025-02-26 14:22:50,857 - INFO - Extracted Job Creation Date: July 11, 2024
+2025-02-26 14:22:50,865 - INFO - Job card text: Created on
+July 2, 2024
+See Details
+2025-02-26 14:22:50,865 - INFO - Extracted Job Creation Date: July 2, 2024
+2025-02-26 14:22:50,876 - INFO - Job card text: Created on
+July 2, 2024
+See Details
+2025-02-26 14:22:50,876 - INFO - Extracted Job Creation Date: July 2, 2024
+2025-02-26 14:22:50,885 - INFO - Job card text: Created on
+July 2, 2024
+See Details
+2025-02-26 14:22:50,886 - INFO - Extracted Job Creation Date: July 2, 2024
+2025-02-26 14:22:50,895 - INFO - Job card text: Created on
+July 1, 2024
+See Details
+2025-02-26 14:22:50,895 - INFO - Extracted Job Creation Date: July 1, 2024
+2025-02-26 14:22:50,904 - INFO - Job card text: Created on
+June 27, 2024
+See Details
+2025-02-26 14:22:50,905 - INFO - Extracted Job Creation Date: June 27, 2024
+2025-02-26 14:22:50,913 - INFO - Job card text: Created on
+June 28, 2024
+See Details
+2025-02-26 14:22:50,913 - INFO - Extracted Job Creation Date: June 28, 2024
+2025-02-26 14:22:50,924 - INFO - Job card text: Created on
+June 12, 2024
+See Details
+2025-02-26 14:22:50,924 - INFO - Extracted Job Creation Date: June 12, 2024
+2025-02-26 14:22:50,932 - INFO - Job card text: Created on
+June 26, 2024
+See Details
+2025-02-26 14:22:50,932 - INFO - Extracted Job Creation Date: June 26, 2024
+2025-02-26 14:22:50,941 - INFO - Job card text: Created on
+June 28, 2024
+See Details
+2025-02-26 14:22:50,942 - INFO - Extracted Job Creation Date: June 28, 2024
+2025-02-26 14:22:50,950 - INFO - Job card text: Created on
+June 27, 2024
+See Details
+2025-02-26 14:22:50,950 - INFO - Extracted Job Creation Date: June 27, 2024
+2025-02-26 14:22:50,960 - INFO - Job card text: Created on
+June 26, 2024
+See Details
+2025-02-26 14:22:50,961 - INFO - Extracted Job Creation Date: June 26, 2024
+2025-02-26 14:22:50,971 - INFO - Job card text: Created on
+June 26, 2024
+See Details
+2025-02-26 14:22:50,972 - INFO - Extracted Job Creation Date: June 26, 2024
+2025-02-26 14:22:50,982 - INFO - Job card text: Created on
+June 26, 2024
+See Details
+2025-02-26 14:22:50,982 - INFO - Extracted Job Creation Date: June 26, 2024
+2025-02-26 14:22:50,992 - INFO - Job card text: Created on
+June 25, 2024
+See Details
+2025-02-26 14:22:50,993 - INFO - Extracted Job Creation Date: June 25, 2024
+2025-02-26 14:22:51,001 - INFO - Job card text: Created on
+June 25, 2024
+See Details
+2025-02-26 14:22:51,001 - INFO - Extracted Job Creation Date: June 25, 2024
+2025-02-26 14:22:51,010 - INFO - Job card text: Created on
+June 25, 2024
+See Details
+2025-02-26 14:22:51,011 - INFO - Extracted Job Creation Date: June 25, 2024
+2025-02-26 14:22:51,020 - INFO - Job card text: Created on
+June 24, 2024
+See Details
+2025-02-26 14:22:51,021 - INFO - Extracted Job Creation Date: June 24, 2024
+2025-02-26 14:22:51,033 - INFO - Job card text: Created on
+June 12, 2024
+See Details
+2025-02-26 14:22:51,033 - INFO - Extracted Job Creation Date: June 12, 2024
+2025-02-26 14:22:51,045 - INFO - Job card text: Created on
+June 12, 2024
+See Details
+2025-02-26 14:22:51,046 - INFO - Extracted Job Creation Date: June 12, 2024
+2025-02-26 14:22:51,057 - INFO - Job card text: Created on
+June 12, 2024
+See Details
+2025-02-26 14:22:51,057 - INFO - Extracted Job Creation Date: June 12, 2024
+2025-02-26 14:22:51,065 - INFO - Job card text: Created on
+June 11, 2024
+See Details
+2025-02-26 14:22:51,065 - INFO - Extracted Job Creation Date: June 11, 2024
+2025-02-26 14:22:51,075 - INFO - Job card text: Created on
+June 11, 2024
+See Details
+2025-02-26 14:22:51,076 - INFO - Extracted Job Creation Date: June 11, 2024
+2025-02-26 14:22:51,083 - INFO - Job card text: Created on
+June 7, 2024
+See Details
+2025-02-26 14:22:51,083 - INFO - Extracted Job Creation Date: June 7, 2024
+2025-02-26 14:22:51,093 - INFO - Job card text: Created on
+June 8, 2024
+See Details
+2025-02-26 14:22:51,093 - INFO - Extracted Job Creation Date: June 8, 2024

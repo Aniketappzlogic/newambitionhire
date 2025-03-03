@@ -1,0 +1,24 @@
+2025-02-25 14:22:55,557 - INFO - chrome
+2025-02-25 14:22:55,558 - INFO - ====== WebDriver manager ======
+2025-02-25 14:22:56,455 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 14:22:57,333 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 14:22:57,805 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-25 14:23:01,711 - INFO - Navigated to login page.
+2025-02-25 14:23:01,717 - INFO - Retrieved user credentials.
+2025-02-25 14:23:02,666 - INFO - Entered user ID:
+2025-02-25 14:23:02,754 - INFO - Entered password.
+2025-02-25 14:23:02,872 - INFO - Clicked sign-in button.
+2025-02-25 14:23:02,874 - INFO - environment -> dev
+2025-02-25 14:23:02,874 - INFO - logged in
+2025-02-25 14:23:03,888 - INFO - jobs button clicked
+2025-02-25 14:23:19,422 - INFO - PUBLIC
+PSYCHO II 2402
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 24, 2025
+See Details
+2025-02-25 14:23:19,423 - INFO - Extracted Job Creation Date: February 24, 2025

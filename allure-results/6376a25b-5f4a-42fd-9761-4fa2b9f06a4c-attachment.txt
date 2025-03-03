@@ -1,0 +1,33 @@
+2025-02-20 14:51:53 [32mINFO[0m chrome
+2025-02-20 14:51:53 [32mINFO[0m ====== WebDriver manager ======
+2025-02-20 14:51:54 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-20 14:51:56 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-20 14:51:57 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-20 14:51:58 [32mINFO[0m Navigated to login page.
+2025-02-20 14:51:58 [32mINFO[0m Retrieved user credentials.
+2025-02-20 14:52:30 [1m[31mERROR[0m An error occurred during login: Message: 
+Stacktrace:
+	GetHandleVerifier [0x011A74A3+25091]
+	(No symbol) [0x0112DC04]
+	(No symbol) [0x0100B373]
+	(No symbol) [0x0104F4DC]
+	(No symbol) [0x0104F65B]
+	(No symbol) [0x0108D8E2]
+	(No symbol) [0x01071F54]
+	(No symbol) [0x0108B49E]
+	(No symbol) [0x01071CA6]
+	(No symbol) [0x010431D5]
+	(No symbol) [0x0104435D]
+	GetHandleVerifier [0x014A07C3+3142947]
+	GetHandleVerifier [0x014B1A2B+3213195]
+	GetHandleVerifier [0x014AC412+3191154]
+	GetHandleVerifier [0x01248720+685184]
+	(No symbol) [0x01136E1D]
+	(No symbol) [0x01133E18]
+	(No symbol) [0x01133FB6]
+	(No symbol) [0x011266F0]
+	BaseThreadInitThunk [0x7643FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x7753809E+286]
+	RtlGetAppContainerNamedObjectPath [0x7753806E+238]
+2025-02-20 14:52:30 [32mINFO[0m environment -> dev
+2025-02-20 14:52:30 [32mINFO[0m logged in

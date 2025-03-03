@@ -1,0 +1,4 @@
+2025-02-20 14:28:01 [32mINFO[0m chrome
+2025-02-20 14:28:01 [32mINFO[0m ====== WebDriver manager ======
+2025-02-20 14:28:02 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-20 14:28:31 [32mINFO[0m Driver not found: Could not reach host. Are you offline?

@@ -1,0 +1,1773 @@
+2025-03-03 15:20:14,352 - INFO - chrome
+2025-03-03 15:20:14,353 - INFO - ====== WebDriver manager ======
+2025-03-03 15:20:15,234 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:20:15,694 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:20:16,124 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-03 15:20:18,681 - INFO - Navigated to login page.
+2025-03-03 15:20:18,725 - INFO - Retrieved user credentials.
+2025-03-03 15:20:21,734 - INFO - Entered user ID:
+2025-03-03 15:20:21,814 - INFO - Entered password.
+2025-03-03 15:20:21,982 - INFO - Clicked sign-in button.
+2025-03-03 15:20:21,985 - INFO - environment -> dev
+2025-03-03 15:20:21,990 - INFO - logged in
+2025-03-03 15:20:37,935 - INFO - search tab clicked
+2025-03-03 15:20:44,744 - INFO - Searched Job text: PUBLIC
+TEST FUNC BUG 01 03
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+March 1, 2025
+See Details
+2025-03-03 15:20:44,756 - INFO - Searched Job text: PUBLIC
+CODING TESTING
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 27, 2025
+See Details
+2025-03-03 15:20:44,767 - INFO - Searched Job text: PUBLIC
+TEST MULTI JOB 20 02 K
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+February 20, 2025
+See Details
+2025-03-03 15:20:44,782 - INFO - Searched Job text: PUBLIC
+TEST TEST 1902
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 19, 2025
+See Details
+2025-03-03 15:20:44,802 - INFO - Searched Job text: PUBLIC
+TEST PSY JOB
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+February 10, 2025
+See Details
+2025-03-03 15:20:44,814 - INFO - Searched Job text: PUBLIC
+TEST LANGUAGE CONSUMER JOB
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+January 31, 2025
+See Details
+2025-03-03 15:20:44,826 - INFO - Searched Job text: PUBLIC
+TEST MULTI JOB 31 01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+January 31, 2025
+See Details
+2025-03-03 15:20:44,837 - INFO - Searched Job text: PUBLIC
+TEST MULTI JOB
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+January 30, 2025
+See Details
+2025-03-03 15:20:44,849 - INFO - Searched Job text: PUBLIC
+TEST MULTI NEW 29
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 29, 2025
+See Details
+2025-03-03 15:20:44,865 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL TESTING 23
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 23, 2025
+See Details
+2025-03-03 15:20:44,880 - INFO - Searched Job text: PUBLIC
+TEST MULTI JOB 02 22 01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 22, 2025
+See Details
+2025-03-03 15:20:44,895 - INFO - Searched Job text: PUBLIC
+TEST MULTI JOB 22 01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 22, 2025
+See Details
+2025-03-03 15:20:44,908 - INFO - Searched Job text: PUBLIC
+TEST JOB 2201 (FREE SPEECH)
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 22, 2025
+See Details
+2025-03-03 15:20:44,920 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL JOB TEST 21 01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:44,935 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL TEST 3
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:44,950 - INFO - Searched Job text: PUBLIC
+TEST MULTI 21 01 25
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:44,961 - INFO - Searched Job text: PUBLIC
+TEST MULTI FREE SPEECH
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:44,975 - INFO - Searched Job text: PUBLIC
+TEST 21 01 MULTI NEW JOB
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:44,988 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL TEST 5
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:45,002 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL TEST 4
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:45,014 - INFO - Searched Job text: PUBLIC
+MULTILINGUAL TEST 2
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 21, 2025
+See Details
+2025-03-03 15:20:45,028 - INFO - Searched Job text: PUBLIC
+TEST 1501
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 15, 2025
+See Details
+2025-03-03 15:20:45,040 - INFO - Searched Job text: PUBLIC
+TEST JOB 1401
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 14, 2025
+See Details
+2025-03-03 15:20:45,051 - INFO - Searched Job text: PUBLIC
+TEST 1301
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 13, 2025
+See Details
+2025-03-03 15:20:45,064 - INFO - Searched Job text: PUBLIC
+TEST ENLGLISH JOB 9TH 01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+January 9, 2025
+See Details
+2025-03-03 15:20:45,076 - INFO - Searched Job text: PUBLIC
+TEST PSYCOMETRIC 0901
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 9, 2025
+See Details
+2025-03-03 15:20:45,090 - INFO - Searched Job text: PUBLIC
+TESTING JOB 0801
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 8, 2025
+See Details
+2025-03-03 15:20:45,102 - INFO - Searched Job text: PUBLIC
+TEST JOB 0701
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 7, 2025
+See Details
+2025-03-03 15:20:45,116 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST JOB III 0701
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 7, 2025
+See Details
+2025-03-03 15:20:45,131 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST JOB II 0701
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 7, 2025
+See Details
+2025-03-03 15:20:45,144 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST JOB 0701
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 7, 2025
+See Details
+2025-03-03 15:20:45,155 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH LISTEN REPEAT
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 7, 2025
+See Details
+2025-03-03 15:20:45,172 - INFO - Searched Job text: PUBLIC
+JOB TEST 060125
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,188 - INFO - Searched Job text: PUBLIC
+TEST JOB 0601
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,200 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST V 0601
+FINANACE • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,213 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST IV 0601
+FINANACE • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,228 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH VOICE MODULES
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,239 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST III 0601
+FINANACE • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,250 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST II 0601 JOB
+FINANACE • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,263 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST 0601
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 6, 2025
+See Details
+2025-03-03 15:20:45,274 - INFO - Searched Job text: PUBLIC
+TESTING SCORECARD NEW
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 3, 2025
+See Details
+2025-03-03 15:20:45,286 - INFO - Searched Job text: PUBLIC
+TESTING_NEW_SCORECARD
+HUMAN RESOURCES • MAHARASHTRA: NASHIK
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+January 3, 2025
+See Details
+2025-03-03 15:20:45,296 - INFO - Searched Job text: PUBLIC
+ENGLISH READ REPEAT TEST
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+January 3, 2025
+See Details
+2025-03-03 15:20:45,306 - INFO - Searched Job text: PUBLIC
+TEST ALGO
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+December 31, 2024
+See Details
+2025-03-03 15:20:45,316 - INFO - Searched Job text: PUBLIC
+TEST JOB 30013
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 30, 2024
+See Details
+2025-03-03 15:20:45,329 - INFO - Searched Job text: PUBLIC
+TEST JOB 30012
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 30, 2024
+See Details
+2025-03-03 15:20:45,340 - INFO - Searched Job text: PUBLIC
+TEST JOB 3012
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 30, 2024
+See Details
+2025-03-03 15:20:45,352 - INFO - Searched Job text: PUBLIC
+ENGLISH TEST
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 30, 2024
+See Details
+2025-03-03 15:20:45,365 - INFO - Searched Job text: PUBLIC
+TEST_0NEWAY_AUTOSUBMIT
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 23, 2024
+See Details
+2025-03-03 15:20:45,375 - INFO - Searched Job text: PRIVATE
+TEST INVITES FUNCTIONAL JOB 19 12
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 19, 2024
+See Details
+2025-03-03 15:20:45,390 - INFO - Searched Job text: PUBLIC
+TEST JOB 18 TEST JOB 18 TEST JOB 18 TEST JOB 18 TEST JOB 18
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 18, 2024
+See Details
+2025-03-03 15:20:45,404 - INFO - Searched Job text: PUBLIC
+TEST00001
+FINANACE • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 17, 2024
+See Details
+2025-03-03 15:20:45,415 - INFO - Searched Job text: PUBLIC
+TEST_00000
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 17, 2024
+See Details
+2025-03-03 15:20:45,425 - INFO - Searched Job text: PUBLIC
+TEST_FUNCTINAL_NEWFEATURE
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 13, 2024
+See Details
+2025-03-03 15:20:45,435 - INFO - Searched Job text: PUBLIC
+ENGLISH IOS TESTING
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 13, 2024
+See Details
+2025-03-03 15:20:45,447 - INFO - Searched Job text: PUBLIC
+TEST_ALL_JOB_EMAILNOTIFICATION
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 9, 2024
+See Details
+2025-03-03 15:20:45,461 - INFO - Searched Job text: PUBLIC
+TEST EXCEL 10 12 24 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 10, 2024
+See Details
+2025-03-03 15:20:45,473 - INFO - Searched Job text: PUBLIC
+TEST FUNCTIONAL 101224
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 10, 2024
+See Details
+2025-03-03 15:20:45,485 - INFO - Searched Job text: PUBLIC
+TEST_00022
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 3, 2024
+See Details
+2025-03-03 15:20:45,499 - INFO - Searched Job text: PUBLIC
+TEST_AGAIN_W
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 3, 2024
+See Details
+2025-03-03 15:20:45,511 - INFO - Searched Job text: PUBLIC
+TEST_001_W_TEST
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+December 3, 2024
+See Details
+2025-03-03 15:20:45,524 - INFO - Searched Job text: PUBLIC
+TEST JOB FUNC ENG 03 12 24
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 3, 2024
+See Details
+2025-03-03 15:20:45,536 - INFO - Searched Job text: PUBLIC
+TEST JOB 02 12 24
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+December 2, 2024
+See Details
+2025-03-03 15:20:45,548 - INFO - Searched Job text: PUBLIC
+TEST JOB 29 11 24
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+November 29, 2024
+See Details
+2025-03-03 15:20:45,570 - INFO - Searched Job text: PUBLIC
+TEST_DUPLICATE_JOB_1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 26, 2024
+See Details
+2025-03-03 15:20:45,582 - INFO - Searched Job text: PUBLIC
+TEST PARTIAL
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+November 26, 2024
+See Details
+2025-03-03 15:20:45,593 - INFO - Searched Job text: PUBLIC
+TEST_ENG_FUNC
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 19, 2024
+See Details
+2025-03-03 15:20:45,605 - INFO - Searched Job text: PUBLIC
+TEST_TEST
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 18, 2024
+See Details
+2025-03-03 15:20:45,619 - INFO - Searched Job text: PUBLIC
+TEST_ALL_ROUND
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 14, 2024
+See Details
+2025-03-03 15:20:45,630 - INFO - Searched Job text: PUBLIC
+TEST MULTIROUND CTQ CREDIT DEDUCTION 13 NOV
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+November 13, 2024
+See Details
+2025-03-03 15:20:45,641 - INFO - Searched Job text: PUBLIC
+TEST_RESULT
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 12, 2024
+See Details
+2025-03-03 15:20:45,653 - INFO - Searched Job text: PUBLIC
+NO PROCTORING TESTING
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+November 11, 2024
+See Details
+2025-03-03 15:20:45,663 - INFO - Searched Job text: PUBLIC
+TEST737
+FINANACE • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 11, 2024
+See Details
+2025-03-03 15:20:45,673 - INFO - Searched Job text: PUBLIC
+PROCTORING TESTING 2
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+November 11, 2024
+See Details
+2025-03-03 15:20:45,684 - INFO - Searched Job text: PUBLIC
+TEST PROCTORING 11 11
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+November 11, 2024
+See Details
+2025-03-03 15:20:45,695 - INFO - Searched Job text: PUBLIC
+TEST_1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 8, 2024
+See Details
+2025-03-03 15:20:45,705 - INFO - Searched Job text: PUBLIC
+PROCTOIRNG TESTING
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+November 8, 2024
+See Details
+2025-03-03 15:20:45,715 - INFO - Searched Job text: PUBLIC
+TEST ONE WAY 1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+November 7, 2024
+See Details
+2025-03-03 15:20:45,727 - INFO - Searched Job text: PUBLIC
+TEST ALLAOW
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 7, 2024
+See Details
+2025-03-03 15:20:45,736 - INFO - Searched Job text: PUBLIC
+TEST ALLOW ANOTHER ROUND 4 11
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 4, 2024
+See Details
+2025-03-03 15:20:45,747 - INFO - Searched Job text: PUBLIC
+TEST ALGORISE 04 11
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 4, 2024
+See Details
+2025-03-03 15:20:45,758 - INFO - Searched Job text: PUBLIC
+TEST_ROUND_PSYCH_ONE
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 4, 2024
+See Details
+2025-03-03 15:20:45,767 - INFO - Searched Job text: PUBLIC
+TEST ALGO
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 29, 2024
+See Details
+2025-03-03 15:20:45,778 - INFO - Searched Job text: PUBLIC
+TEST ALLOW ANOTHER ROUND
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 29, 2024
+See Details
+2025-03-03 15:20:45,788 - INFO - Searched Job text: PUBLIC
+NYKAA EXCEL TEST 3
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 25, 2024
+See Details
+2025-03-03 15:20:45,800 - INFO - Searched Job text: PUBLIC
+TEST ALGORISE ASSESSMENT 28 10
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 28, 2024
+See Details
+2025-03-03 15:20:45,811 - INFO - Searched Job text: PUBLIC
+NYKAA EXCEL TEST 2
+INFORMATION TECHNOLOGY • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 25, 2024
+See Details
+2025-03-03 15:20:45,823 - INFO - Searched Job text: PUBLIC
+TEST EXCEL 77
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 24, 2024
+See Details
+2025-03-03 15:20:45,833 - INFO - Searched Job text: PUBLIC
+TEST EXCEL NEW 23 10 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 23, 2024
+See Details
+2025-03-03 15:20:45,843 - INFO - Searched Job text: PUBLIC
+TEST EXCEL 21 10 24 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 21, 2024
+See Details
+2025-03-03 15:20:45,854 - INFO - Searched Job text: PUBLIC
+EXCEL TEST ROUND
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 22, 2024
+See Details
+2025-03-03 15:20:45,865 - INFO - Searched Job text: PUBLIC
+EXCEL TEST JOB 2
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 22, 2024
+See Details
+2025-03-03 15:20:45,875 - INFO - Searched Job text: PUBLIC
+EXCEL TEST ROUND 1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 22, 2024
+See Details
+2025-03-03 15:20:45,886 - INFO - Searched Job text: PUBLIC
+TESTFUNCTEST
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 21, 2024
+See Details
+2025-03-03 15:20:45,897 - INFO - Searched Job text: PUBLIC
+TESTFUNCTIONALTEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 21, 2024
+See Details
+2025-03-03 15:20:45,908 - INFO - Searched Job text: PUBLIC
+TEST EXCEL JOB 544
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 21, 2024
+See Details
+2025-03-03 15:20:45,919 - INFO - Searched Job text: PUBLIC
+TEST EXCEL ASSESSMENT 21 10
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 21, 2024
+See Details
+2025-03-03 15:20:45,930 - INFO - Searched Job text: PUBLIC
+EXCEL TEST 2
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 18, 2024
+See Details
+2025-03-03 15:20:45,940 - INFO - Searched Job text: PUBLIC
+EXCEL TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 18, 2024
+See Details
+2025-03-03 15:20:45,955 - INFO - Searched Job text: PUBLIC
+TEST JOB 1
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 14, 2024
+See Details
+2025-03-03 15:20:45,966 - INFO - Searched Job text: PUBLIC
+TESTALLJOB
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 10, 2024
+See Details
+2025-03-03 15:20:45,978 - INFO - Searched Job text: PUBLIC
+TEST JOB KG 10 10
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 10, 2024
+See Details
+2025-03-03 15:20:45,992 - INFO - Searched Job text: PUBLIC
+TEST JOB 2
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 10, 2024
+See Details
+2025-03-03 15:20:46,002 - INFO - Searched Job text: PUBLIC
+TESTING JOB 1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 10, 2024
+See Details
+2025-03-03 15:20:46,014 - INFO - Searched Job text: PUBLIC
+TESTCREDITASYNC
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+October 9, 2024
+See Details
+2025-03-03 15:20:46,024 - INFO - Searched Job text: PUBLIC
+2024 JUNE 12 FUNC TEST KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 12, 2024
+See Details
+2025-03-03 15:20:46,035 - INFO - Searched Job text: PUBLIC
+TESTCODE 2
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,048 - INFO - Searched Job text: PUBLIC
+TESTCODE 1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,058 - INFO - Searched Job text: PUBLIC
+CODING TEST 3 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,069 - INFO - Searched Job text: PUBLIC
+TESTCODE
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,080 - INFO - Searched Job text: PUBLIC
+CODING TEST 2 KG 8 10
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,091 - INFO - Searched Job text: PUBLIC
+TEST ALGORISE 7
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,103 - INFO - Searched Job text: PUBLIC
+CODING TEST KG 8 10
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+October 8, 2024
+See Details
+2025-03-03 15:20:46,115 - INFO - Searched Job text: PUBLIC
+TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 7, 2024
+See Details
+2025-03-03 15:20:46,125 - INFO - Searched Job text: PUBLIC
+ONEWAT TESTING 5
+INFORMATION TECHNOLOGY • JHARKHAND: DHANBAD
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 7, 2024
+See Details
+2025-03-03 15:20:46,135 - INFO - Searched Job text: PUBLIC
+ONEWAY TESTING 4
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 7, 2024
+See Details
+2025-03-03 15:20:46,146 - INFO - Searched Job text: PUBLIC
+ONEWAY TESTING
+INFORMATION TECHNOLOGY • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 7, 2024
+See Details
+2025-03-03 15:20:46,156 - INFO - Searched Job text: PUBLIC
+TEST_CODE
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 3, 2024
+See Details
+2025-03-03 15:20:46,167 - INFO - Searched Job text: PUBLIC
+TEST CODE
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 1, 2024
+See Details
+2025-03-03 15:20:46,178 - INFO - Searched Job text: PUBLIC
+JOB TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 1, 2024
+See Details
+2025-03-03 15:20:46,192 - INFO - Searched Job text: PRIVATE
+ENGLISH TEST21
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 1, 2024
+See Details
+2025-03-03 15:20:46,205 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH -1
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+October 1, 2024
+See Details
+2025-03-03 15:20:46,217 - INFO - Searched Job text: PUBLIC
+TEST PICTURES FINAL TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 26, 2024
+See Details
+2025-03-03 15:20:46,228 - INFO - Searched Job text: PUBLIC
+PICTURE TEST 00789
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 26, 2024
+See Details
+2025-03-03 15:20:46,238 - INFO - Searched Job text: PUBLIC
+TEST TEST PICTURE
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 26, 2024
+See Details
+2025-03-03 15:20:46,249 - INFO - Searched Job text: PUBLIC
+TEST PICTURE JOB 001
+INFORMATION TECHNOLOGY • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 26, 2024
+See Details
+2025-03-03 15:20:46,259 - INFO - Searched Job text: PUBLIC
+PICTURE TEST MCQ
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 25, 2024
+See Details
+2025-03-03 15:20:46,271 - INFO - Searched Job text: PUBLIC
+TESTPICTURE234
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 25, 2024
+See Details
+2025-03-03 15:20:46,291 - INFO - Searched Job text: PUBLIC
+PICTURE SIZE TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 25, 2024
+See Details
+2025-03-03 15:20:46,302 - INFO - Searched Job text: PUBLIC
+TEST FUNCTIONAL JOB TEST 2
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 20, 2024
+See Details
+2025-03-03 15:20:46,312 - INFO - Searched Job text: PUBLIC
+FUNCTIONAL JOB TEST1
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 20, 2024
+See Details
+2025-03-03 15:20:46,323 - INFO - Searched Job text: PUBLIC
+TESTING SDE JOB JULY 24
+INFORMATION TECHNOLOGY • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 24, 2024
+See Details
+2025-03-03 15:20:46,333 - INFO - Searched Job text: PUBLIC
+IS TEST 17 SEPT
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+September 17, 2024
+See Details
+2025-03-03 15:20:46,344 - INFO - Searched Job text: PUBLIC
+TEST ENGLISHH
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 16, 2024
+See Details
+2025-03-03 15:20:46,354 - INFO - Searched Job text: PUBLIC
+TEST ANALYST
+HUMAN RESOURCES • ODISHA: BHUBANESWAR
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 16, 2024
+See Details
+2025-03-03 15:20:46,364 - INFO - Searched Job text: PUBLIC
+SHOURYATEST
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 11, 2024
+See Details
+2025-03-03 15:20:46,375 - INFO - Searched Job text: PUBLIC
+TEST NEW JOB 12 09 24 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+September 12, 2024
+See Details
+2025-03-03 15:20:46,387 - INFO - Searched Job text: PUBLIC
+ENGLISH PARA TEST
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+September 11, 2024
+See Details
+2025-03-03 15:20:46,398 - INFO - Searched Job text: PUBLIC
+TESTING THANKS 4
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+September 6, 2024
+See Details
+2025-03-03 15:20:46,408 - INFO - Searched Job text: PUBLIC
+THANKS TESTING 3
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+September 5, 2024
+See Details
+2025-03-03 15:20:46,418 - INFO - Searched Job text: PUBLIC
+THANKS TESTING 2
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+September 5, 2024
+See Details
+2025-03-03 15:20:46,429 - INFO - Searched Job text: PUBLIC
+PARAGRAPH TESTING
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+September 3, 2024
+See Details
+2025-03-03 15:20:46,439 - INFO - Searched Job text: PUBLIC
+TEST ALL JOB WITH ENGLISH PARA KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+September 2, 2024
+See Details
+2025-03-03 15:20:46,450 - INFO - Searched Job text: PUBLIC
+REPORT TESTING
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 28, 2024
+See Details
+2025-03-03 15:20:46,461 - INFO - Searched Job text: PUBLIC
+TESTING -WEB
+HUMAN RESOURCES • NOUIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+August 26, 2024
+See Details
+2025-03-03 15:20:46,472 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH PARAGRAPH QUESTIONS KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+August 8, 2024
+See Details
+2025-03-03 15:20:46,484 - INFO - Searched Job text: PUBLIC
+TEST FREE TEXT QUESTION FUNCTIONAL KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+August 23, 2024
+See Details
+2025-03-03 15:20:46,495 - INFO - Searched Job text: PUBLIC
+EDITOR TESTING 2
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 22, 2024
+See Details
+2025-03-03 15:20:46,506 - INFO - Searched Job text: PUBLIC
+ONEWAY SCORE TESTING
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 22, 2024
+See Details
+2025-03-03 15:20:46,517 - INFO - Searched Job text: PUBLIC
+EDITOR TESTING
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 22, 2024
+See Details
+2025-03-03 15:20:46,529 - INFO - Searched Job text: PUBLIC
+TEST ALL ON 16TH JULY KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 16, 2024
+See Details
+2025-03-03 15:20:46,539 - INFO - Searched Job text: PUBLIC
+TEST_AMB
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+August 14, 2024
+See Details
+2025-03-03 15:20:46,550 - INFO - Searched Job text: PUBLIC
+TEST14
+STRING • PAN INIDA
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+August 14, 2024
+See Details
+2025-03-03 15:20:46,561 - INFO - Searched Job text: PUBLIC
+TESTPROC
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+August 5, 2024
+See Details
+2025-03-03 15:20:46,572 - INFO - Searched Job text: PUBLIC
+TEST ALL 17TH JULY JOB KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 17, 2024
+See Details
+2025-03-03 15:20:46,583 - INFO - Searched Job text: PUBLIC
+PSYCHOMETRIC TESTING 2
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 9, 2024
+See Details
+2025-03-03 15:20:46,594 - INFO - Searched Job text: PUBLIC
+TEST WATERFALL JOB 7TH AUG KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+August 7, 2024
+See Details
+2025-03-03 15:20:46,607 - INFO - Searched Job text: PUBLIC
+TEST ALL JOB 7TH AUG KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+August 7, 2024
+See Details
+2025-03-03 15:20:46,618 - INFO - Searched Job text: PUBLIC
+6TH AUG KG TESTING WEEIGHTAGE
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+kaustubh
+Candidates:
+No candidates yet
+Created on
+August 6, 2024
+See Details
+2025-03-03 15:20:46,630 - INFO - Searched Job text: PUBLIC
+ONEWAY TESTING 3
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Saksham
+Candidates:
+No candidates yet
+Created on
+June 27, 2024
+See Details
+2025-03-03 15:20:46,644 - INFO - Searched Job text: PUBLIC
+HUMAN RESOURCE TESTING
+HUMAN RESOURCES • NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+July 3, 2024
+See Details
+2025-03-03 15:20:46,655 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH NEW JOB 2ND KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 2, 2024
+See Details
+2025-03-03 15:20:46,666 - INFO - Searched Job text: PUBLIC
+TESTING
+HUMAN RESOURCES • UTTAR PRADESH: NOIDA
+Created by:
+mridul
+Candidates:
+No candidates yet
+Created on
+July 11, 2024
+See Details
+2025-03-03 15:20:46,679 - INFO - Searched Job text: PUBLIC
+TEST JOB ENGLISH SG1
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 2, 2024
+See Details
+2025-03-03 15:20:46,691 - INFO - Searched Job text: PUBLIC
+TEST ENGLISH JOB 2ND JULY KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 2, 2024
+See Details
+2025-03-03 15:20:46,704 - INFO - Searched Job text: PUBLIC
+TEST JOB ENGLISH
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+July 2, 2024
+See Details
+2025-03-03 15:20:46,718 - INFO - Searched Job text: PUBLIC
+TEST JOB JUNE 12 KG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 12, 2024
+See Details
+2025-03-03 15:20:46,730 - INFO - Searched Job text: PUBLIC
+ONEWAY TESTING 4
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+Saksham
+Candidates:
+No candidates yet
+Created on
+June 28, 2024
+See Details
+2025-03-03 15:20:46,743 - INFO - Searched Job text: PUBLIC
+ENGISH FREE SPEECH TEST
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 27, 2024
+See Details
+2025-03-03 15:20:46,785 - INFO - Searched Job text: PUBLIC
+ONEWAY TESTING
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+Saksham
+Candidates:
+No candidates yet
+Created on
+June 26, 2024
+See Details
+2025-03-03 15:20:46,841 - INFO - Searched Job text: PUBLIC
+TEST PROCTORING STATUS 26
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+Saksham
+Candidates:
+No candidates yet
+Created on
+June 26, 2024
+See Details
+2025-03-03 15:20:46,894 - INFO - Searched Job text: PUBLIC
+TEST KAUSTUBH 12 JUNE
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 12, 2024
+See Details
+2025-03-03 15:20:46,941 - INFO - Searched Job text: PUBLIC
+TEST ALL KAUSTUBH
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 12, 2024
+See Details
+2025-03-03 15:20:46,964 - INFO - Searched Job text: PUBLIC
+JUNE11TESTJOBKG
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 11, 2024
+See Details
+2025-03-03 15:20:46,978 - INFO - Searched Job text: PUBLIC
+TESTJOB
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+Saksham
+Candidates:
+No candidates yet
+Created on
+June 11, 2024
+See Details
+2025-03-03 15:20:46,988 - INFO - Searched Job text: PUBLIC
+TESTJOBKG7MAY01
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 8, 2024
+See Details

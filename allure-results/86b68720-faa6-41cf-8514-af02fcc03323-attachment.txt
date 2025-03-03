@@ -1,0 +1,16 @@
+2025-02-18 14:34:28,557 - INFO - chrome
+2025-02-18 14:34:28,558 - INFO - ====== WebDriver manager ======
+2025-02-18 14:34:29,425 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 14:34:30,006 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-18 14:34:30,559 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18 14:34:33,229 - INFO - Navigated to login page.
+2025-02-18 14:34:33,232 - INFO - Retrieved user credentials.
+2025-02-18 14:34:33,831 - INFO - Entered user ID: inderjeetkmcs@gmail.com
+2025-02-18 14:34:33,953 - INFO - Entered password.
+2025-02-18 14:34:34,148 - INFO - Clicked sign-in button.
+2025-02-18 14:34:34,150 - INFO - environment -> dev
+2025-02-18 14:34:34,151 - INFO - logged in
+2025-02-18 14:34:44,848 - INFO - Elemet NOT visible
+2025-02-18 14:34:45,135 - INFO - Text: All Jobs
+477
+2025-02-18 14:34:45,136 - INFO - Count: 477

@@ -1,0 +1,153 @@
+2025-03-03 15:30:19,946 - INFO - chrome
+2025-03-03 15:30:19,947 - INFO - ====== WebDriver manager ======
+2025-03-03 15:30:20,991 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:30:21,490 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:30:21,974 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-03 15:30:23,779 - INFO - Navigated to login page.
+2025-03-03 15:30:23,781 - INFO - Retrieved user credentials.
+2025-03-03 15:30:26,788 - INFO - Entered user ID:
+2025-03-03 15:30:26,870 - INFO - Entered password.
+2025-03-03 15:30:27,088 - INFO - Clicked sign-in button.
+2025-03-03 15:30:27,092 - INFO - environment -> dev
+2025-03-03 15:30:27,094 - INFO - logged in
+2025-03-03 15:30:30,774 - INFO - search tab clicked
+2025-03-03 15:30:36,685 - INFO - Searched Job text: PUBLIC
+PSYCHO II 2402
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 24, 2025
+See Details
+2025-03-03 15:30:36,698 - INFO - Searched Job text: PUBLIC
+PSYCHO 2402
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 24, 2025
+See Details
+2025-03-03 15:30:36,711 - INFO - Searched Job text: PUBLIC
+PSYCO
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 24, 2025
+See Details
+2025-03-03 15:30:36,724 - INFO - Searched Job text: PUBLIC
+NEW PSYCHOMETRIC 1102
+HUMAN RESOURCES • HARYANA: GURGAON
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 11, 2025
+See Details
+2025-03-03 15:30:36,737 - INFO - Searched Job text: PUBLIC
+PSYCHO NEW DESIGN
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+February 10, 2025
+See Details
+2025-03-03 15:30:36,750 - INFO - Searched Job text: PUBLIC
+TEST PSY JOB
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+February 10, 2025
+See Details
+2025-03-03 15:30:36,763 - INFO - Searched Job text: PUBLIC
+TEST PSYCOMETRIC 0901
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+January 9, 2025
+See Details
+2025-03-03 15:30:36,775 - INFO - Searched Job text: PUBLIC
+PSYCHO SCROLL
+INFORMATION TECHNOLOGY • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+December 23, 2024
+See Details
+2025-03-03 15:30:36,788 - INFO - Searched Job text: PUBLIC
+PSY ENGLISH
+INFORMATION TECHNOLOGY • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 12, 2024
+See Details
+2025-03-03 15:30:36,801 - INFO - Searched Job text: PUBLIC
+TEST_ROUND_PSYCH_ONE
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+November 4, 2024
+See Details
+2025-03-03 15:30:36,816 - INFO - Searched Job text: PUBLIC
+PSYCHO 2
+HUMAN RESOURCES • UTTARAKHAND: DEHRADUN
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+October 23, 2024
+See Details
+2025-03-03 15:30:36,830 - INFO - Searched Job text: PUBLIC
+PSYCHOMETRIC TESTING 2
+HUMAN RESOURCES • JHARKHAND: DEOGHAR
+Created by:
+inderjit
+Candidates:
+No candidates yet
+Created on
+August 9, 2024
+See Details
+2025-03-03 15:30:36,844 - INFO - Searched Job text: PUBLIC
+PSYCHONEW
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+August 8, 2024
+See Details
+2025-03-03 15:30:36,863 - INFO - Searched Job text: PUBLIC
+JOB PSYCHOMETRIC
+HUMAN RESOURCES • DELHI: DELHI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+June 12, 2024
+See Details

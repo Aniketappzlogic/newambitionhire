@@ -1,0 +1,19 @@
+2025-02-25 15:29:02,758 - INFO - chrome
+2025-02-25 15:29:02,759 - INFO - ====== WebDriver manager ======
+2025-02-25 15:29:03,633 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 15:29:04,116 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-25 15:29:04,533 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-25 15:29:08,079 - INFO - Navigated to login page.
+2025-02-25 15:29:08,080 - INFO - Retrieved user credentials.
+2025-02-25 15:29:08,542 - INFO - Entered user ID:
+2025-02-25 15:29:08,679 - INFO - Entered password.
+2025-02-25 15:29:08,887 - INFO - Clicked sign-in button.
+2025-02-25 15:29:08,889 - INFO - environment -> dev
+2025-02-25 15:29:08,891 - INFO - Password entered
+2025-02-25 15:29:08,927 - INFO - login btn clicked
+2025-02-25 15:29:09,780 - INFO - jobs btn clicked
+2025-02-25 15:29:11,884 - INFO - jobs btn clicked
+2025-02-25 15:29:14,003 - INFO - create job Clicked
+2025-02-25 15:29:25,063 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FF036F8B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d00853678f8d02c5ba00c5a2fd61ad55
+2025-02-25 15:29:29,128 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FF046F4F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d00853678f8d02c5ba00c5a2fd61ad55
+2025-02-25 15:29:33,209 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FF046F7CB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d00853678f8d02c5ba00c5a2fd61ad55

@@ -1,0 +1,15 @@
+2025-02-26 16:08:03 [32mINFO[0m chrome
+2025-02-26 16:08:03 [32mINFO[0m ====== WebDriver manager ======
+2025-02-26 16:08:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-26 16:08:05 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-26 16:08:05 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 16:08:09 [32mINFO[0m Navigated to login page.
+2025-02-26 16:08:09 [32mINFO[0m Retrieved user credentials.
+2025-02-26 16:08:09 [32mINFO[0m Entered user ID:
+2025-02-26 16:08:10 [32mINFO[0m Entered password.
+2025-02-26 16:08:10 [32mINFO[0m Clicked sign-in button.
+2025-02-26 16:08:10 [32mINFO[0m environment -> dev
+2025-02-26 16:08:10 [32mINFO[0m logged in
+2025-02-26 16:08:39 [33mWARNING[0m Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E9941444A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/caacccc437d69b3c2dfd17b10c3cfeb3
+2025-02-26 16:08:43 [33mWARNING[0m Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E994147EF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/caacccc437d69b3c2dfd17b10c3cfeb3
+2025-02-26 16:08:47 [33mWARNING[0m Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E994147C20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/caacccc437d69b3c2dfd17b10c3cfeb3

@@ -1,0 +1,23 @@
+2025-03-03 15:09:36,861 - INFO - chrome
+2025-03-03 15:09:36,862 - INFO - ====== WebDriver manager ======
+2025-03-03 15:09:37,732 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:09:38,209 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-03 15:09:38,654 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-03 15:09:40,315 - INFO - Navigated to login page.
+2025-03-03 15:09:40,317 - INFO - Retrieved user credentials.
+2025-03-03 15:09:42,827 - INFO - Entered user ID:
+2025-03-03 15:09:42,951 - INFO - Entered password.
+2025-03-03 15:09:43,135 - INFO - Clicked sign-in button.
+2025-03-03 15:09:43,140 - INFO - environment -> dev
+2025-03-03 15:09:43,141 - INFO - logged in
+2025-03-03 15:09:56,876 - INFO - search tab clicked
+2025-03-03 15:10:00,687 - INFO - PUBLIC
+TEST FUNC BUG 01 03
+HUMAN RESOURCES • MAHARASHTRA: MUMBAI
+Created by:
+Shourya
+Candidates:
+No candidates yet
+Created on
+March 1, 2025
+See Details

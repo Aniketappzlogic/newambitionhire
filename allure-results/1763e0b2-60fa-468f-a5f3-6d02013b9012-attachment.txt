@@ -1,0 +1,19 @@
+2025-02-21 12:46:30,103 - INFO - chrome
+2025-02-21 12:46:30,104 - INFO - ====== WebDriver manager ======
+2025-02-21 12:46:31,016 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 12:46:31,705 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-21 12:46:32,313 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:46:35,204 - INFO - Navigated to login page.
+2025-02-21 12:46:35,212 - INFO - environment -> dev
+2025-02-21 12:46:41,547 - INFO - Sign in
+Stay updated on your professional world.
+Email or phone
+Password
+Show
+Forgot password?
+Keep me logged in
+Sign in
+or
+By clicking Continue, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+Continue with Google
+Sign in with Apple

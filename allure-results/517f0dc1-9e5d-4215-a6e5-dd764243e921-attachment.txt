@@ -1,0 +1,19 @@
+2025-02-18 19:49:41 [32mINFO[0m chrome
+2025-02-18 19:49:41 [32mINFO[0m ====== WebDriver manager ======
+2025-02-18 19:49:42 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-18 19:49:43 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-18 19:49:44 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\132.0.6834.159\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-18 19:49:48 [32mINFO[0m Navigated to login page.
+2025-02-18 19:49:48 [32mINFO[0m Retrieved user credentials.
+2025-02-18 19:49:49 [32mINFO[0m Entered user ID: inderjeetkmcs@gmail.com
+2025-02-18 19:49:50 [32mINFO[0m Entered password.
+2025-02-18 19:49:50 [32mINFO[0m Clicked sign-in button.
+2025-02-18 19:49:50 [32mINFO[0m environment -> services
+2025-02-18 19:49:50 [32mINFO[0m Password entered
+2025-02-18 19:49:50 [32mINFO[0m login btn clicked
+2025-02-18 19:49:51 [32mINFO[0m jobs btn clicked
+2025-02-18 19:49:53 [32mINFO[0m jobs btn clicked
+2025-02-18 19:49:56 [32mINFO[0m create job Clicked
+2025-02-18 19:50:08 [32mINFO[0m next to lang Clicked
+2025-02-18 19:50:10 [32mINFO[0m app form Clicked
+2025-02-18 19:50:12 [32mINFO[0m Job Created

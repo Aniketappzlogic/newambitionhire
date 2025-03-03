@@ -1,0 +1,20 @@
+2025-02-21 12:48:29 [32mINFO[0m chrome
+2025-02-21 12:48:29 [32mINFO[0m ====== WebDriver manager ======
+2025-02-21 12:48:30 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-21 12:48:31 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-02-21 12:48:31 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.126\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-21 12:48:34 [32mINFO[0m Navigated to login page.
+2025-02-21 12:48:34 [32mINFO[0m environment -> dev
+2025-02-21 12:48:37 [32mINFO[0m Sign in
+Stay updated on your professional world.
+Email or phone
+Password
+Show
+Forgot password?
+Keep me logged in
+Sign in
+or
+By clicking Continue, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+Continue with Google
+Sign in with Apple
+2025-02-21 12:48:37 [32mINFO[0m LinkedIn Page Loaded Successfully

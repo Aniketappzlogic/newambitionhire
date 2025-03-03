@@ -1,0 +1,42 @@
+2025-02-26 12:09:54,828 - INFO - chrome
+2025-02-26 12:09:54,829 - INFO - ====== WebDriver manager ======
+2025-02-26 12:09:55,715 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-26 12:09:56,174 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-26 12:09:56,618 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-02-26 12:10:00,450 - INFO - Navigated to login page.
+2025-02-26 12:10:00,451 - INFO - Retrieved user credentials.
+2025-02-26 12:10:00,920 - INFO - Entered user ID:
+2025-02-26 12:10:01,044 - INFO - Entered password.
+2025-02-26 12:10:01,211 - INFO - Clicked sign-in button.
+2025-02-26 12:10:01,214 - INFO - environment -> dev
+2025-02-26 12:10:01,214 - INFO - logged in
+2025-02-26 12:10:02,132 - INFO - jobs button clicked
+2025-02-26 12:10:12,162 - INFO - Last week date range: February 19, 2025 to February 25, 2025
+2025-02-26 12:10:12,177 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 12:10:12,178 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 12:10:12,189 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 12:10:12,190 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 12:10:12,200 - INFO - Job card text: Created on
+February 24, 2025
+See Details
+2025-02-26 12:10:12,201 - INFO - Extracted Job Creation Date: February 24, 2025
+2025-02-26 12:10:12,212 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 12:10:12,212 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 12:10:12,222 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 12:10:12,223 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 12:10:12,233 - INFO - Job card text: Created on
+February 20, 2025
+See Details
+2025-02-26 12:10:12,233 - INFO - Extracted Job Creation Date: February 20, 2025
+2025-02-26 12:10:12,244 - INFO - Job card text: Created on
+February 13, 2025
+See Details
+2025-02-26 12:10:12,245 - INFO - Extracted Job Creation Date: February 13, 2025

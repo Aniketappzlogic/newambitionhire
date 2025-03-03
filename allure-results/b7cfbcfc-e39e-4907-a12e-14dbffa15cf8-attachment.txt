@@ -1,0 +1,4 @@
+2025-02-20 14:28:01,630 - INFO - chrome
+2025-02-20 14:28:01,632 - INFO - ====== WebDriver manager ======
+2025-02-20 14:28:02,807 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 14:28:31,727 - INFO - Driver not found: Could not reach host. Are you offline?
