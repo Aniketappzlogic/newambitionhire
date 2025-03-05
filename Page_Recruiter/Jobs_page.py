@@ -90,20 +90,49 @@ class Jobs(BasePage):
                           value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last year']]")
         return BaseElement(driver=self.driver, locator=locator)
 
+
+
+
     @property
     def search_tab(self):
         locator = Locator(by=By.XPATH, value='//input[@placeholder="Search for jobs"]')
         return BaseElement(driver=self.driver, locator=locator)
-    #//span[text()="See Details"]
+
+    @property
+    def clear_search(self):
+        locator = Locator(by=By.CSS_SELECTOR, value='.absolute.flex.items-center.right-24.cursor-pointer.h-full.top-0')
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+
     @property
     def details_btn(self):
         locator = Locator(by=By.XPATH, value='//span[text()="See Details"]')
         return BaseElement(driver=self.driver, locator=locator)
-    #//p[text()='Candidates']
+    @property
+    def description(self):
+        locator = Locator(by=By.XPATH, value="//h1[normalize-space()='Description']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def details(self):
+        locator = Locator(by=By.XPATH, value="//h1[normalize-space()='Details']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+
+
     @property
     def candidates_btn(self):
         locator = Locator(by=By.XPATH, value="//p[text()='Candidates']")
         return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def candidates_count(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="h3[class='text-[22px] font-medium whitespace-nowrap hidden lg:block']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
 #//*[@id="input-450"]
     @property
     def candidates_checkbox(self):

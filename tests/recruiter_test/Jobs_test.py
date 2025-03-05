@@ -1,5 +1,7 @@
 import logging
 import re
+import time
+
 import pytest
 from datetime import datetime, timedelta
 from assertpy import assert_that
@@ -487,5 +489,65 @@ def test_jobs_page_search_with_partial_text(env, driver, authenticated_user_recr
         SearchedJobText = searchedjob.text
         logging.info(f"Searched Job text: {SearchedJobText}")
         assert_that(SearchedJobText).contains('PSY')
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_clear_search
+def test_jobs_page_clear_search(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    #login = authenticated_user_recruiter
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    jobs_page.search_tab.click()
+    logging.info(f"search tab clicked")
+    jobs_page.search_tab.send_keys('TEST')
+    jobs_page.clear_search.click()
+    assert_that(jobs_page.search_tab.get_attribute('value')).is_empty()
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_see_details
+def test_jobs_page_see_details(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.details_btn.click()
+    assert_that(jobs_page.description.is_element_visible()).is_true()
+    assert_that(jobs_page.details.is_element_visible()).is_true()
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_see_details_candidates
+def test_jobs_page_see_details_candidates(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.details_btn.click()
+    assert_that(jobs_page.description.is_element_visible()).is_true()
+    assert_that(jobs_page.details.is_element_visible()).is_true()
+    jobs_page.candidates_btn.click()
+    assert_that(jobs_page.candidates_count.is_element_visible()).is_true()
+    count = jobs_page.candidates_count.get_text().strip()
+    logging.info(count)
+
+    candidatecount = int(''.join(filter(str.isdigit, count)))
+    logging.info(candidatecount)
+    assert_that(candidatecount).is_greater_than_or_equal_to(0)
+
+    
 
 
