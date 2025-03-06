@@ -138,7 +138,7 @@ def test_create_jobs(env, driver, authenticated_user_recruiter):
     logging.info(f"create job Clicked")
 
     jobtitle = Jobs(driver)
-    jobtitle.Job_Title.send_keys('Multilingual All 0403')
+    jobtitle.Job_Title.send_keys('ONE WAY 0503')
 
     notificationtitle = Jobs(driver)
     notificationtitle.Notification_Title.send_keys("Automated")
@@ -212,8 +212,8 @@ def test_create_jobs(env, driver, authenticated_user_recruiter):
     # EnglishToggle = Jobs(driver)
     # EnglishToggle.English_Toggle.click()
 
-    MultilingualToggle = Jobs(driver)
-    MultilingualToggle.Multilingual_Toggle.click()
+    # MultilingualToggle = Jobs(driver)
+    # MultilingualToggle.Multilingual_Toggle.click()
 
     # PsychometricToggle = Jobs(driver)
     # PsychometricToggle.Psychometric_Toggle.click()

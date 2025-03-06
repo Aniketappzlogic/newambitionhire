@@ -1,7 +1,7 @@
 import logging
 import re
 import time
-
+from selenium.webdriver.common.action_chains import ActionChains
 import pytest
 from datetime import datetime, timedelta
 from assertpy import assert_that
@@ -550,4 +550,168 @@ def test_jobs_page_see_details_candidates(env, driver, authenticated_user_recrui
 
     
 
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_see_details_settings
+def test_jobs_page_see_details_candidates(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.drafts_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.details_btn.click()
+    jobs_page.Settings_btn.click()
+
+    jobs_page.basic_in_seedeatils.click()
+    assert_that(jobs_page.unpublish_after_in_seedeatils.is_element_visible()).is_true()
+
+    jobs_page.job_workflow_in_seedeatils.click()
+    assert_that(jobs_page.followcompanyworkflow.is_element_visible()).is_true()
+
+    jobs_page.proctoring_in_seedeatils.click()
+    assert_that(jobs_page.proctoring_option.is_element_visible()).is_true()
+
+    jobs_page.cutoff_in_seedeatils.click()
+    assert_that(jobs_page.weightage.is_element_visible()).is_true()
+
+    jobs_page.applicationform_in_seedeatils.click()
+    assert_that(jobs_page.fieldname.is_element_visible()).is_true()
+
+    jobs_page.language_in_seedeatils.click()
+    assert_that(jobs_page.language_heading.is_element_visible()).is_true()
+
+    jobs_page.Save_btn.click()
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_see_details_edit_job
+def test_jobs_page_see_details_edit_job(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.details_btn.click()
+    jobs_page.editjob.click()
+    assert_that(jobs_page.editjob_popbox.is_element_visible()).is_true()
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_unpublish_job
+def test_jobs_page_unpublish_job(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    logging.info("ellipsis clicked")
+    jobs_page.unpublishjob.click()
+    assert_that(jobs_page.job_update_popup.is_element_visible()).is_true()
+    text = jobs_page.job_update_popup.get_text()
+    logging.info(text)
+    assert_that(text).contains('Job updated successfully')
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_markjob_private
+def test_jobs_page_markjob_private(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    logging.info("ellipsis clicked")
+    jobs_page.markjobprivate.click()
+    assert_that(jobs_page.job_update_popup.is_element_visible()).is_true()
+    text = jobs_page.job_update_popup.get_text()
+    logging.info(text)
+    assert_that(text).contains('Job updated successfully')
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_markjob_public
+def test_jobs_page_markjob_public(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    logging.info("ellipsis clicked")
+    jobs_page.markjobpublic.click()
+    assert_that(jobs_page.job_update_popup.is_element_visible()).is_true()
+    text = jobs_page.job_update_popup.get_text()
+    logging.info(text)
+    assert_that(text).contains('Job updated successfully')
+
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_duplicate_job
+def test_jobs_page_duplicate_job(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    logging.info("ellipsis clicked")
+    jobs_page.duplicatejob.click()
+    assert_that(jobs_page.duplicatejob_popup.is_element_visible()).is_true()
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_delete_job
+def test_jobs_page_delete_job(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    logging.info("ellipsis clicked")
+    jobs_page.deletejob.click()
+    assert_that(jobs_page.deletejob_popup.is_element_visible()).is_true()
+
+@pytest.mark.regression
+@pytest.mark.jobs_page_publish_job
+def test_jobs_page_publish_job(env, driver, authenticated_user_recruiter):
+    logging.info(f"environment -> {env}")
+    logging.info(f"logged in")
+    WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)"))
+    )
+    jobs_page = Jobs(driver)
+    jobs_page.jobs_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.drafts_btn.click()
+    assert_that(jobs_page.jobs_card.is_element_visible()).is_true()
+    jobs_page.job_card_ellipsis.double_click()
+    jobs_page.publishjob.click()
+    assert_that(jobs_page.job_update_popup.is_element_visible()).is_true()
+    text = jobs_page.job_update_popup.get_text()
+    logging.info(text)
+    assert_that(text).contains('Job updated successfully')
 

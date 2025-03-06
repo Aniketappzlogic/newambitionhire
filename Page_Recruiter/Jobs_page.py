@@ -25,6 +25,13 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
+    def job_card_ellipsis(self):
+        locator = Locator(by=By.XPATH, value="//body//div//div//div//div[1]//div[1]//div[2]//div[1]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+
+    @property
     def job_creation_date(self):
         locator = Locator(by=By.XPATH,
                           value="//div[contains(@class, 'flex justify-between') and .//span[text()='See Details']]")
@@ -90,7 +97,47 @@ class Jobs(BasePage):
                           value="//li[contains(@class, 'list') and .//p[@class='text-sm font-medium' and text()='Last year']]")
         return BaseElement(driver=self.driver, locator=locator)
 
+    @property
+    def unpublishjob(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Unpublish']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def job_update_popup(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="div[class='flex items-center gap-3 rounded-[64px] p-4 shadow-[0px_4px_24px_0px_#0000001F] backdrop-blur-[2px] fixed bottom-20 z-[100] transition-[right] ease-[ease-in-out] right-8 duration-[0.3s]']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def markjobprivate(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Mark job as Private']")
+        return BaseElement(driver=self.driver, locator=locator)
 
+    @property
+    def markjobpublic(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Mark job as Public']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def duplicatejob(self):
+        locator = Locator(by=By.XPATH, value="//p[@class='text-xs']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def duplicatejob_popup(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def deletejob(self):
+        locator = Locator(by=By.CSS_SELECTOR, value=".text-xs.text-error-color.w-36")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def deletejob_popup(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1)")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def publishjob(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Publish']")
+        return BaseElement(driver=self.driver, locator=locator)
 
 
     @property
@@ -119,6 +166,69 @@ class Jobs(BasePage):
         locator = Locator(by=By.XPATH, value="//h1[normalize-space()='Details']")
         return BaseElement(driver=self.driver, locator=locator)
 
+    @property
+    def basic_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Basic']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def unpublish_after_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Unpublish after']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def job_workflow_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Job Workflow']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def followcompanyworkflow(self):
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Follow Company Workflow']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def proctoring_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Proctoring']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def proctoring_option(self):
+        locator = Locator(by=By.XPATH, value="//h4[normalize-space()='Proctoring']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def cutoff_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Cut-off & Aggregated Score']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def weightage(self):
+        locator = Locator(by=By.XPATH, value="//h4[normalize-space()='Set Assessment Weightage']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def applicationform_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Application Form']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def fieldname(self):
+        locator = Locator(by=By.XPATH, value="//th[normalize-space()='Field Name']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def language_in_seedeatils(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Language']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def language_heading(self):
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Language']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def editjob(self):
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Edit Job']")
+        return BaseElement(driver=self.driver, locator=locator)
+    @property
+    def editjob_popbox(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(1) > div:nth-child(1)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+
 
 
 
@@ -143,7 +253,7 @@ class Jobs(BasePage):
     def search_candidates(self):
         locator = Locator(by=By.XPATH, value='//input[@placeholder="Search for candidates"]')
         return BaseElement(driver=self.driver, locator=locator)
-    #//p[text()="Settings"]
+
     @property
     def Settings_btn(self):
         locator = Locator(by=By.XPATH, value='//p[text()="Settings"]')
