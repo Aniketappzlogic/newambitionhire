@@ -1,0 +1,26 @@
+2025-04-23 11:51:02,133 - INFO - chrome
+2025-04-23 11:51:02,134 - INFO - ====== WebDriver manager ======
+2025-04-23 11:51:03,063 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 11:51:03,819 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 11:51:04,450 - INFO - There is no [win64] chromedriver "135.0.7049.97" for browser google-chrome "135.0.7049" in cache
+2025-04-23 11:51:04,450 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 11:51:05,890 - INFO - WebDriver version 135.0.7049.97 selected
+2025-04-23 11:51:05,895 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 11:51:05,899 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 11:51:06,405 - INFO - Driver downloading response is 200
+2025-04-23 11:51:11,495 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 11:51:13,320 - INFO - Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.97]
+2025-04-23 11:51:18,883 - INFO - Navigated to login page.
+2025-04-23 11:51:18,883 - INFO - Retrieved user credentials.
+2025-04-23 11:51:19,506 - INFO - Entered user ID:
+2025-04-23 11:51:19,635 - INFO - Entered password.
+2025-04-23 11:51:19,738 - INFO - Clicked sign-in button.
+2025-04-23 11:51:19,740 - INFO - environment -> dev
+2025-04-23 11:51:19,751 - INFO - Password entered
+2025-04-23 11:51:19,853 - INFO - login btn clicked
+2025-04-23 11:51:22,150 - INFO - jobs btn clicked
+2025-04-23 11:51:24,256 - INFO - jobs btn clicked
+2025-04-23 11:51:26,372 - INFO - create job Clicked
+2025-04-23 11:51:40,158 - INFO - next to lang Clicked
+2025-04-23 11:51:42,343 - INFO - app form Clicked
+2025-04-23 11:51:44,448 - INFO - Job Created

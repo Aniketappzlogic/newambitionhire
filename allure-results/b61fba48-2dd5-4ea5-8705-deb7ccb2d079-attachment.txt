@@ -1,0 +1,13 @@
+2025-04-29 11:52:14,217 - INFO - chrome
+2025-04-29 11:52:14,219 - INFO - ====== WebDriver manager ======
+2025-04-29 11:52:15,875 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 11:52:16,684 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 11:52:17,561 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 11:52:20,941 - INFO - Navigated to login page.
+2025-04-29 11:52:20,943 - INFO - Retrieved user credentials.
+2025-04-29 11:52:22,397 - INFO - Entered user ID:
+2025-04-29 11:52:22,547 - INFO - Entered password.
+2025-04-29 11:52:22,713 - INFO - Clicked sign-in button.
+2025-04-29 11:52:22,718 - INFO - environment -> services
+2025-04-29 11:52:22,719 - INFO - logged in
+2025-04-29 11:52:32,462 - INFO - Toggle is NOT interactable.

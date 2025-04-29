@@ -1,0 +1,15 @@
+2025-04-14 18:01:08,936 - INFO - chrome
+2025-04-14 18:01:08,937 - INFO - ====== WebDriver manager ======
+2025-04-14 18:01:09,881 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:01:10,682 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:01:11,217 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-14 18:01:13,985 - INFO - Navigated to login page.
+2025-04-14 18:01:13,985 - INFO - Retrieved user credentials.
+2025-04-14 18:01:14,725 - INFO - Entered user ID:
+2025-04-14 18:01:14,857 - INFO - Entered password.
+2025-04-14 18:01:15,051 - INFO - Clicked sign-in button.
+2025-04-14 18:01:15,052 - INFO - environment -> services
+2025-04-14 18:01:15,054 - INFO - logged in
+2025-04-14 18:01:35,048 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A523EF7D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf56cf11211a58919c9191b9aa14cb9f
+2025-04-14 18:01:39,124 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A5240D130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf56cf11211a58919c9191b9aa14cb9f
+2025-04-14 18:01:43,234 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A5240D3D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf56cf11211a58919c9191b9aa14cb9f

@@ -1,0 +1,13 @@
+2025-04-29 11:24:02 [32mINFO[0m chrome
+2025-04-29 11:24:02 [32mINFO[0m ====== WebDriver manager ======
+2025-04-29 11:24:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-29 11:24:04 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-29 11:24:05 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 11:24:07 [32mINFO[0m Navigated to login page.
+2025-04-29 11:24:07 [32mINFO[0m Retrieved user credentials.
+2025-04-29 11:24:11 [32mINFO[0m Entered user ID:
+2025-04-29 11:24:12 [32mINFO[0m Entered password.
+2025-04-29 11:24:12 [32mINFO[0m Clicked sign-in button.
+2025-04-29 11:24:12 [32mINFO[0m environment -> services
+2025-04-29 11:24:12 [32mINFO[0m logged in
+2025-04-29 11:24:19 [33mWARNING[0m Toggle is either not visible or interactable when it shouldn't be.

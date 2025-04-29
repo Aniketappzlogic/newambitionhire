@@ -1,0 +1,27 @@
+2025-04-29 16:46:21,052 - INFO - chrome
+2025-04-29 16:46:21,057 - INFO - ====== WebDriver manager ======
+2025-04-29 16:46:22,183 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 16:46:23,103 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 16:46:23,824 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 16:46:30,593 - INFO - Navigated to login page.
+2025-04-29 16:46:30,594 - INFO - environment -> services
+2025-04-29 16:46:33,255 - INFO - Contact Us
+Call now
++91 9728000469
+Whatsapp
++91 9728000469
+or
+Submit a Query
+Full Name
+Phone Number
++91
+Company Name
+Work Email Address
+Select
+Pricing Queries
+Partnership Queries
+Request a Demo
+Others
+Query
+Submit Query
+2025-04-29 16:46:33,256 - INFO - Contact Us Page Loaded Successfully

@@ -1,0 +1,31 @@
+2025-04-29 16:46:35,530 - INFO - chrome
+2025-04-29 16:46:35,534 - INFO - ====== WebDriver manager ======
+2025-04-29 16:46:36,672 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 16:46:37,321 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 16:46:38,352 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-29 16:46:43,895 - INFO - Driver not found: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.115)
+Stacktrace:
+	GetHandleVerifier [0x0065D363+60275]
+	GetHandleVerifier [0x0065D3A4+60340]
+	(No symbol) [0x004906F3]
+	(No symbol) [0x0047FF20]
+	(No symbol) [0x0049DDA2]
+	(No symbol) [0x00503D2F]
+	(No symbol) [0x0051DFE9]
+	(No symbol) [0x004FCE86]
+	(No symbol) [0x004CC623]
+	(No symbol) [0x004CD474]
+	GetHandleVerifier [0x008A8FE3+2467827]
+	GetHandleVerifier [0x008A45E6+2448886]
+	GetHandleVerifier [0x008BF80C+2560028]
+	GetHandleVerifier [0x00673DF5+153093]
+	GetHandleVerifier [0x0067A3BD+179149]
+	GetHandleVerifier [0x00664BB8+91080]
+	GetHandleVerifier [0x00664D60+91504]
+	GetHandleVerifier [0x0064FA10+4640]
+	BaseThreadInitThunk [0x76E3FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x774282AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7742827E+238]
+

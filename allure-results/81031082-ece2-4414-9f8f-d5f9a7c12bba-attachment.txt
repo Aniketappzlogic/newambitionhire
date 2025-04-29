@@ -1,0 +1,15 @@
+2025-04-21 13:30:04 [32mINFO[0m chrome
+2025-04-21 13:30:04 [32mINFO[0m ====== WebDriver manager ======
+2025-04-21 13:30:05 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-21 13:30:07 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-21 13:30:07 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-21 13:30:11 [32mINFO[0m Navigated to login page.
+2025-04-21 13:30:11 [32mINFO[0m Retrieved user credentials.
+2025-04-21 13:30:11 [32mINFO[0m Entered user ID:
+2025-04-21 13:30:11 [32mINFO[0m Entered password.
+2025-04-21 13:30:12 [32mINFO[0m Clicked sign-in button.
+2025-04-21 13:30:12 [32mINFO[0m environment -> dev
+2025-04-21 13:30:12 [32mINFO[0m logged in
+2025-04-21 13:30:25 [33mWARNING[0m Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5308BD160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/676f20df88546016806a33d077a93914
+2025-04-21 13:30:29 [33mWARNING[0m Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5308BD9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/676f20df88546016806a33d077a93914
+2025-04-21 13:30:33 [33mWARNING[0m Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F5308BDEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/676f20df88546016806a33d077a93914

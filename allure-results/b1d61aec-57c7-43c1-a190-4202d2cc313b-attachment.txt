@@ -1,0 +1,25 @@
+2025-04-25 11:03:53 [32mINFO[0m chrome
+2025-04-25 11:03:53 [32mINFO[0m ====== WebDriver manager ======
+2025-04-25 11:03:56 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-25 11:03:57 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-25 11:03:58 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-25 11:04:00 [32mINFO[0m WebDriver version 135.0.7049.114 selected
+2025-04-25 11:04:00 [32mINFO[0m Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-25 11:04:00 [32mINFO[0m About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-25 11:04:00 [32mINFO[0m Driver downloading response is 200
+2025-04-25 11:04:02 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-25 11:04:04 [32mINFO[0m Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-25 11:04:09 [32mINFO[0m Navigated to login page.
+2025-04-25 11:04:09 [32mINFO[0m Retrieved user credentials.
+2025-04-25 11:04:10 [32mINFO[0m Entered user ID:
+2025-04-25 11:04:10 [32mINFO[0m Entered password.
+2025-04-25 11:04:10 [32mINFO[0m Clicked sign-in button.
+2025-04-25 11:04:10 [32mINFO[0m environment -> services
+2025-04-25 11:04:10 [32mINFO[0m Password entered
+2025-04-25 11:04:10 [32mINFO[0m login btn clicked
+2025-04-25 11:04:11 [32mINFO[0m jobs btn clicked
+2025-04-25 11:04:13 [32mINFO[0m jobs btn clicked
+2025-04-25 11:04:15 [32mINFO[0m create job Clicked
+2025-04-25 11:04:28 [32mINFO[0m next to lang Clicked
+2025-04-25 11:04:30 [32mINFO[0m app form Clicked
+2025-04-25 11:04:32 [32mINFO[0m Job Created

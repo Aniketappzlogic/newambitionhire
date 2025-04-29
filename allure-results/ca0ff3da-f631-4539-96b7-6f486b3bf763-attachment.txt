@@ -1,0 +1,35 @@
+2025-03-30 18:10:59,841 - INFO - chrome
+2025-03-30 18:10:59,841 - INFO - ====== WebDriver manager ======
+2025-03-30 18:11:00,774 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-30 18:11:02,161 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-30 18:11:02,593 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-30 18:11:03,588 - INFO - WebDriver version 134.0.6998.165 selected
+2025-03-30 18:11:03,604 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-30 18:11:03,604 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-03-30 18:11:04,106 - INFO - Driver downloading response is 200
+2025-03-30 18:11:04,459 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-30 18:11:05,377 - INFO - Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-03-30 18:11:09,887 - INFO - Driver not found: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+	GetHandleVerifier [0x0100C7F3+24435]
+	(No symbol) [0x00F92074]
+	(No symbol) [0x00E606E3]
+	(No symbol) [0x00E935E8]
+	(No symbol) [0x00E8F3E9]
+	(No symbol) [0x00ED9686]
+	(No symbol) [0x00ED90BA]
+	(No symbol) [0x00ECD5B6]
+	(No symbol) [0x00E9C54F]
+	(No symbol) [0x00E9D894]
+	GetHandleVerifier [0x013170A3+3213347]
+	GetHandleVerifier [0x0132B0C9+3295305]
+	GetHandleVerifier [0x0132558C+3271948]
+	GetHandleVerifier [0x010A7360+658144]
+	(No symbol) [0x00F9B27D]
+	(No symbol) [0x00F98208]
+	(No symbol) [0x00F983A9]
+	(No symbol) [0x00F8AAC0]
+	BaseThreadInitThunk [0x76C2FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x773B82AE+286]
+	RtlGetAppContainerNamedObjectPath [0x773B827E+238]
+

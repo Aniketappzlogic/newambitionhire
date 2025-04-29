@@ -1,0 +1,12 @@
+2025-03-28 11:33:24,239 - INFO - chrome
+2025-03-28 11:33:24,240 - INFO - ====== WebDriver manager ======
+2025-03-28 11:33:25,203 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-28 11:33:25,739 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-28 11:33:26,198 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-28 11:33:29,976 - INFO - Navigated to login page.
+2025-03-28 11:33:30,021 - INFO - Retrieved user credentials.
+2025-03-28 11:33:30,714 - INFO - Entered user ID:
+2025-03-28 11:33:31,498 - INFO - Entered password.
+2025-03-28 11:33:32,277 - INFO - Clicked sign-in button.
+2025-03-28 11:33:32,283 - INFO - environment -> dev
+2025-03-28 11:33:32,353 - INFO - logged in

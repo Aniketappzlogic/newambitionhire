@@ -1,0 +1,47 @@
+POST https://prod-auth-service.ambitionhire.ai/v1/auth_routes/recruiter-login/
+200
+1149.26 ms
+Network
+
+Request Headers:
+sec-ch-ua-platform: "Windows"
+Referer: https://services-recruiter.ambitionhire.ai/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+Content-Type: application/x-www-form-urlencoded
+sec-ch-ua-mobile: ?0
+
+Response Headers:
+Date: Fri, 04 Apr 2025 11:29:42 GMT
+Content-Type: application/json
+Content-Length: 742
+Connection: keep-alive
+server: uvicorn
+
+Response Body:
+{'message': 'Login successful', 'access_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3NDM4NTI1ODIsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.44v7VlXhosrLz4Txweyg1kT1cg1XtVoieBEHtJeehZw', 'refresh_token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY2xpZW50X25hbWUiOiJTZXJ2aWNlcyIsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzQ0MDI1MzgyfQ.a5rtX7gS5CVB8oI6DgPWxkcDHtIYy29aAcKNRlCvDqE'}
+GET https://prod-company-profile.ambitionhire.ai/v1/company/profile
+200
+940.17 ms
+Network
+
+Request Headers:
+accept: application/json, text/plain, */*
+referer: https://services-recruiter.ambitionhire.ai/
+sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjUwNzI0MjUtMjg0OS00ZGVjLThjNDYtYzYyZmRkZmFiNjRkIiwiY29tcGFueV9pZCI6IjJiYWU1YjQ0LWNiM2MtNDgzMi1hODU0LTM5OTU1NWFkMTY1YSIsImNsaWVudF9uYW1lIjoiU2VydmljZXMiLCJuYW1lIjoiSW5kZXJqZWV0IiwicGhvbmVfbnVtYmVyIjoiKzkxOTcxMTMxNDA5OCIsImVtYWlsIjoiaW5kZXJqZWV0a21jc0BnbWFpbC5jb20iLCJleHAiOjE3NDM4NTI1ODIsInJvbGUiOiJBZG1pbmlzdHJhdG9yIiwiY3VzdG9tX3JvbGVzIjpbXX0.44v7VlXhosrLz4Txweyg1kT1cg1XtVoieBEHtJeehZw
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+
+Response Headers:
+Date: Fri, 04 Apr 2025 11:29:43 GMT
+Content-Type: application/json
+Content-Length: 2240
+Connection: keep-alive
+server: uvicorn
+
+Response Body:
+{'id': 'b86019c2-3bac-4878-8f90-8ad4d1233169', 'background_color': '#003840', 'created_at': '2024-05-31T19:47:28', 'text_color': '#FFFFFF', 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'updated_at': '2025-04-04T13:08:38', 'company_details': {'name': 'Services', 'spoc_phone_number': '9999988888', 'industry': 'Information Technology', 'specialities': 'IT', 'type': 'Private', 'main_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/237-2377520_intel-logo-png-svg-download-logo-icons-clipart-brand-all-computer-company.png', 'optional_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo.png', 'created_at': '2024-05-31T19:47:28', 'about': '<p>Services Prod</p>', 'address': 'delhi', 'id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'headquarters': 'Mumbai', 'size': '10', 'founding_year': 2022, 'logo_icon_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/Harman_International_logo.svg.png', 'super_admin_email': None, 'updated_at': '2025-04-04T13:09:58'}, 'workflow': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'excel': False, 'salary_discussion': True, 'candidate_login_by_email': True, 'whitelabeling': True, 'assessments': False, 'multilingual': False, 'hired_rejected': True, 'registration_fee': False, 'internal_assessment_tab_name': 'Custom', 'ctq': True, 'typing': False, 'created_at': '2024-05-31T19:47:28', 'registration_fee_amount': 1, 'functional': True, 'advanced_result_type': False, 'updated_at': '2025-04-03T16:14:23', 'training_for_internal': False, 'id': 'abbdbf00-a25f-4ad2-884a-00b175ef68f2', 'english': True, 'order': ['ctq', 'functional', 'english', 'psychometric', 'oneway'], 'kyc_verification': False, 'assessment_heading': 'Level up Test', 'psychometric': True, 'result': True, 'pan_card_linked': False, 'assessment_about_section': '<p>this is the descripotion</p>', 'algorise': False, 'in_review': True, 'paid_assessment': False, 'login_using_password': False, 'applied': True, 'oneway': True, 'training_module': False, 'require_otp_for_recruiter': False}, 'social_links': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'youtube': 'string', 'instagram': 'string', 'website': 'string', 'updated_at': '2024-05-31T19:47:28', 'id': '8597ea6c-89a5-45c8-8548-f4dd3a4dd524', 'twitter': 'string', 'facebook': 'string', 'linkedin': 'string', 'created_at': '2024-05-31T19:47:28'}}
+Company Profile Data:  {'id': 'b86019c2-3bac-4878-8f90-8ad4d1233169', 'background_color': '#003840', 'created_at': '2024-05-31T19:47:28', 'text_color': '#FFFFFF', 'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'updated_at': '2025-04-04T13:08:38', 'company_details': {'name': 'Services', 'spoc_phone_number': '9999988888', 'industry': 'Information Technology', 'specialities': 'IT', 'type': 'Private', 'main_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/237-2377520_intel-logo-png-svg-download-logo-icons-clipart-brand-all-computer-company.png', 'optional_logo_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/logo.png', 'created_at': '2024-05-31T19:47:28', 'about': '<p>Services Prod</p>', 'address': 'delhi', 'id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'headquarters': 'Mumbai', 'size': '10', 'founding_year': 2022, 'logo_icon_url': 'https://ambitionhire-metadata-development.s3.amazonaws.com/Harman_International_logo.svg.png', 'super_admin_email': None, 'updated_at': '2025-04-04T13:09:58'}, 'workflow': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'excel': False, 'salary_discussion': True, 'candidate_login_by_email': True, 'whitelabeling': True, 'assessments': False, 'multilingual': False, 'hired_rejected': True, 'registration_fee': False, 'internal_assessment_tab_name': 'Custom', 'ctq': True, 'typing': False, 'created_at': '2024-05-31T19:47:28', 'registration_fee_amount': 1, 'functional': True, 'advanced_result_type': False, 'updated_at': '2025-04-03T16:14:23', 'training_for_internal': False, 'id': 'abbdbf00-a25f-4ad2-884a-00b175ef68f2', 'english': True, 'order': ['ctq', 'functional', 'english', 'psychometric', 'oneway'], 'kyc_verification': False, 'assessment_heading': 'Level up Test', 'psychometric': True, 'result': True, 'pan_card_linked': False, 'assessment_about_section': '<p>this is the descripotion</p>', 'algorise': False, 'in_review': True, 'paid_assessment': False, 'login_using_password': False, 'applied': True, 'oneway': True, 'training_module': False, 'require_otp_for_recruiter': False}, 'social_links': {'company_id': '2bae5b44-cb3c-4832-a854-399555ad165a', 'youtube': 'string', 'instagram': 'string', 'website': 'string', 'updated_at': '2024-05-31T19:47:28', 'id': '8597ea6c-89a5-45c8-8548-f4dd3a4dd524', 'twitter': 'string', 'facebook': 'string', 'linkedin': 'string', 'created_at': '2024-05-31T19:47:28'}}
