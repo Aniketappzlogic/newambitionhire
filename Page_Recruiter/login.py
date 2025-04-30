@@ -25,12 +25,13 @@ class Loginrecruiter(BasePage):
 
     @property
     def login_btn(self):
-        locator = Locator(by=By.XPATH, value="//span[contains(text(), 'Login')]")
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Login']")
         return BaseElement(driver=self.driver, locator=locator)
+    #
 
     @property
     def hide_view_password_btn(self):
-        locator = Locator(by=By.XPATH, value=".absolute.top-0.right-4.h-full.flex.items-center.cursor-pointer")
+        locator = Locator(by=By.CSS_SELECTOR, value=".absolute.top-0.right-4.h-full.flex.items-center.cursor-pointer")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
@@ -41,12 +42,12 @@ class Loginrecruiter(BasePage):
     #//p[normalize-space()='Invalid email ID or password']
     @property
     def login_unsuccessful(self):
-        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Invalid email ID or password']")
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Invalid email ID or password.']")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def error_occured(self):
-        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Some error occurred. Please try again later.']")
+        locator = Locator(by=By.CSS_SELECTOR, value="div[class='flex items-center gap-3 rounded-[64px] p-4 shadow-[0px_4px_24px_0px_#0000001F] backdrop-blur-[2px] fixed bottom-20 z-[100] transition-[right] ease-[ease-in-out] right-8 duration-[0.3s]']")
         return BaseElement(driver=self.driver, locator=locator)
 
     #//p[normalize-space()='Password is required']
@@ -113,7 +114,7 @@ class Loginrecruiter(BasePage):
 
     @property
     def social_media_instagram_btn(self):
-        locator = Locator(by=By.XPATH, value="(//a[@target='_blank'])[4]")
+        locator = Locator(by=By.XPATH, value="//*[name()='path' and contains(@d,'M13.0286 2')]")
         return BaseElement(driver=self.driver, locator=locator)
     @property
     def instagram_page(self):

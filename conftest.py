@@ -46,14 +46,14 @@ def myBrowser(request):
     return request.config.getoption("--myBrowser")
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='function')
 def test_config(env):
     cfg = Config(env)
     print(type(cfg))
     return cfg
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def driver(myBrowser):
     global driver
     logging.info(myBrowser)
@@ -137,7 +137,7 @@ def driver(myBrowser):
 #     login.get(env)
 #     logger.info("Navigated to login page.")
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def candidate_user(env, driver):
     """Fixture to handle login and return the initial dashboard state."""
     login = Login(driver)
@@ -145,7 +145,7 @@ def candidate_user(env, driver):
     login.get(env)
     logger.info("Navigated to login page.")
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def recruiter_user(env, driver):
     """Fixture to handle login and return the initial dashboard state."""
     login = Loginrecruiter(driver)
@@ -160,7 +160,7 @@ def recruiter_user(env, driver):
 
 
 #updated code
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def get_creds(env):
     set_env = env
     user_id = config[set_env]['USERNAME']
@@ -170,7 +170,7 @@ def get_creds(env):
     return creds
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def authenticated_user_recruiter(env, driver, get_creds):
     """Fixture to handle login and return the initial dashboard state."""
     login = Loginrecruiter(driver)
@@ -194,7 +194,7 @@ def authenticated_user_recruiter(env, driver, get_creds):
 
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture(scope="function")
 def authenticated_user_candidate(env, driver):
     """Fixture to handle login and return the initial dashboard state."""
     login = Login(driver)

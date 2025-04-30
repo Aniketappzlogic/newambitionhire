@@ -5,6 +5,8 @@ from datetime import datetime
 from http.client import responses
 from assertpy import assert_that, soft_assertions
 import pytest
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.devtools.v85.network import Response
 from selenium.webdriver.support.wait import WebDriverWait
 from conftest import driver, env
@@ -38,10 +40,14 @@ def test_valid_login_recruiter(env, driver, recruiter_user):
     recruiterlogin.username_btn.send_keys('inderjeetkmcs@gmail.com')
     recruiterlogin.password_btn.send_keys('123')
     recruiterlogin.login_btn.click()
-    response = recruiterlogin.login_successful.get_text()
+    WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.XPATH, "//p[@class='text-sm font-medium text-onbackground-color']"))
+    )
+    text = recruiterlogin.login_successful.get_text()
     #assert "Login successful" in response, f"Expected 'Login Successful', but got: {response}"
-    assert_that("Login successful").is_equal_to(response)
-    logging.info(f"LOGIN SUCCESSFUL : {response}")
+
+    assert_that("Login successful").is_equal_to(text)
+    logging.info(f"LOGIN SUCCESSFUL : {text}")
 
 #TC03
 @pytest.mark.regression
@@ -55,7 +61,7 @@ def test_invalid_password_login_recruiter(env, driver, recruiter_user):
     recruiterlogin.password_btn.send_keys('xyz')
     recruiterlogin.login_btn.click()
     response = recruiterlogin.login_unsuccessful.get_text()
-    assert_that("Invalid email ID or password").is_equal_to(response)
+    assert_that("Invalid email ID or password.").is_equal_to(response)
     logging.info(f"LOGIN UNSUCCESSFUL : {response}")
 
 #TC04
@@ -69,9 +75,9 @@ def test_invalid_email_login_recruiter(env, driver, recruiter_user):
     recruiterlogin.username_btn.send_keys('invalid@gmail.com')
     recruiterlogin.password_btn.send_keys('123')
     recruiterlogin.login_btn.click()
+    logging.info(f"logged in")
     response = recruiterlogin.error_occured.get_text()
-    #assert "Some error occurred. Please try again later" in response, f"Expected 'Some error occurred. Please try again later', but got: {response}"
-    assert_that("Some error occurred. Please try again later").is_equal_to(response)
+    assert_that("Recruiter with email ID invalid@gmail.com not found.").is_equal_to(response)
     logging.info(f"LOGIN UNSUCCESSFUL : {response}")
 
 
@@ -137,7 +143,7 @@ def test_empty_emailandpassword_login_recruiter(env, driver, recruiter_user):
     # Assertions for both email and password fields
     with soft_assertions():
       assert_that("Password is required").is_equal_to(password_text)
-      assert_that("Email is required").is_equal_to(password_text)
+      assert_that("Email is required").is_equal_to(response_email)
     logging.info(f"Email Required : {response_email} , {password_text}")
 
 #TC09
@@ -236,7 +242,7 @@ def test_login_page_instagramlinks(env, driver, recruiter_user):
     login = recruiter_user
     recruiterlogin = Loginrecruiter(driver)
     original_window = driver.current_window_handle
-
+    recruiterlogin.social_media_instagram_btn.click()
     window_count = recruiterlogin.aboutuspage_btn.get_window_handle_count()
     assert_that(window_count).is_greater_than(1)
 
@@ -260,6 +266,7 @@ def test_login_page_linkedinlinks(env, driver, recruiter_user):
     login = recruiter_user
     recruiterlogin = Loginrecruiter(driver)
     original_window = driver.current_window_handle
+    recruiterlogin.social_media_linkedin_btn.click()
 
     window_count = recruiterlogin.aboutuspage_btn.get_window_handle_count()
     assert_that(window_count).is_greater_than(1)
