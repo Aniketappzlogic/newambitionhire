@@ -1,0 +1,9 @@
+2025-04-30 02:08:33,672 - INFO - chrome
+2025-04-30 02:08:33,673 - INFO - ====== WebDriver manager ======
+2025-04-30 02:08:34,921 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 02:08:35,518 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 02:08:44,379 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 02:08:52,082 - INFO - Navigated to login page.
+2025-04-30 02:08:52,085 - INFO - environment -> services
+2025-04-30 02:08:56,159 - INFO - Unleash the Power of Ambition Hire for the Cost of a Burger!
+2025-04-30 02:08:56,165 - INFO - Pricing Page loaded Successfully

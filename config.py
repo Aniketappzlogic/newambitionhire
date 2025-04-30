@@ -7,7 +7,7 @@ class Config():
 
         self.base_url = {
             'dev': 'https://dev.ambitionhire.ai/login',
-            'qa': 'https://dev.ambitionhire.ai/login',
+            'pilot': 'https://pilot.ambitionhire.ai/login',
             'services':'https://services-recruiter.ambitionhire.ai/login'
 
         }[data.lower()]

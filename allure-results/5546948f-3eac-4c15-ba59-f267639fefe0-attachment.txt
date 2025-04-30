@@ -1,0 +1,16 @@
+2025-03-06 14:51:21,180 - INFO - chrome
+2025-03-06 14:51:21,182 - INFO - ====== WebDriver manager ======
+2025-03-06 14:51:22,292 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 14:51:22,781 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 14:51:23,321 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 14:51:26,450 - INFO - Navigated to login page.
+2025-03-06 14:51:26,450 - INFO - Retrieved user credentials.
+2025-03-06 14:51:28,349 - INFO - Entered user ID:
+2025-03-06 14:51:28,448 - INFO - Entered password.
+2025-03-06 14:51:28,663 - INFO - Clicked sign-in button.
+2025-03-06 14:51:28,665 - INFO - environment -> dev
+2025-03-06 14:51:28,669 - INFO - logged in
+2025-03-06 14:51:46,528 - INFO - ellipsis clicked
+2025-03-06 14:52:16,550 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AEEA630>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902
+2025-03-06 14:52:20,659 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AF4C4D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902
+2025-03-06 14:52:24,727 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AF4DEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902

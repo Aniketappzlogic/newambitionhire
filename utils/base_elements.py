@@ -318,5 +318,35 @@ class BaseElement(object):
         WebDriverWait(self.driver, timeout=10).until(lambda driver: len(driver.window_handles) > 1)
         return len(self.driver.window_handles)
 
+    def is_disabled(self):
+        """
+        Checks if the web element is disabled.
+        This means the element is not interactive and cannot be clicked or interacted with.
+        Returns:
+            bool: True if the element is disabled, False if it's enabled.
+        """
+        try:
+            # Check if the element is not enabled (i.e., it is disabled)
+            return not self.web_element.is_enabled()
+        except Exception as e:
+            logging.error(f"Failed to check if element is disabled. Error: {e}")
+            return True
+
+    def is_displayed(self):
+        """
+        Checks if the web element is disabled.
+        This means the element is not interactive and cannot be clicked or interacted with.
+        Returns:
+            bool: True if the element is disabled, False if it's enabled.
+        """
+        try:
+            # Check if the element is not enabled (i.e., it is disabled)
+            return not self.web_element.is_displayed()
+        except Exception as e:
+            logging.error(f"Failed to check if element is disabled. Error: {e}")
+            return True
+
+
+
 
 

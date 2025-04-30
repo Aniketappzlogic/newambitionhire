@@ -243,7 +243,7 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
 
-#//*[@id="input-450"]
+
     @property
     def candidates_checkbox(self):
         locator = Locator(by=By.CSS_SELECTOR, value='#input-0')
@@ -269,12 +269,11 @@ class Jobs(BasePage):
         locator = Locator(by=By.XPATH, value='//p[text()="Job Workflow"]')
         return BaseElement(driver=self.driver, locator=locator)
 
-    #//p[text()="Proctoring"]
     @property
     def Proctoring_btn(self):
         locator = Locator(by=By.XPATH, value='//p[text()="Proctoring"]')
         return BaseElement(driver=self.driver, locator=locator)
-    #//p[@class='uppercase' and text()='Cut-off & Aggregated Score']
+  
     @property
     def Cutoff(self):
         locator = Locator(by=By.XPATH,value="//p[@class='uppercase' and text()='Cut-off & Aggregated Score']")
@@ -297,13 +296,85 @@ class Jobs(BasePage):
 
 
 #CREATE NEW JOB
-    #//span[text()='Create a new Job']
     @property
     def Create_Job(self):
-        locator = Locator(by=By.XPATH, value="//span[text()='Create a new Job']")
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Create a new Job']")
         return BaseElement(driver=self.driver, locator=locator)
 
-    #//input[@placeholder="Job Title"]
+    @property
+    def Create_Job_page(self):
+        locator = Locator(by=By.XPATH, value="//h3[normalize-space()='New Job Posting']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
+    def Saveasdraft(self):
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Save as draft']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def TitleRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Title is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def NotificationTitleRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Notification Title is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
+    def DepartmentRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Department is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
+    def IndustryRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Industry is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def EmploymentTypeRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Employment Type is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def WorkplaceTypeRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Workplace Type is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def LocationRequired(self):
+        locator = Locator(by=By.XPATH, value="//p[normalize-space()='Location Search Text is required']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
+    def MinSalaryRequired(self):
+        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/p[1]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def MaxSalaryRequired(self):
+        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[3]/div[10]/div[3]/div[1]/div[1]/p[1]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Leave_job_posting(self):
+        locator = Locator(by=By.XPATH, value="//span[normalize-space()='Yes, leave']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+
+
+
+
+
+
+
+
+
     @property
     def Job_Title(self):
         locator = Locator(by=By.XPATH, value="//input[@placeholder='Job Title']")
@@ -369,13 +440,11 @@ class Jobs(BasePage):
         locator = Locator(by=By.XPATH, value="//li[contains(text(), 'ASSOCIATE (1-3 year)')]")
         return BaseElement(driver=self.driver, locator=locator)
 
-#//input[@placeholder='Location(City)']
     @property
     def Location(self):
         locator = Locator(by=By.XPATH, value="//input[@placeholder='Location(City)']")
         return BaseElement(driver=self.driver, locator=locator)
 
-    #//li[contains(text(), 'Haryana: Gurgaon')]
     @property
     def Location_selector(self):
         locator = Locator(by=By.XPATH, value="//li[contains(text(), 'Haryana: Gurgaon')]")
@@ -393,6 +462,11 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
+    def Max_Salary_less_than_min_salary(self):
+        locator = Locator(by=By.XPATH, value="//p[contains(text(),'Max salary must be greater than or equal to min sa')]")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
     def Next_btn(self):
         locator = Locator(by=By.XPATH, value="//span[text()='Next']")
         return BaseElement(driver=self.driver, locator=locator)
@@ -400,8 +474,24 @@ class Jobs(BasePage):
     #JOB SETTINGS
 
     @property
+    def Reapply_toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="div[class='flex flex-col gap-4'] div[class='flex gap-6 items-center'] div label[class='switch relative inline-block w-11 h-7'] span[class='slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-[#f3f4f5] rounded-[15px] before:h-[22px] before:w-[22px]']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+
+    @property
+    def Reapplyfield(self):
+        locator = Locator(by=By.XPATH, value="//input[@placeholder='Re-apply after(Days)']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
     def Email_Notification(self):
         locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def toggle_on(self):
+        locator = Locator(by=By.CLASS_NAME, value="tick-mark")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
@@ -411,11 +501,33 @@ class Jobs(BasePage):
 
 
     @property
+    def Whatsapp_Notification(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Waterfall_toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR,
+                          value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Mobile_Device_Assessment_toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR,
+                          value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Backtracking_toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR,
+                          value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
     def Assessment_Completion_toggle(self):
         locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[7]/div[1]/label[1]/span[1]")
         return BaseElement(driver=self.driver, locator=locator)
 
-    #div[class='flex gap-6 items-center max-w-[550px]'] div label[class='switch relative inline-block w-11 h-7'] span[class='slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-[#f3f4f5] rounded-[15px] before:h-[22px] before:w-[22px]']
     @property
     def OneSitting_toggle(self):
         locator = Locator(by=By.CSS_SELECTOR,
@@ -423,12 +535,22 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     #//span[normalize-space()='Next']
+
+
+
     @property
     def Next_butn(self):
         locator = Locator(by=By.XPATH, value="//span[normalize-space()='Next']")
         return BaseElement(driver=self.driver, locator=locator)
 
+
+
     #JOB WORKFLOW PAGE
+
+    @property
+    def Company_Workflow(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="div[class='workflow-title pt-2 text-base font-semibold text-black'] div[class='toggle-switch-text'] div label[class='switch relative inline-block w-11 h-7'] span[class='slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-[#f3f4f5] rounded-[15px] before:h-[22px] before:w-[22px]']")
+        return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def Assessment_toggle(self):
@@ -452,23 +574,29 @@ class Jobs(BasePage):
 
     @property
     def Multilingual_Toggle(self):
-        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/customaccordion[1]/ul[1]/li[4]/div[1]/div[1]/div[2]/div[1]/label[1]/span[1]")
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > customaccordion:nth-child(6) > ul:nth-child(1) > li:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def Psychometric_Toggle(self):
-        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/customaccordion[1]/ul[1]/li[5]/div[1]/div[1]/div[2]/div[1]/label[1]/span[1]")
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > customaccordion:nth-child(6) > ul:nth-child(1) > li:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def Algorise_Toggle(self):
-        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/customaccordion[1]/ul[1]/li[6]/div[1]/div[1]/div[2]/div[1]/label[1]/span[1]")
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > customaccordion:nth-child(6) > ul:nth-child(1) > li:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
     def Excel_Toggle(self):
-        locator = Locator(by=By.XPATH, value="//body[1]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/div[1]/customaccordion[1]/ul[1]/li[7]/div[1]/div[1]/div[2]/div[1]/label[1]/span[1]")
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > customaccordion:nth-child(6) > ul:nth-child(1) > li:nth-child(7) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
         return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Typing_Toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > customaccordion:nth-child(6) > ul:nth-child(1) > li:nth-child(8) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
 
     @property
     def OneWayInterview_Toggle(self):
@@ -481,11 +609,38 @@ class Jobs(BasePage):
         return BaseElement(driver=self.driver, locator=locator)
 
     @property
+    def Detailed_Result_Toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="div[class='toggle-switch-text pl-6'] div span[class='slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-[#f3f4f5] rounded-[15px] rounded-[20px] before:h-4 before:w-4']")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def In_Review_Toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR,
+                          value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Salary_Discussion_Toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(13) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
+    def Hire_or_Rejected_Toggle(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(15) > div:nth-child(1) > div:nth-child(2) > label:nth-child(1) > span:nth-child(2)")
+        return BaseElement(driver=self.driver, locator=locator)
+
+    @property
     def Next_btn_to_Proctoring(self):
         locator = Locator(by=By.XPATH, value="//span[normalize-space()='Next']")
         return BaseElement(driver=self.driver, locator=locator)
 
     #PROCTORING PAGE
+
+    @property
+    def Proctoring_Page(self):
+        locator = Locator(by=By.CSS_SELECTOR, value="p[class='text-[22px] text-onbackground-color font-normal']")
+        return BaseElement(driver=self.driver, locator=locator)
+
     @property
     def Proctoring_Toggle(self):
         locator = Locator(by=By.CSS_SELECTOR, value="body > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > label:nth-child(1) > span:nth-child(2)")

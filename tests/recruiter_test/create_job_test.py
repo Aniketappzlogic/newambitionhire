@@ -9,6 +9,7 @@ from selenium.webdriver.common.by import By
 from Page_Recruiter.login import Loginrecruiter
 from conftest import driver, env
 from Page_Recruiter.Jobs_page import Jobs
+from Page_Recruiter.base_page_recruiter import BasePage
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -138,13 +139,17 @@ def test_create_jobs(env, driver, authenticated_user_recruiter):
     logging.info(f"create job Clicked")
 
     jobtitle = Jobs(driver)
+<<<<<<< Updated upstream
     jobtitle.Job_Title.send_keys('English 3004')
+=======
+    jobtitle.Job_Title.send_keys('Algorise Demo')
+>>>>>>> Stashed changes
 
     notificationtitle = Jobs(driver)
     notificationtitle.Notification_Title.send_keys("Automated")
 
     JobDescription = Jobs(driver)
-    JobDescription.Job_Description.send_keys('automated')
+    JobDescription.Job_Description.send_keys('Automated')
 
     department = Jobs(driver)
     department.Department.click()
@@ -200,30 +205,45 @@ def test_create_jobs(env, driver, authenticated_user_recruiter):
 
     #JOB SETTINGS - JOB WORKFLOW PAGE
 
+<<<<<<< Updated upstream
     # AssessmentToggle = Jobs(driver)
     # AssessmentToggle.Assessment_toggle.click()
     #
+=======
+    AssessmentToggle = Jobs(driver)
+    AssessmentToggle.Assessment_toggle.click()
+
+>>>>>>> Stashed changes
     # CTQToggle = Jobs(driver)
     # CTQToggle.CTQ_Toggle.click()
     #
     # FunctionalToggle = Jobs(driver)
     # FunctionalToggle.Functional_Toggle.click()
     #
+<<<<<<< Updated upstream
     EnglishToggle = Jobs(driver)
     EnglishToggle.English_Toggle.click()
 
+=======
+    # EnglishToggle = Jobs(driver)
+    # EnglishToggle.English_Toggle.click()
+    #
+>>>>>>> Stashed changes
     # MultilingualToggle = Jobs(driver)
     # MultilingualToggle.Multilingual_Toggle.click()
 
     # PsychometricToggle = Jobs(driver)
     # PsychometricToggle.Psychometric_Toggle.click()
     #
-    # AlgoriseToggle = Jobs(driver)
-    # AlgoriseToggle.Algorise_Toggle.click()
+    AlgoriseToggle = Jobs(driver)
+    AlgoriseToggle.Algorise_Toggle.click()
     #
     # ExcelToggle = Jobs(driver)
     # ExcelToggle.Excel_Toggle.click()
     #
+    # TypingAssessment = Jobs(driver)
+    # TypingAssessment.Typing_Toggle.click()
+
     # OnewayInterview = Jobs(driver)
     # OnewayInterview.OneWayInterview_Toggle.click()
 

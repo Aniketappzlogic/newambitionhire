@@ -1,0 +1,14 @@
+2025-04-30 00:26:09,243 - INFO - chrome
+2025-04-30 00:26:09,244 - INFO - ====== WebDriver manager ======
+2025-04-30 00:26:10,867 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 00:26:11,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 00:26:12,628 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 00:26:15,299 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-30 00:26:15,305 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-30 00:26:15,306 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-30 00:26:15,850 - INFO - Driver downloading response is 200
+2025-04-30 00:26:16,133 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 00:26:17,221 - INFO - Driver has been saved in cache [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-30 00:26:21,529 - INFO - Navigated to login page.
+2025-04-30 00:26:21,648 - INFO - environment -> services
+2025-04-30 00:26:22,560 - INFO - Recruiter Page loaded : Welcome, Recruiter

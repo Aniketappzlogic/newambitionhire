@@ -1,0 +1,16 @@
+2025-03-06 14:51:21 [32mINFO[0m chrome
+2025-03-06 14:51:21 [32mINFO[0m ====== WebDriver manager ======
+2025-03-06 14:51:22 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-03-06 14:51:22 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-03-06 14:51:23 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 14:51:26 [32mINFO[0m Navigated to login page.
+2025-03-06 14:51:26 [32mINFO[0m Retrieved user credentials.
+2025-03-06 14:51:28 [32mINFO[0m Entered user ID:
+2025-03-06 14:51:28 [32mINFO[0m Entered password.
+2025-03-06 14:51:28 [32mINFO[0m Clicked sign-in button.
+2025-03-06 14:51:28 [32mINFO[0m environment -> dev
+2025-03-06 14:51:28 [32mINFO[0m logged in
+2025-03-06 14:51:46 [32mINFO[0m ellipsis clicked
+2025-03-06 14:52:16 [33mWARNING[0m Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AEEA630>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902
+2025-03-06 14:52:20 [33mWARNING[0m Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AF4C4D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902
+2025-03-06 14:52:24 [33mWARNING[0m Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018B9AF4DEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2928f0ecd415d25aeb3a581a23b77902

@@ -1,0 +1,17 @@
+2025-04-30 02:01:18 [32mINFO[0m chrome
+2025-04-30 02:01:18 [32mINFO[0m ====== WebDriver manager ======
+2025-04-30 02:01:19 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-30 02:01:20 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-30 02:01:20 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 02:01:23 [32mINFO[0m Navigated to login page.
+2025-04-30 02:01:23 [32mINFO[0m environment -> services
+2025-04-30 02:01:24 [32mINFO[0m Welcome, Recruiter
+Ambition Hire is a platform for assessments that offers a range of tests with the goal of covering the broadest possible range of job searchers across sectors and functional domains.
+About
+Pricing
+Forgotten Password
+Please provide your functional email address, we’ll send you the reset link.
+Email
+Send Link
+Don’t have an account? Contact Us.
+2025-04-30 02:01:24 [32mINFO[0m Forgotten Password Page Loaded Successfully

@@ -15,6 +15,8 @@ class BasePage(object):
             self.base_url = 'https://dev.ambitionhire.ai/login'
         if env == 'services':
             self.base_url = 'https://services-recruiter.ambitionhire.ai/'
+        if env == 'pilot':
+            self.base_url = 'https://pilot.ambitionhire.ai/'
         url = self.base_url
         print(url)
         self.driver.get(url)

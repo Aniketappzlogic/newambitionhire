@@ -88,47 +88,9 @@ def driver(myBrowser):
 
 
 # import logging
-# import pytest
-# from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service as ChromeService
-# from selenium.webdriver.chrome.options import Options
-#
-# # Replace with the actual path to chromedriver.exe
-# chrome_driver_path = r'C:\Users\AppzLogic\Desktop\Ambitionhire\driver\chromedriver.exe'
-#
-# @pytest.fixture(scope="session")
-# def driver(myBrowser):
-#     global driver
-#     logging.info(myBrowser)
-#     if myBrowser == 'chrome':
-#         options = Options()
-#         options.add_argument("--window-size=1920,1080")
-#         options.add_argument("--use-fake-ui-for-media-stream")
-#         # options.add_experimental_option("debuggerAddress","localhost:5678")
-#         # options.add_argument("--use-fake-device-for-media-stream")
-#         try:
-#             service = ChromeService(executable_path=chrome_driver_path)
-#             driver = webdriver.Chrome(service=service, options=options)
-#             driver.maximize_window()
-#         except Exception as e:
-#             logging.info(f"Driver not found: {e}")
-#     elif myBrowser == 'edge':
-#         try:
-#             driver = webdriver.Edge()
-#         except Exception as e:
-#             logging.info(f"Driver not found: {e}")
-#     elif myBrowser == 'firefox':
-#         try:
-#             driver = webdriver.Firefox()
-#         except Exception as e:
-#             logging.info(f"Driver not found: {e}")
-#     else:
-#         raise ValueError(f"Unsupported browser: {myBrowser}")
-#     driver.implicitly_wait(15)
-#     yield driver
-#     driver.quit()
 
 
+<<<<<<< Updated upstream
 # @pytest.fixture(scope="module")
 # def authenticated_user(env, driver):
 #     """Fixture to handle login and return the initial dashboard state."""
@@ -137,6 +99,8 @@ def driver(myBrowser):
 #     login.get(env)
 #     logger.info("Navigated to login page.")
 
+=======
+>>>>>>> Stashed changes
 @pytest.fixture(scope="function")
 def candidate_user(env, driver):
     """Fixture to handle login and return the initial dashboard state."""

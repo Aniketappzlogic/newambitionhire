@@ -1,0 +1,9 @@
+2025-04-30 09:54:24,619 - INFO - chrome
+2025-04-30 09:54:24,621 - INFO - ====== WebDriver manager ======
+2025-04-30 09:54:25,977 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:54:26,813 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:54:27,582 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 09:54:31,177 - INFO - Navigated to login page.
+2025-04-30 09:54:31,179 - INFO - environment -> services
+2025-04-30 09:54:35,739 - INFO - Sign up for Instagram
+2025-04-30 09:54:35,740 - INFO - Instagram Page Loaded Successfully

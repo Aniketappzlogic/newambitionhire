@@ -1,0 +1,9 @@
+2025-04-30 01:48:57,075 - INFO - chrome
+2025-04-30 01:48:57,077 - INFO - ====== WebDriver manager ======
+2025-04-30 01:48:58,017 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 01:48:58,479 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 01:48:58,950 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 01:49:01,950 - INFO - Navigated to login page.
+2025-04-30 01:49:02,071 - INFO - environment -> services
+2025-04-30 01:49:02,988 - INFO - logged in
+2025-04-30 01:49:03,193 - INFO - LOGIN UNSUCCESSFUL : Recruiter with email ID invalid@gmail.com not found.

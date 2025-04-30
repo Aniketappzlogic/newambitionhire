@@ -1,0 +1,15 @@
+2025-04-30 02:07:21 [32mINFO[0m chrome
+2025-04-30 02:07:21 [32mINFO[0m ====== WebDriver manager ======
+2025-04-30 02:07:23 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-30 02:07:23 [32mINFO[0m Get LATEST chromedriver version for google-chrome
+2025-04-30 02:07:24 [32mINFO[0m Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 02:07:31 [32mINFO[0m Navigated to login page.
+2025-04-30 02:07:31 [32mINFO[0m environment -> services
+2025-04-30 02:07:35 [32mINFO[0m See more from Ambition Hire
+Email address or phone number
+Password
+Log in
+Forgotten password?
+or
+Create new account
+2025-04-30 02:07:35 [32mINFO[0m Facebook Page Loaded Successfully

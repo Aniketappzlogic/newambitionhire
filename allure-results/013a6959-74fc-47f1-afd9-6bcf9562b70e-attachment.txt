@@ -1,0 +1,10 @@
+2025-04-30 02:09:15,947 - INFO - chrome
+2025-04-30 02:09:15,953 - INFO - ====== WebDriver manager ======
+2025-04-30 02:09:18,140 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 02:09:18,731 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 02:09:19,269 - INFO - Driver [C:\Users\Dell\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-30 02:09:25,468 - INFO - Navigated to login page.
+2025-04-30 02:09:25,481 - INFO - environment -> services
+2025-04-30 02:09:28,553 - INFO - Current Urlhttps://www.ambitionhire.ai/ : https://www.ambitionhire.ai/
+2025-04-30 02:09:28,897 - INFO - Effortless Assessments with Unlimited Possibilities for Your Business
+2025-04-30 02:09:28,899 - INFO - Ambition Hire Page loaded Successfully
